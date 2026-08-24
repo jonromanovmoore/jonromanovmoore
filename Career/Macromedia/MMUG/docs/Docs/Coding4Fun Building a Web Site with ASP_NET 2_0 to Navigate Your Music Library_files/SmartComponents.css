@@ -1,0 +1,489 @@
+.smartcomponents H1 {
+	MARGIN: 12px 0px 0px; FONT: 130% Arial
+}
+.smartcomponents H2 {
+	MARGIN: 2px 0px 0px; FONT: 95% Verdana
+}
+.smartcomponents H2.details {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 95%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents P.details {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 70%; PADDING-BOTTOM: 1em; MARGIN: 0px; LINE-HEIGHT: 140%; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents H3 {
+	MARGIN: 0em; FONT: bold 85%/130% Verdana
+}
+.smartcomponents H3.lower {
+	MARGIN: 9px 0px 0px; FONT: bold 85%/130% Verdana
+}
+.smartcomponents H4.first {
+	MARGIN-TOP: 10px
+}
+.smartcomponents H4.secondFirst {
+	MARGIN-TOP: -2px
+}
+.smartcomponents H5 {
+	MARGIN: -2px 0px 0px; FONT: bold 70% Verdana
+}
+.smartcomponents .ancestorLinks {
+	MARGIN-TOP: 12px; FONT: 65% Verdana
+}
+.smartcomponents .ancestorLinks A:visited {
+	COLOR: #0033cc
+}
+.smartcomponents .ancestorLinks A:hover {
+	COLOR: #ff6600
+}
+.smartcomponents .ancestorLabel {
+	COLOR: #666666
+}
+.smartcomponents .label {
+	FONT: bold 70%/140% Verdana
+}
+.smartcomponents .bullet {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; FONT: 70% Verdana; COLOR: #a6a6a6; PADDING-TOP: 1em
+}
+.smartcomponents TABLE.subbullets {
+	MARGIN-TOP: 3px
+}
+.smartcomponents .subbullet {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; FONT: 55% Verdana; COLOR: #a6a6a6; PADDING-TOP: 6px
+}
+.smartcomponents .scsubbullet {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 55% Verdana; COLOR: #a6a6a6; PADDING-TOP: 2px
+}
+.smartcomponents .listNumber {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 68%; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 2px; FONT-STYLE: normal; FONT-FAMILY: Verdana
+}
+.smartcomponents .scsublink {
+	FONT-WEIGHT: normal
+}
+.smartcomponents .sublink {
+	FONT: 70%/140% Verdana; PADDING-TOP: 3px
+}
+.smartcomponents TD.sublink {
+	FONT: 70%/140% Verdana; PADDING-TOP: 3px
+}
+.smartcomponents HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 13px 0px 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.smartcomponents HR.division {
+	MARGIN-BOTTOM: 2px
+}
+.smartcomponents .topOfPage {
+	FONT: 65% Verdana
+}
+.smartcomponents .topIcon {
+	MARGIN-RIGHT: 4px
+}
+.smartcomponents A.topOfPage:visited {
+	COLOR: #0033cc
+}
+.smartcomponents A.topOfPage:hover {
+	COLOR: #ff6600
+}
+.smartcomponents A:link {
+	COLOR: #003399
+}
+.smartcomponents A:visited {
+	COLOR: #660099
+}
+.smartcomponents A:hover {
+	COLOR: #ff3300
+}
+.smartcomponents A:active {
+	COLOR: #800080
+}
+.smartcomponents .onThisPage {
+	PADDING-LEFT: 2px; PADDING-BOTTOM: 8px; FONT: 70% Verdana
+}
+.smartcomponents DIV.verticalRule {
+	MARGIN-TOP: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 1px; HEIGHT: 100%
+}
+.smartcomponents TD.partition {
+	PADDING-BOTTOM: 12px
+}
+.smartcomponents .intro {
+	MARGIN-TOP: 9px
+}
+.smartcomponents .gutterPlug {
+	WIDTH: 10px; HEIGHT: 1px
+}
+.smartcomponents .pixel {
+	WIDTH: 1px; HEIGHT: 1px
+}
+.smartcomponents TABLE.headline {
+	MARGIN-TOP: 12px
+}
+.smartcomponents TABLE.numberList {
+	MARGIN-TOP: 7px
+}
+.smartcomponents TABLE.headline DIV {
+	MARGIN-BOTTOM: 12px
+}
+.smartcomponents TABLE.numberList DIV {
+	MARGIN-BOTTOM: 7px
+}
+.smartcomponents .imageCell {
+	PADDING-RIGHT: 8px; PADDING-TOP: 4px
+}
+.smartcomponents TABLE.module {
+	MARGIN-TOP: 11px
+}
+.smartcomponents .small {
+	FONT: 65% Verdana
+}
+.smartcomponents LI P {
+	PADDING-BOTTOM: 1.1em
+}
+.smartcomponents .numberedList {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 7px
+}
+.smartcomponents .numberedList P {
+	PADDING-BOTTOM: 1.1em
+}
+.smartcomponents .listClass {
+	MARGIN: 0em
+}
+.smartcomponents .indent P {
+	MARGIN-TOP: 0.8em; MARGIN-BOTTOM: 0em
+}
+.smartcomponents .indent A {
+	FONT-WEIGHT: normal
+}
+.smartcomponents .sublistClass {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 0px
+}
+.smartcomponents .footnote {
+	FONT: 70% Arial; POSITION: relative; TOP: -0.5em
+}
+.smartcomponents TD.footnote {
+	PADDING-RIGHT: 1ex; FONT: 50% Arial
+}
+.smartcomponents .footnoteText {
+	FONT-SIZE: 65%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .footnotes {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 36px
+}
+.smartcomponents .searchControl {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .mostPopularControl {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .relatedCommunityLogo {
+	MARGIN-TOP: 16px
+}
+.smartcomponents .dataTable {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; BORDER-COLLAPSE: collapse
+}
+.smartcomponents .dataTable TD {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.smartcomponents .tableHeader {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 80%; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .superHeader {
+	FONT-SIZE: 70%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .stdHeader {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.smartcomponents .stdHeader TD {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .subHeader {
+	BACKGROUND: #dddddd
+}
+.smartcomponents .subHeader TD {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 70%; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .record TD {
+	
+}
+.smartcomponents .record TD TD {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.smartcomponents .evenRecord {
+	BACKGROUND: #e9e9e6
+}
+.smartcomponents .evenRecord TD {
+	
+}
+.smartcomponents .evenRecord TD TD {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.smartcomponents .rowLabel {
+	FONT-WEIGHT: bold; BACKGROUND: #f0f0f0
+}
+.smartcomponents P.lastInCell {
+	PADDING-BOTTOM: 0px
+}
+.smartcomponents .keyLegend {
+	PADDING-BOTTOM: 6px
+}
+.smartcomponents .key {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 65%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .legend {
+	FONT-SIZE: 65%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .legendBullets {
+	COLOR: #666666
+}
+.smartcomponents .dataBullets {
+	COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .tableFootnotes {
+	MARGIN-TOP: 7px; MARGIN-LEFT: 5px
+}
+.smartcomponents .dataTableBottomMargin {
+	MARGIN-BOTTOM: 18px; OVERFLOW: hidden; HEIGHT: 1px
+}
+.smartcomponents .headlineInfo {
+	FONT-SIZE: 95%; COLOR: #666666
+}
+.smartcomponents P.blurb {
+	MARGIN: 3px 0em 0em; FONT: 100%/1.3em Verdana
+}
+.smartcomponents P.blurb DIV {
+	MARGIN: 3px 0em 0em; FONT: 70%/1.3em Verdana
+}
+.smartcomponents A.standardsButton {
+	BORDER-RIGHT: #663300 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffcc99 1px solid; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 85%; BORDER-LEFT: #ffcc99 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333300 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ff6600; TEXT-DECORATION: none
+}
+.smartcomponents A.standardsButton:visited {
+	BORDER-RIGHT: #663300 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffcc99 1px solid; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 85%; BORDER-LEFT: #ffcc99 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333300 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ff6600; TEXT-DECORATION: none
+}
+.smartcomponents A.standardsButton:hover {
+	BORDER-RIGHT: #663300 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffcc99 1px solid; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 85%; BORDER-LEFT: #ffcc99 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333300 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ff6600; TEXT-DECORATION: none
+}
+.smartcomponents A.standardsButton:unknown {
+	BORDER-RIGHT: #663300 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffcc99 1px solid; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 85%; BORDER-LEFT: #ffcc99 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333300 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ff6600; TEXT-DECORATION: none
+}
+.smartcomponents A.standardsButton:link {
+	BORDER-RIGHT: #663300 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffcc99 1px solid; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 85%; BORDER-LEFT: #ffcc99 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333300 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #ff6600; TEXT-DECORATION: none
+}
+.smartcomponents DIV.BlogSearch {
+	BORDER-RIGHT: #6699cc 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #6699cc 1px solid; MARGIN-TOP: 42px; PADDING-LEFT: 12px; MARGIN-BOTTOM: 6px; PADDING-BOTTOM: 12px; BORDER-LEFT: #6699cc 1px solid; COLOR: #000000; PADDING-TOP: 12px; BORDER-BOTTOM: #6699cc 1px solid; BACKGROUND-COLOR: #eef5fc
+}
+.smartcomponents DIV.BlogSearch LABEL {
+	FONT: 70% verdana
+}
+.smartcomponents DIV.BlogSearch INPUT {
+	FONT: 70% tahoma
+}
+DIV.BlogSearch SELECT {
+	FONT: 70% tahoma
+}
+.smartcomponents DIV.BlogSearch LABEL.Grouping {
+	MARGIN-TOP: 0.4em; DISPLAY: block
+}
+DIV.BlogSearch LABEL.TopGrouping {
+	MARGIN-TOP: 0.4em; DISPLAY: block
+}
+.smartcomponents DIV.BlogSearch LABEL.Grouping {
+	MARGIN-BOTTOM: 0.23em
+}
+.smartcomponents DIV.BlogSearch LABEL.TopGrouping {
+	MARGIN-BOTTOM: 0.1em
+}
+.smartcomponents DIV.BlogSearch LABEL.ForButton {
+	MARGIN-RIGHT: 7px
+}
+.smartcomponents DIV.BlogSearch SELECT {
+	WIDTH: 22em
+}
+DIV.BlogSearch INPUT.TextBox {
+	WIDTH: 22em
+}
+.smartcomponents DIV.BlogSearch INPUT.BlogSearchButton {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 0em; MARGIN-LEFT: 8px; PADDING-TOP: 0em
+}
+.smartcomponents FORM.BlogSearch {
+	MARGIN: 0px
+}
+.smartcomponents .BlogsTable {
+	BORDER-RIGHT: #cccccc 1px solid; WIDTH: 100%; BORDER-BOTTOM: #cccccc 1px solid
+}
+.smartcomponents .BlogsTable TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.smartcomponents .BlogsTable THEAD TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.smartcomponents TR.BlogsSortable {
+	BACKGROUND: #ccc
+}
+.smartcomponents TD.BlogsSortable A {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortable A:visited {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortable A:link {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortable A:active {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortable A:hover {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortableFixed A {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortableFixed A:visited {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortableFixed A:link {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortableFixed A:active {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortableFixed A:hover {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; WIDTH: 100%; CURSOR: hand; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 100%; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortable A:hover {
+	BACKGROUND: #e0e0e0
+}
+.smartcomponents TD.BlogsSortableFixed A:hover {
+	BACKGROUND: #e0e0e0
+}
+.smartcomponents TD.BlogsSortableFixed {
+	WIDTH: 130px
+}
+.smartcomponents TD.BlogsSortedFixed {
+	WIDTH: 105px
+}
+.smartcomponents TD.BlogsSortImageFixed {
+	WIDTH: 21px
+}
+.smartcomponents .BlogsTable TD.BlogsSorted {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #666 1px solid; FONT-WEIGHT: bold; BACKGROUND: #999; BORDER-LEFT: #666 1px solid; CURSOR: hand; COLOR: white; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .BlogsTable TD.BlogsSortedFixed {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #666 1px solid; FONT-WEIGHT: bold; BACKGROUND: #999; BORDER-LEFT: #666 1px solid; CURSOR: hand; COLOR: white; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .BlogsTable TD.BlogsSortImage {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #666 1px solid; FONT-WEIGHT: bold; BACKGROUND: #999; BORDER-LEFT: #999 1px solid; CURSOR: hand; COLOR: white; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents .BlogsTable TD.BlogsSortImageFixed {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #666 1px solid; FONT-WEIGHT: bold; BACKGROUND: #999; BORDER-LEFT: #999 1px solid; CURSOR: hand; COLOR: white; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smartcomponents IMG.SortArrow {
+	MARGIN: 5px 5px 5px 0px
+}
+.smartcomponents TD.BlogsSorted A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSorted A:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSorted A:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSorted A:active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSorted A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortedFixed A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortedFixed A:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortedFixed A:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortedFixed A:active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TD.BlogsSortedFixed A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; WIDTH: 100%; CURSOR: hand; COLOR: white; PADDING-TOP: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.smartcomponents TR.BlogsEntry TD {
+	BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid
+}
+.smartcomponents TR.BlogsAltEntry {
+	BACKGROUND: #e9e9e6
+}
+.smartcomponents TR.BlogsAltEntry TD {
+	BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid
+}
+.smartcomponents TABLE.BlogsPagingTop {
+	MARGIN-TOP: 16px; MARGIN-BOTTOM: 8px
+}
+.smartcomponents TABLE.BlogsPagingBottom {
+	MARGIN-TOP: 7px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px
+}
+.smartcomponents TABLE.BlogsPagingBottom TR {
+	MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px
+}
+.smartcomponents TABLE.BlogsPagingBottom TD {
+	MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px
+}
+.smartcomponents TABLE.BlogsPagingTop {
+	FONT: 70%/140% Verdana
+}
+.smartcomponents TABLE.BlogsPagingBottom {
+	FONT: 70%/140% Verdana
+}
+.smartcomponents TABLE.BlogsPagingTop SPAN.unlink {
+	COLOR: #999
+}
+.smartcomponents TABLE.BlogsPagingBottom SPAN.unlink {
+	COLOR: #999
+}
+.smartcomponents SPAN.unlink {
+	COLOR: #999999
+}
+.smartcomponents SPAN.searchScope {
+	FONT-WEIGHT: bold; COLOR: #cc6600
+}
+.smartcomponents .numberedList TBODY {
+	FONT-SIZE: 100%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+.smartcomponents .CMTYSearchForm TD LABEL {
+	FONT-SIZE: 100%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+.smartcomponents .CMTYSearchForm TD A {
+	FONT-SIZE: 100%; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+.smartcomponents .CMTYSearchForm INPUT {
+	FONT-SIZE: 100%; FONT-FAMILY: tahoma,verdana, arial, helvetica, sans-serif
+}
+.smartcomponents .CMTYSearchForm SELECT {
+	FONT-SIZE: 100%; FONT-FAMILY: tahoma,verdana, arial, helvetica, sans-serif
+}
+.smartcomponents .sidebarContent {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 6px; PADDING-TOP: 8px
+}
+.smartcomponents .sidebarContent P {
+	MARGIN-BOTTOM: 0.8em
+}
+.smartcomponents .containerHeader {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.smartcomponents .containerFooter {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 12px
+}
+.smartcomponents HR.details {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 1px
+}
+.smartcomponents .listImage {
+	MARGIN-RIGHT: 5px
+}
+.smartcomponents BR {
+	LINE-HEIGHT: 1px
+}
+.smartcomponents H4.Marginless {
+	MARGIN-TOP: 0px
+}
+.smartcomponents DIV.BlogSearch SELECT {
+	TEXT-TRANSFORM: capitalize
+}

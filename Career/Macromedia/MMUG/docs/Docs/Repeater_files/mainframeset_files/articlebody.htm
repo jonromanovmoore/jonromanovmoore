@@ -1,0 +1,216 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0059)http://www.dotnetgenius.com/articlebody.aspx?ArticleCode=20 -->
+<HTML><HEAD><TITLE>dotNetGenius: <span id="Label1">Using the ASP.NET Repeater Control</span></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+href="articlebody_files/dotnetgen.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.2900.2769" name=GENERATOR></HEAD>
+<BODY text=#000000 bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" 
+marginwidth="0">
+<TABLE cellSpacing=0 cellPadding=0 width=590 border=0>
+  <TBODY>
+  <TR>
+    <TD colSpan=3><IMG height=10 src="articlebody_files/spacer.gif" width=610> 
+    </TD></TR>
+  <TR>
+    <TD width=20><IMG height=500 src="articlebody_files/spacer.gif" width=20> 
+    </TD>
+    <TD vAlign=top width=436>
+      <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=articlecopy vAlign=top width="100%"><SPAN id=Label2>
+            <TABLE width="100%" border=0>
+              <TBODY class=home>
+              <TR>
+                <TD align=middle><FONT face=Arial><STRONG>Using the ASP.NET 
+                  Repeater Control</STRONG> </FONT></TD></TR>
+              <TR>
+                <TD align=middle><FONT face=Arial><STRONG>James Horan</STRONG> 
+                  </FONT></TD></TR>
+              <TR>
+                <TD align=middle><STRONG><FONT 
+                  face=Arial>4/23/2002</FONT></STRONG> </TD></TR></TBODY></TABLE><BR>
+            <P class=articlecopy>When I was first learning to use .NET, I was 
+            reading an overview comparison between ASP.NET and ASP.&nbsp; A 
+            particular sentence struck my eye : "In ASP.NET, you can use 
+            Response.Write, but it isn't recommended".&nbsp;&nbsp;I thought to 
+            myself : "Isn't recommended?&nbsp; How will I write out my 
+            HTML?&nbsp; How will I loop through my datasets and build 
+            tables?&nbsp; I had seen the datagrid, and it's great for displaying 
+            a raw table of data, but how would I write out just one 
+            column?&nbsp; What if the data was mixed with HTML?&nbsp; I found 
+            the answer in my new favorite ASP.NET Server control : 
+            Repeater.&nbsp; In this article, I'll show you how I used it to 
+            create the left side menu for dotnetGenius. </P>
+            <P class=articlecopy>Just for a visualization, here is what the menu 
+            looks like:</P>
+            <P class=articlecopy><IMG 
+            src="articlebody_files/Repeater_1.gif"><BR></P>
+            <P class=articlecopy>I store the categories in a table called 
+            "Sub_Category" in SQL Server, so that if I ever need to add one, I 
+            just add it to the table and it will appear on the menu.&nbsp; There 
+            are two fields, Sub_Category_ID, and Sub_Category_Text.</P>
+            <P class=articlehead>Step 1 - Create the page and insert the 
+            Repeater control</P>
+            <P class=articlecopy>The Repeater control allows you to create 
+            templates to define the layout of its content.&nbsp; The templates 
+            are:</P>
+            <P class=articlecopy><STRONG>ItemTemplate</STRONG> : Use this 
+            template for elements that are rendered once per row of 
+            data.<BR><STRONG>AlternatingItemTemplate</STRONG> : Use this 
+            template for elements that are rendered every other row of 
+            data.&nbsp; This allows you to alternate background colors, for 
+            example.<BR><STRONG>HeaderTemplate</STRONG> : Use this template for 
+            elements that you want to render once before your ItemTemplate 
+            section.<BR><STRONG>FooterTemplate </STRONG>: Use this template for 
+            elements that you want to render once after your ItemTemplate 
+            section.<BR><STRONG>SeperatorTemplate</STRONG> : Use this template 
+            for elements to render between each row, such as line breaks.</P>
+            <P class=articlecopy>Here is a part of the&nbsp;Web Form 
+            (subcategories.aspx)&nbsp;that contains the Repeater :</P>
+            <P class=clscode>....<BR>&nbsp;&lt;asp:Repeater ID="catlist" 
+            runat="server"&gt;<BR>&nbsp; 
+            &lt;HeaderTemplate&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;tr&gt; 
+            <BR>&nbsp;&nbsp;&nbsp; &lt;td 
+            class="imgspace"&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;img 
+            src="Images/areas.jpg" width="91" height="28" class="bigtext"&gt; 
+            <BR>&nbsp;&nbsp;&nbsp; &lt;/td&gt;<BR>&nbsp;&nbsp;&nbsp; 
+            &lt;/tr&gt;<BR>&nbsp;&lt;/HeaderTemplate&gt;<BR>&nbsp;&lt;ItemTemplate&gt;<BR>&nbsp;&nbsp;&nbsp; 
+            &lt;tr&gt; <BR>&nbsp;&nbsp;&nbsp; &lt;td&gt; <BR>&nbsp;&nbsp;&nbsp; 
+            &lt;div align=center&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;asp:HyperLink 
+            class="text" <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            NavigateUrl="&lt;%# "mainframeset.aspx?CatType=" + 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            DataBinder.Eval(Container.DataItem,"Sub_Category_ID")%&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            Text="&lt;%#DataBinder.Eval(Container.DataItem, 
+            "Sub_Category_Text")%&gt;" <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            runat="server" target="mainFrame" ID="Hyperlink1" 
+            NAME="Hyperlink1"/&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;&lt;/div&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<BR>&nbsp;&lt;/ItemTemplate&gt;<BR>&nbsp;&lt;FooterTemplate&gt;<BR>&nbsp;&nbsp;&nbsp; 
+            &nbsp;&lt;tr&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+            &lt;td&gt;<BR>&nbsp;&nbsp;&nbsp; 
+            &nbsp;&lt;/td&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+            &lt;/tr&gt;<BR>&nbsp;&lt;/FooterTemplate&gt;<BR>&lt;/asp:Repeater&gt; 
+            <BR>....</P>
+            <P class=articlecopy>The Repeater has a name of "catlist".&nbsp; It 
+            uses the <STRONG>HeaderTemplate</STRONG> to print out the Areas 
+            image.&nbsp; It then uses the <STRONG>ItemTemplate</STRONG> to 
+            display a Hyperlink control that has our data in it.&nbsp; We're 
+            coming back to that one in Step Two.&nbsp; The 
+            <STRONG>FooterTemplate</STRONG> is not necessary, but I put it in 
+            here for consistency.</P>
+            <P class=articlehead>Step&nbsp;2 - Get the Data</P>
+            <P class=articlecopy>Now lets look at the data retrieval.&nbsp; Here 
+            is the Page_Load event in the Code Behind file.</P>
+            <P class=clsCode>private void Page_Load(object sender, 
+            System.EventArgs e) <BR>{ <BR>SqlConnection conDotNet = new 
+            SqlConnection&nbsp;&nbsp; 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Server=xxxxxxx;UID=xxxx;PWD=xxxxx;Database=DotNetGenius"); 
+            <BR>string sSQL = "Select&nbsp;sub_category_id, 
+            sub_category_text&nbsp;from Sub_Category";<BR>SqlCommand cmd = new 
+            SqlCommand(sSQL, conDotNet); <BR>conDotNet.Open(); <BR>SqlDataReader 
+            dtrCat = cmd.ExecuteReader(); <BR>catlist.DataSource = dtrCat; 
+            <BR>catlist.DataBind(); <BR>} </P>
+            <P class=articlecopy>The first five lines open a database connection 
+            and retrieve the contents of the Sub_Category table.&nbsp;<U> The 
+            last two lines bind our Repeater control to the 
+            DataReader.</U><EM>&nbsp; </EM>Now, lets look again at the 
+            ItemTemplate section : 
+            <P class=clsCode>&nbsp;&lt;ItemTemplate&gt;<BR>&nbsp;&nbsp;&nbsp; 
+            &lt;tr&gt;&nbsp;&lt;td&gt;&nbsp;&lt;div 
+            align=center&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;asp:HyperLink 
+            class="text" <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            NavigateUrl="&lt;%# "mainframeset.aspx?CatType=" + 
+            <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            DataBinder.Eval(Container.DataItem,"Sub_Category_ID")%&gt;"<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            Text="&lt;%#DataBinder.Eval(Container.DataItem, 
+            "Sub_Category_Text")%&gt;" <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            runat="server" target="mainFrame" ID="Hyperlink1" 
+            NAME="Hyperlink1"/&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;<BR>&nbsp;&lt;/ItemTemplate&gt; 
+
+            <P class=articlecopy>Once the DataBind method of the Repeater 
+            control is called, ASP.NET will&nbsp;loop through 
+            the&nbsp;DataReader and populate the Repeater with the data we 
+            specify.&nbsp;&nbsp;The Databinder.Eval method uses reflection to 
+            parse and evaluate a data-binding expression against an object at 
+            run time, in this case the object is our Repeater.&nbsp; So this 
+            line of code :</P>
+            <P class=clsCode>NavigateUrl="&lt;%# "mainframeset.aspx?CatType=" 
+            +&nbsp; 
+            DataBinder.Eval(Container.DataItem,"Sub_Category_ID")%&gt;"</P>
+            <P class=articlecopy>will render the contents of the 
+            "Sub_Category_ID" field for each row in the DataReader.</P>
+            <P class=articlecopy>If you spend much time with ASP.NET, you will 
+            certainly be using this control often.&nbsp; 
+        </P></SPAN></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top width=140>
+      <TABLE cellSpacing=5 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=home bgColor=#cccccc><FONT 
+            face="Times New Roman"><STRONG>Partner Sites</STRONG></FONT> </TD></TR>
+        <TR>
+          <TD>
+            <DIV align=center><A href="http://www.jwtechnology.com/" 
+            target=_New><IMG alt="JW Technology - .NET Consultants" 
+            src="articlebody_files/jwtechlogo.jpg" border=0></A> </DIV></TD></TR>
+        <TR>
+          <TD class=articlecopy>
+            <DIV align=center><A href="http://www.jwtechnology.com/" 
+            target=_New>JW Technology - .NET Technology Consultants</A> 
+        </DIV></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <DIV align=center><A href="http://www.sitepoint.com/special/4" 
+            target=_New><IMG alt="Sitepoint - Learn more about .NET" 
+            src="articlebody_files/sitepoint.gif" border=0></A> </DIV></TD></TR>
+        <TR>
+          <TD class=articlecopy>
+            <DIV align=center><A href="http://www.sitepoint.com/special/4" 
+            target=_New>Sitepoint - Learn more about .NET!</A> </DIV></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD class=home bgColor=#cccccc><FONT 
+            face="Times New Roman"><STRONG>Microsoft .NET 
+            Headlines</STRONG></FONT> </TD></TR>
+        <TR>
+          <TD>
+            <SCRIPT language=javascript 
+            src="articlebody_files/newsfeed.htm"></SCRIPT>
+          </TD></TR>
+        <TR>
+          <TD class=home bgColor=#cccccc><FONT 
+            face="Times New Roman"><STRONG>Interesting .NET 
+            Sites</STRONG></FONT> </TD></TR>
+        <TR>
+          <TD>
+            <DIV align=center><BR><A 
+            href="http://msdn.microsoft.com/library/default.asp?url=/nhp/Default.asp?contentid=28000519" 
+            target=_New><IMG alt="MSDN Home for .NET Development" 
+            src="articlebody_files/mslogo.gif" border=0></A> </DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV align=center><BR><A href="http://hosting.msugs.ch/" 
+            target=_New><IMG height=80 
+            alt="Free .NET Hosting from Microsoft and IBM" 
+            src="articlebody_files/msugs.gif" width=106></A> </DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV align=center><BR><A 
+            href="http://www.devx.com/free/press/2000/vs-qalist.asp" 
+            target=_New><IMG height=125 
+            alt="Questions and Answers from the Visual Studio.NET Mailing List at devx.com" 
+            src="articlebody_files/devx.bmp" width=120 border=0></A> 
+</DIV></TD></TR>
+        <TR>
+          <TD>
+            <DIV align=center><BR><A href="http://www.activeservers.com/" 
+            target=_New><IMG alt="Currently providing hosting for dotNetGenius" 
+            src="articlebody_files/activeservers.jpg" border=0></A> </DIV></TD></TR>
+        <TR>
+          <TD>&nbsp; </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<P class=subtext align=center><A class=subtext 
+href="http://www.dotnetgenius.com/mainframeset.aspx?CatType=Terms">Copyright</A> 
+© 2001 dotNetGenius. All rights reserved. </P></TD></TR></TABLE></BODY></HTML>

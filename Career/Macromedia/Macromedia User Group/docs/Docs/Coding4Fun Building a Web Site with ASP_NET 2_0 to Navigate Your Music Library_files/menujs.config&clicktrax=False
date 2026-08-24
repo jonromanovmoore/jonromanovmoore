@@ -1,0 +1,87 @@
+
+
+function mnpMenuDir()
+{
+	return "LTR";
+}
+
+function mnpMenuCT()
+{
+	
+	return false;
+}
+
+function m544c0ab426464cbdb778e3d6bd750b3d()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('In the Box: Overview', '/coding4fun/inthebox/', '', '', '_S1_Node2_S1_Node1');
+	this.items[n++] = new mnpPage('Setting Wallpaper', '/coding4fun/inthebox/wallpaper/default.aspx', '', '', '_S1_Node2_S1_Node2');
+	this.items[n++] = new mnpPage('Poor Man\'s Power Monitor', '/coding4fun/inthebox/powermonitor/default.aspx', '', '', '_S1_Node2_S1_Node3');
+	this.items[n++] = new mnpPage('Building Network Utilities', '/coding4fun/inthebox/netutils/default.aspx', '', '', '_S1_Node2_S1_Node4');
+	this.items[n++] = new mnpPage('Researching made easier', '/coding4fun/inthebox/researchhelp/default.aspx', '', '', '_S1_Node2_S1_Node5');
+}
+
+function mf8896663f5eb4c0fb6a0b465299d2ea6()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Some Assembly Required: Overview', '/coding4fun/someassemblyrequired/', '', '', '_S1_Node3_S1_Node1');
+	this.items[n++] = new mnpPage('What\'s Playing?', '/coding4fun/someassemblyrequired/External_LED/default.aspx', '', '', '_S1_Node3_S1_Node2');
+	this.items[n++] = new mnpPage('It\'s Hot in Here', '/coding4fun/someassemblyrequired/hotinhere/default.aspx', '', '', '_S1_Node3_S1_Node3');
+	this.items[n++] = new mnpPage('Where the heck am I?', '/coding4fun/someassemblyrequired/whereami/default.aspx', '', '', '_S1_Node3_S1_Node4');
+}
+
+function m38b933b02f544a999da2887b6fc696a0()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Web Coder: Overview', '/coding4fun/webcoder/', '', '', '_S1_Node4_S1_Node1');
+	this.items[n++] = new mnpPage('Extending the Personal Web Site Starter Kit', '/coding4fun/webcoder/extendpws/default.aspx', '', '', '_S1_Node4_S1_Node2');
+	this.items[n++] = new mnpPage('Introduction to the Personal Web Site Starter Kit', '/coding4fun/webcoder/intropws/default.aspx', '', '', '_S1_Node4_S1_Node3');
+	this.items[n++] = new mnpPage('Building a Web Site with ASP.NET 2.0 to Navigate Your Music Library', '/coding4fun/webcoder/musiclib/default.aspx', '', '', '_S1_Node4_S1_Node4');
+}
+
+function m8b0d1721fe4a4a0fb788d0563bf1f7a8()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Game Development: Overview', '/coding4fun/gamedevelopment/', '', '', '_S1_Node5_S1_Node1');
+	this.items[n++] = new mnpPage('Beginning Game Development', '/coding4fun/gamedevelopment/beginning/default.aspx', '', '', '_S1_Node5_S1_Node2');
+	this.items[n++] = new mnpPage('BGD: Introduction to DirectX', '/coding4fun/gamedevelopment/beginning2/default.aspx', '', '', '_S1_Node5_S1_Node3');
+	this.items[n++] = new mnpPage('Ask The ZMan:Frequent DirectX Questions', '/coding4fun/gamedevelopment/zmanTextures/default.aspx', '', '', '_S1_Node5_S1_Node4');
+	this.items[n++] = new mnpPage('Ask The ZMan: Applying Textures (part 2)', '/coding4fun/gamedevelopment/zmanTextures2/default.aspx', '', '', '_S1_Node5_S1_Node5');
+}
+
+function m0aa69fdbe6694e53aa6d656db7b87f79()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Cool Applications: Overview', '/coding4fun/coolapplications/', '', '', '_S1_Node6_S1_Node1');
+	this.items[n++] = new mnpPage('System Monitor', '/coding4fun/coolapplications/sysmonitor/default.aspx', '', '', '_S1_Node6_S1_Node2');
+	this.items[n++] = new mnpPage('URLBuddy', '/coding4fun/coolapplications/urlbuddy/default.aspx', '', '', '_S1_Node6_S1_Node3');
+}
+
+function mccebce3522604cd9984b6e44dc3940ad()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('XML for Fun: Overview', '/coding4fun/xmlforfun/', '', '', '_S1_Node7_S1_Node1');
+	this.items[n++] = new mnpPage('Building a Family History Web Service Client', '/coding4fun/xmlforfun/familyhistory2/default.aspx', '', '', '_S1_Node7_S1_Node2');
+	this.items[n++] = new mnpPage('Building a Family History Web Service', '/coding4fun/xmlforfun/familyhistory/default.aspx', '', '', '_S1_Node7_S1_Node3');
+	this.items[n++] = new mnpPage('Using the Amazon.com Web Service', '/coding4fun/xmlforfun/amazonWS/default.aspx', '', '', '_S1_Node7_S1_Node4');
+	this.items[n++] = new mnpPage('Using the Google Web Services', '/coding4fun/xmlforfun/googleIt/default.aspx', '', '', '_S1_Node7_S1_Node5');
+}
+
+function mbb72daa190c94addac1896f32c71c822()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Weekly Updates: Overview', '/coding4fun/updates/', '', '', '_S1_Node8_S1_Node1');
+	this.items[n++] = new mnpPage('June 17, 2005', '/coding4fun/updates/20050617/default.aspx', '', '', '_S1_Node8_S1_Node2');
+	this.items[n++] = new mnpPage('June 3, 2005', '/coding4fun/updates/20050603/default.aspx', '', '', '_S1_Node8_S1_Node3');
+	this.items[n++] = new mnpPage('May 26, 2005', '/coding4fun/updates/20050526/default.aspx', '', '', '_S1_Node8_S1_Node4');
+	this.items[n++] = new mnpPage('May 20, 2005', '/coding4fun/updates/20050520/default.aspx', '', '', '_S1_Node8_S1_Node5');
+	this.items[n++] = new mnpPage('May 13, 2005', '/coding4fun/updates/20050513/default.aspx', '', '', '_S1_Node8_S1_Node6');
+}
+

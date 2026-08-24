@@ -1,0 +1,13 @@
+Craig Moore, VP, Principal Analyst
+
+May 3 2012
+
+Product marketers and managers are often asked to compare the price of a perpetually licensed product vs. a software-as-a-service (SaaS) based (consumption-based) license. To make the comparison, it’s essential that marketers know how to determine the value of each licensing model and understand their idiosyncrasies. This post demonstrates how to determine the value of a perpetually licensed product.
+
+Product marketers and managers are often asked to compare the price of a perpetually licensed product vs. a software-as-a-service (SaaS) based (consumption-based) license. To make the comparison, it’s essential that marketers know how to determine the value of each licensing model and understand their idiosyncrasies. This post demonstrates how to determine the value of a perpetually licensed product.
+
+A perpetual license gives the holder the right to use the software forever. Enterprise software is usually purchased along with maintenance, which provides updates to the software for a period of time. When analyzing a perpetual model, I recommend estimating the lifetime of the product’s use as the depreciation window, say three years. The cash flow of a three-year perpetual license of $5,000 plus 20 percent/year maintenance is as follows: Year 1, $5,000 plus $1,000; Year 2, $1,000; and Year 3, $1,000, for a total of $8,000. (Maintenance is paid at the beginning of each year.)
+
+The present value calculation considers the cost of capital and the sum of discounted future cash flows in today’s dollars to produce an indicator of the license’s total value over time. Even when interest rates are low, you still have the opportunity cost of not using the funds for a different project, so you need to set a discount rate. Your finance department can help you determine the discount rate for your organization. Let’s use 10 percent for this example. Applying Microsoft Excel’s present value formula, the perpetually licensed product with discounted cash flows for the maintenance payments would have a present value of $7,735.
+
+In my next post, I’ll look at how to calculate the value of a term license.

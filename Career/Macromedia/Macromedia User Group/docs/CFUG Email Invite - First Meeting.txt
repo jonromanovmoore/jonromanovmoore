@@ -1,0 +1,51 @@
+Please feel free to edit/change this template to fit your specific needs.
+
+
+
+
+Subject Line: Macromedia User Group Starting in (your location here)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Join the newly formed (your group) Macromedia ColdFusion 
+User Group at their first meeting on (date and time here).
+
+To RSVP, please contact (your name) at:
+(your email address)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Hello,
+
+The (your group) ColdFusion User Group is hosting their
+first user group meeting on (date here) in (your location here).
+Join them to hear a presentation on (preso topic here).
+
+~~~~~~~
+WHEN AND WHERE:
+
+October 17, 2002
+10:00 AM
+
+Main Conference Room
+BAE SYSTEMS
+Suite 600
+600 Maryland Ave, SW
+Washington, DC 20024
+
+~~~~~~~
+IT'S FREE!
+
+~~~~~~~
+The (your group) CFUG looks forward to seeing you at
+their first meeting!  If you have any questions regarding
+this meeting, please contact (your name) at:
+
+(your email address)
+
+~~~~~~~
+Best regards,
+
+(your name)
+
+

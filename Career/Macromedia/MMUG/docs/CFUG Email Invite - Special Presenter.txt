@@ -1,0 +1,55 @@
+Please feel free to edit/change this template to fit your specific needs.
+
+
+Subject: (speaker's name) Presents at (your group)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(presenter's name), presents at the (your group) ColdFusion 
+User Group (CFUG) in (your location) on (date and time here).
+
+To RSVP, or for more info and directions, please email:
+(your email address or contact info)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Hello,
+
+The (your group) Macromedia ColdFusion User Group 
+is hosting (speaker's name) as a guest speaker at our next 
+meeting on (date).  The presentation will cover (presentation topic
+or agenda here)
+
+~~~~~~~
+WHEN AND WHERE:
+
+August 14, 2002
+4:00 PM
+
+Pentagon
+Room < 1C731 > 
+Washington, DC
+
+~~~~~~~
+IT'S FREE!
+
+To RSVP, or for more info and directions, please email:
+(your email address or contact info)
+
+~~~~~~~
+(speaker's name):
+
+(speaker's bio)
+
+~~~~~~~
+The (your group) Macromedia ColdFusion User Group 
+looks forward to seeing you at our next meeting!  If you have any
+questions regarding this meeting, please contact (your name) at:
+
+(your email address or contact info)
+
+~~~~~~~
+Best regards,
+
+(your name)
+

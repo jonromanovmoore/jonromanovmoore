@@ -1,0 +1,27 @@
+.text {
+	FONT-SIZE: 10px; COLOR: #ffffff; LINE-HEIGHT: 18px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: underline
+}
+.bigtext {
+	FONT-WEIGHT: 600; FONT-SIZE: 11px; COLOR: #000066; LINE-HEIGHT: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+.imgspace {
+	TOP: 10px
+}
+.articlehead {
+	FONT-WEIGHT: 500; FONT-SIZE: 13px; COLOR: #000066; LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.articlecopy {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.subtext {
+	FONT-SIZE: 9px; COLOR: #999999; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsCode {
+	PADDING-RIGHT: 2pt; PADDING-LEFT: 2pt; FONT-SIZE: 10pt; PADDING-BOTTOM: 2pt; COLOR: #990000; PADDING-TOP: 2pt; FONT-FAMILY: courier new, Tahoma, verdana, arial, helvetica
+}
+A:hover {
+	COLOR: #ff0033; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.home:hover {
+	FONT-WEIGHT: 500; FONT-SIZE: 11px; COLOR: #ffffff; LINE-HEIGHT: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

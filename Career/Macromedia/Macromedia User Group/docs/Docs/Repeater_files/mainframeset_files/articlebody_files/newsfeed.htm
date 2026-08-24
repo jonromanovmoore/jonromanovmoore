@@ -1,0 +1,67 @@
+
+/*
+	.netWire Headlines
+	© 2002 .netWire (www.dotnetwire.com). All rights reserved.
+	For complete terms of use, please visit http://www.dotnetwire.com/siteinfo/terms.asp
+	Complete syndication info: http://www.dotnetwire.com/syndication
+*/
+
+var bl = '<li class="dnwLI">';
+
+if (navigator.appName !='Netscape')
+{
+	
+	document.write('<style type="text/css">');
+	document.write('UL.dnwUL{list-style:none url(http://www.dotnetwire.com/images/li_dot.gif) outside; margin:5px 0px 15px 10px;}');
+	document.write('A.dnwA {color:#666699; font-family:tahoma,verdana,sans-serif; font-size:8pt; font-weight:normal; text-decoration:none;}');
+	document.write('A.dnwA:Hover {color:#cc0000; font-family:tahoma,verdana,sans-serif; font-size:8pt; font-weight:normal; text-decoration:none;}');
+	document.write('LI.dnwLI{margin-bottom:4px;}');
+	document.write('.dnwSRCH{font-family:tahoma,verdana,sans-serif; font-size:8pt;}');
+	document.write('</style>');
+	
+	document.write('<ul class="dnwUL">');
+	dnw_showHeadlines();
+	document.write('</ul>');
+	
+	//showSearch();
+	
+}
+else
+{
+	bl = '<br><img src="http://www.dotnetwire.com/images/dot_clear.gif" height="7" width="1" border="0"><br>';
+
+	document.write('<font face="verdana,tahoma,arial,helvetica" size="-2">')
+	dnw_showHeadlines();
+	document.write(bl);
+	
+	//showSearch();
+	
+	document.write('</font>')
+}
+document.write('<a href="http://www.dotnetwire.com"><img src="http://www.dotnetwire.com/images/logo_newsfeed.gif" width="88" height="26" hspace="5" border="0" alt=".NET news powered by .netWire"></a>');
+
+function showSearch()
+{
+	document.write('<form action="http://www.dotnetwire.com/search/">');
+	document.write('<input type="textbox" name="qu" class="dnwSRCH" size="8" title="Enter Search Keyword(s)">');
+	document.write(' <input type="submit" class="dnwSRCH" value="Search" title="Search .netWire">');
+	document.write('</form>');
+}
+
+function dnw_showHeadlines()
+{
+	
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5547">URL Rewriting in ASP.NET</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5546">Overview of Native XML Web Services for Microsoft SQL Server 2005</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5545">Java/.NET Interoperability with the Microsoft.com Web Service</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5544">Object-Oriented State Machines</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5543">Using .NET Classes To Simplify Printing</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5542">Announcing CodeRush for Visual Studio .NET</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5541">XtraBars 3 is Here - Feature Complete Toolbar/Menu and Docking Library for Visual Studio .NET</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5539">Desaware Ships Source Code with Universal .NET 2004 Product Bundle</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5521">.NET interop and performance analysis</a>');
+		document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/frame_redirect.asp?newsid=5520">db4o - database for objects - v. 2.9 released</a>');
+	document.write(bl + '<a class="dnwA" href="http://www.dotnetwire.com/">More News...</a>');
+
+}
+

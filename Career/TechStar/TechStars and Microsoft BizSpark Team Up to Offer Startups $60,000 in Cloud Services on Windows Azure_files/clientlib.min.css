@@ -1,0 +1,37 @@
+.bannerWrapper{width:100%;display:flex}
+.bannerSlider .bannerSlider-caption{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;padding:20px 0}
+.bannerSlider .item h1,.bannerSlider .item h2,.bannerSlider .item h3,.bannerSlider .item h4,.bannerSlider .item h5{margin-top:0;font-weight:200}
+.bannerSlider .item h1{font-size:48px}
+.bannerSlider .item h2{font-size:40px}
+.bannerSlider .item h3{font-size:32px}
+.bannerSlider .item h4{font-size:24px}
+.bannerSlider .item h5{font-size:16px}
+.bannerSlider .item p{font-size:21px}
+.bannerSlider.owl-theme .owl-nav.disabled+.owl-dots{position:absolute;display:flex;bottom:0;left:50%;transform:translateX(-50%);margin:7px 20px 7px 0}
+.play-button{position:absolute;display:flex;bottom:0;margin:7px 0;cursor:pointer;font-size:13px;background:0;color:inherit;border:0;padding:0 !important}
+.play-button span{width:10px;height:10px;margin:5px 7px;display:flex;align-items:center;color:#00aa7e}
+.play-button.active span:before{content:""}
+.bannerSlider .owl-dots .owl-dot span{background-color:#00aa7e !important}
+.bannerSlider .owl-dots .owl-dot.active span{background-color:#fff !important}
+.bannerSlider .txtlink{background:#cc471e;padding:14px 50px 14px 30px;color:#fff;font-weight:700;position:relative;float:left;clear:both;margin-top:10px;z-index:1;overflow:hidden;border-top-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:0;border-bottom-left-radius:5px}
+.bannerSlider .txtlink:after{content:"";display:inline-block;width:8px;height:8px;border-top:1px solid #fff;border-right:1px solid #fff;position:absolute;margin:0;right:25px;top:50%;transform:translateY(-50%) rotate(45deg);-webkit-transform:translateY(-50%) rotate(45deg);-ms-transform:translateY(-50%) rotate(45deg);-moz-transform:translateY(-50%) rotate(45deg);-webkit-transition:.2s all .1s;-moz-transition:.2s all .1s;-ms-transition:.2s all .1s;-o-transition:.2s all .1s;transition:.2s all .1s}
+.bannerSlider .txtlink:hover{color:#fff;text-decoration:none}
+.bannerSlider .txtlink:hover:after{right:20px}
+.bannerSlider .owl-item.active h1,.bannerSlider .owl-item.active h2,.bannerSlider .owl-item.active h3,.bannerSlider .owl-item.active h4,.bannerSlider .owl-item.active h5{animation:1s .2s fadeInUp both}
+.bannerSlider .owl-item.active p{animation:1s .6s fadeInUp both}
+.bannerSlider .owl-item.active .txtlink{animation:1s .9s flipInX both}
+@media(max-width:1024px){.bannerSlider .bannerSlider-caption{width:55%;display:flex;left:0;transform:translateY(-50%)}
+.bannerSlider .item h1{font-size:38px}
+.bannerSlider .item h2{font-size:34px}
+.bannerSlider .item h3{font-size:30px}
+.bannerSlider .item h4{font-size:26px}
+.bannerSlider .item p{font-size:18px}
+}
+@media(max-width:767px){.bannerSlider .bannerSlider-caption{width:100%;position:relative;background:linear-gradient(180deg,#00837e,#053a4f);top:0;left:0;transform:translate(0,0);padding-bottom:50px}
+.bannerSlider .item h1{font-size:30px}
+.bannerSlider .item h2{font-size:24px}
+.bannerSlider .item h3{font-size:20px}
+.bannerSlider .item h4{font-size:18px}
+.bannerSlider .item p{font-size:16px}
+.bannerSlider .txtlink{padding:8px 40px 8px 15px;margin-top:0}
+}

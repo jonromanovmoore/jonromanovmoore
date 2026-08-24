@@ -1,0 +1,647 @@
+.indent-from-left { margin-left: 10px; }
+
+.indent-from-right { margin-right: 10px; }
+
+.remove-bottom-margin { margin-bottom: 0 !important; }
+
+html .panel-region-sidebar-right .most-read-most-cited-alternative-container .panel-display { overflow: hidden; }
+
+html .sidebar-right-wrapper, html .top-right-wrapper { float: right !important; }
+
+html body { font: 14px/1.5 Arial, Helvetica, sans-serif !important; vertical-align: baseline; }
+
+h1, .pane-highwire-search-token-summary.pane-page-title-suffix, html .highwire-cite > #page-title, html .top-wrapper #page-title .pane-title, html .rss-page .pane-snippet .pane-title, h2, html .node-type-highwire-issue .panel-panel .highwire-markup div > h1, html .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > #page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .highwire-citation-authors, h3, .panel-pane-highlighted-title, .panel-pane-highlighted .pane-title, .see-other-royal-society-journals .pane-title, .panel-pane-highlighted .pane-title .pane-content, .see-other-royal-society-journals .pane-title .pane-content, .panel-pane-highlighted .facet-title, .see-other-royal-society-journals .facet-title, .panel-pane-highlighted .facet-title .pane-content, .see-other-royal-society-journals .facet-title .pane-content, .ui-widget h3.ui-accordion-header, html .panel-region-content .panels-ajax-tab .panels-ajax-tab-tab, html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .panel-pane > .pane-title, html div.pane-highwire-subject-collections > .pane-title, html .jcore-home-layout .panel-region-carousel .pane-title, .pane-highwire-article-data-supp span h2, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > h1, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > h1, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-highwire-search-token-summary.pane-page-title-suffix, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > #page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div.highwire-cite > #page-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .highwire-citation-authors, h4, h5, h6 { font-family: Helvetica, Arial, sans-serif !important; font-weight: normal; }
+
+h1, .pane-highwire-search-token-summary.pane-page-title-suffix, html .highwire-cite > #page-title, html .top-wrapper #page-title .pane-title, html .rss-page .pane-snippet .pane-title { font-size: 30px !important; font-weight: bold; margin-bottom: 10px; }
+
+h2, html .node-type-highwire-issue .panel-panel .highwire-markup div > h1, html .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > #page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .highwire-citation-authors { font-size: 20px !important; text-transform: inherit; margin: 0 0 10px 0; font-weight: normal; line-height:normal;}
+
+h3, .panel-pane-highlighted-title, .panel-pane-highlighted .pane-title, .see-other-royal-society-journals .pane-title, .panel-pane-highlighted .pane-title .pane-content, .see-other-royal-society-journals .pane-title .pane-content, .panel-pane-highlighted .facet-title, .see-other-royal-society-journals .facet-title, .panel-pane-highlighted .facet-title .pane-content, .see-other-royal-society-journals .facet-title .pane-content, .ui-widget h3.ui-accordion-header, html .panel-region-content .panels-ajax-tab .panels-ajax-tab-tab, html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .panel-pane > .pane-title, html div.pane-highwire-subject-collections > .pane-title, html .jcore-home-layout .panel-region-carousel .pane-title, .pane-highwire-article-data-supp span h2, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > h1, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > h1, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-highwire-search-token-summary.pane-page-title-suffix, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > #page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div.highwire-cite > #page-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .highwire-citation-authors { font-size: 14px !important; text-transform: uppercase; }
+
+h4 { font-size: 15px; font-weight: bold; font-style: normal; }
+
+h5 { font-size: 14px !important; }
+
+h6 { font-size: 14px !important; display: inline; font-weight: bold; }
+
+blockquote, p q, .highwire-search-results-list .search-snippet { margin: 10px 0; padding: 10px; font-size: 13px !important; }
+
+p q { display: block; }
+
+.xsmall-text { font-size: 0.82em; line-height: 1.25em; }
+
+.small-text, #roysoc-most-read-description, #roysoc-most-cited-description, html .advanced-search-link, html #toc-description { font-size: 12px !important; }
+
+html .highwire-article-citation .highwire-cite > div.highwire-cite-access { font-size: 1em; left: 2px; top: 0px; }
+
+.medium-bold-text { font-weight: bold; font-size: 16px; vertical-align: baseline; background-color: transparent; }
+
+.journal-content-year { font-size: 14px !important; }
+
+.citation-authors { font-size: 14px !important; margin-top: 5px; }
+.citation-authors ul.inline li { padding: 0; }
+
+.fa, .jcarousel-buttons, html .jcarousel-skin-pap_carousel .jcarousel-next-horizontal:before, html .jcarousel-skin-pap_carousel .jcarousel-prev-horizontal:before, html .bx-wrapper .bx-prev:before, html .bx-wrapper .bx-next:before, .pager-buttons, .left-pager-arrow-icon:before, .right-pager-arrow-icon:before, .double-left-pager-arrow-icon:before, .double-right-pager-arrow-icon:before, html .news-features, .rss-icon, .rss-links .pane-content .pane-content a:before, .rss-links .pane-content .snippet-content a:before, .external-link-heading-icon, html .page-user-login .pane-user-login-form .pane-title:before, html .page-user-login .pane-content span.external-link-heading:before, html .not-logged-in.page-user .pane-user-login-form .pane-title:before, html .not-logged-in.page-user .pane-content span.external-link-heading:before, #most-read-alternative .highwire-cite-title > a:before, #most-cited-alternative .highwire-cite-title > a:before, .pane-highwire-toc-sections .pane-content ul li:before, .pane-highwire-toc-sections .pane-content ul li > a:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li > a:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li > a:before, .pane-highwire-article-nav .highwire-article-nav ul li:before, .pane-highwire-article-nav .highwire-article-nav ul li > a:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li > a:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li > a:before, .pane-highwire-toc-sections .pane-content ul li a:hover:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li a:hover:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li a:hover:before, .pane-highwire-article-nav .highwire-article-nav ul li a:hover:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li a:hover:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li a:hover:before, html .node-type-highwire-article #art_tools .pane-content #article-reuse .snippet-content > p:before, html .node-type-highwire-article .pane-highwire-toc-sections .pane-content ul li:before, html .node-type-highwire-article .pane-highwire-toc-sections .pane-content ul li > a:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav ul li:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav ul li > a:before, html .node-type-highwire-article .pane-highwire-toc-sections .pane-content > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before { font-family: FontAwesome; }
+
+.jcarousel-buttons, html .jcarousel-skin-pap_carousel .jcarousel-next-horizontal:before, html .jcarousel-skin-pap_carousel .jcarousel-prev-horizontal:before, html .bx-wrapper .bx-prev:before, html .bx-wrapper .bx-next:before, .pager-buttons, .left-pager-arrow-icon:before, .right-pager-arrow-icon:before, .double-left-pager-arrow-icon:before, .double-right-pager-arrow-icon:before, html .news-features { padding: 0 10px; }
+
+.pager-buttons, .left-pager-arrow-icon:before, .right-pager-arrow-icon:before, .double-left-pager-arrow-icon:before, .double-right-pager-arrow-icon:before, html .news-features { padding: 2px 10px; }
+
+.panel-pane-highlighted-title, .panel-pane-highlighted .pane-title, .see-other-royal-society-journals .pane-title, .panel-pane-highlighted .pane-title .pane-content, .see-other-royal-society-journals .pane-title .pane-content, .panel-pane-highlighted .facet-title, .see-other-royal-society-journals .facet-title, .panel-pane-highlighted .facet-title .pane-content, .see-other-royal-society-journals .facet-title .pane-content, .ui-widget h3.ui-accordion-header, .ui-widget .ui-accordion-header.panel-pane-highlighted-title, .ui-widget html .panel-region-content .panels-ajax-tab .ui-accordion-header.panels-ajax-tab-tab, html .panel-region-content .panels-ajax-tab .ui-widget .ui-accordion-header.panels-ajax-tab-tab, .ui-widget html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .panel-pane > .ui-accordion-header.pane-title, html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .ui-widget .panel-pane > .ui-accordion-header.pane-title, .ui-widget html div.pane-highwire-subject-collections > .ui-accordion-header.pane-title, html .ui-widget div.pane-highwire-subject-collections > .ui-accordion-header.pane-title, .ui-widget html .jcore-home-layout .panel-region-carousel .ui-accordion-header.pane-title, html .jcore-home-layout .panel-region-carousel .ui-widget .ui-accordion-header.pane-title, .ui-widget .pane-highwire-article-data-supp span h2.ui-accordion-header, .pane-highwire-article-data-supp span .ui-widget h2.ui-accordion-header, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > h1.ui-accordion-header, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > h1.ui-accordion-header, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > h1.ui-accordion-header, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > h1.ui-accordion-header, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > .ui-accordion-header#page-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div.highwire-cite > .ui-accordion-header#page-title, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div.highwire-cite > .ui-accordion-header#page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div.highwire-cite > .ui-accordion-header#page-title, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .ui-accordion-header.pane-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .ui-widget div > .ui-accordion-header.pane-title, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title, .ui-widget .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-title, .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-title, .ui-widget html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .ui-accordion-header.pane-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .ui-widget div > .ui-accordion-header.pane-title, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title, .ui-widget .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-title, .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-title, .ui-widget html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .ui-accordion-header.highwire-citation-authors, .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .ui-widget .ui-accordion-header.highwire-citation-authors, .ui-widget html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .ui-accordion-header.highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .ui-widget .ui-accordion-header.highwire-citation-authors { text-transform: uppercase !important; }
+
+.see-other-royal-society-journals { padding-bottom: 5px; margin-top: 20px; font-weight: bold; }
+
+.show-more-subject-collection a { float: right; padding: 1px 3px 0px 3px; }
+
+.more-articles-link { font-size: 12px !important; margin: 10px 10px 0 0; }
+.more-articles-link .pane-content > * { margin-bottom: 10px; }
+
+.rss-icon, .rss-links .pane-content .pane-content a:before, .rss-links .pane-content .snippet-content a:before { content: "\f09e"; }
+
+.external-link-heading-icon, html .page-user-login .pane-user-login-form .pane-title:before, html .page-user-login .pane-content span.external-link-heading:before, html .not-logged-in.page-user .pane-user-login-form .pane-title:before, html .not-logged-in.page-user .pane-content span.external-link-heading:before { content: "\f054"; margin-right: 5px; }
+
+.user-access-form-field-description, html .page-user-login .drupal-login .description, html .not-logged-in.page-user .drupal-login .description, html .page-user-password #user-pass .description, html .page-user-register #user-register-form .description, html .page-user-regain .highwire-user-regain-access .description { font-family: Verdana !important; font-size: 15px; }
+
+.collection-icon-list { text-align: right; }
+
+.coming-soon-text { margin: 0 auto; padding-top: 25px; text-align: center; }
+
+.license .license-logo-cc { float: left;  height: 31px; margin-right: 5px; margin-top: 10px; width: 88px; }
+
+/*html #zone-user .user-menu-dropdown ul.nice-menu ul li a:hover { text-decoration: none; }*/
+html #zone-user .block-panels-mini-user-social-buttons { vertical-align: top !important; }
+/*html #zone-user .region-user-first .block-nice-menus .user-menu-dropdown > .nice-menu-umbrella-menu > .menuparent > a, html #zone-user .block-panels-mini-user-social-buttons .panel-pane { margin: 3px 0; }
+html #zone-user .region-user-first .block-nice-menus .user-menu-dropdown > .nice-menu-umbrella-menu > .menuparent > a { width: 160px; }
+*/
+
+html .user-menu-dropdown > .menubar-nav > ul li { color: #FFF; }
+
+/*REMOVE ME WHEN JCORE FIX IS IN*/ html .user-menu-dropdown > .menubar-nav > .nice-menu > .menuparent > ul { background-color: #d31245; }
+
+html .logo-img { margin: 15px 0; }
+
+html .user-menu-dropdown .nice-menu-umbrella-menu > .menuparent a { background: url(../images/logos/royalsociety.png) transparent no-repeat left center; }
+html .user-menu-dropdown .nice-menu-umbrella-menu > .menuparent > a:first-child { padding-right: 120px; text-indent: -9999em; }
+html .user-menu-dropdown .nice-menu > .menuparent:after { top: 45%; }
+div.user-menu-dropdown > .menubar-nav > .nice-menu > .menuparent > a:first-child, .user-menu-dropdown.user-menu-dropdown-logo > .nice-menu > .menuparent > a:first-child { padding-left: 245px; }
+
+html .twitter-logo { width: 30px; height: 30px; padding-right: 20px; }
+
+html .fb-logo { width: 25px; height: 25px; padding-right: 20px; }
+
+html .youtube-logo { width: 71px; height: 26px; padding-right: 20px; }
+
+html #zone-user a { text-decoration: none; }
+
+html #section-footer #region-postscript-first h2.block-title, html #section-footer #region-postscript-first .node-type-highwire-issue .panel-panel .highwire-markup div > h1.block-title, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-first div > h1.block-title, html #section-footer #region-postscript-first .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-first div > .block-title.pane-highwire-search-token-summary.pane-page-title-suffix, html #section-footer #region-postscript-first .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > .block-title#page-title, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-first div.highwire-cite > .block-title#page-title, html #section-footer #region-postscript-first .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .block-title.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title #section-footer #region-postscript-first div > .block-title.pane-title, html #section-footer #region-postscript-first .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-first div > .block-title.pane-title, html #section-footer #region-postscript-first .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .block-title.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet #section-footer #region-postscript-first div > .block-title.pane-title, html #section-footer #region-postscript-first .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-first div > .block-title.pane-title, html #section-footer #region-postscript-first .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .block-title.highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip #section-footer #region-postscript-first .block-title.highwire-citation-authors, html #section-footer #region-postscript-second h2.block-title, html #section-footer #region-postscript-second .node-type-highwire-issue .panel-panel .highwire-markup div > h1.block-title, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-second div > h1.block-title, html #section-footer #region-postscript-second .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-second div > .block-title.pane-highwire-search-token-summary.pane-page-title-suffix, html #section-footer #region-postscript-second .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > .block-title#page-title, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-second div.highwire-cite > .block-title#page-title, html #section-footer #region-postscript-second .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .block-title.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title #section-footer #region-postscript-second div > .block-title.pane-title, html #section-footer #region-postscript-second .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-second div > .block-title.pane-title, html #section-footer #region-postscript-second .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .block-title.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet #section-footer #region-postscript-second div > .block-title.pane-title, html #section-footer #region-postscript-second .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-second div > .block-title.pane-title, html #section-footer #region-postscript-second .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .block-title.highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip #section-footer #region-postscript-second .block-title.highwire-citation-authors, html #section-footer #region-postscript-third h2.block-title, html #section-footer #region-postscript-third .node-type-highwire-issue .panel-panel .highwire-markup div > h1.block-title, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-third div > h1.block-title, html #section-footer #region-postscript-third .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-third div > .block-title.pane-highwire-search-token-summary.pane-page-title-suffix, html #section-footer #region-postscript-third .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > .block-title#page-title, html .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-third div.highwire-cite > .block-title#page-title, html #section-footer #region-postscript-third .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .block-title.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title #section-footer #region-postscript-third div > .block-title.pane-title, html #section-footer #region-postscript-third .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-third div > .block-title.pane-title, html #section-footer #region-postscript-third .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .block-title.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet #section-footer #region-postscript-third div > .block-title.pane-title, html #section-footer #region-postscript-third .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .block-title.pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup #section-footer #region-postscript-third div > .block-title.pane-title, html #section-footer #region-postscript-third .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .block-title.highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip #section-footer #region-postscript-third .block-title.highwire-citation-authors { display: none; }
+html #section-footer #region-postscript-first ul.menu > li.first.expanded, html #section-footer #region-postscript-second ul.menu > li.first.expanded, html #section-footer #region-postscript-third ul.menu > li.first.expanded { margin: 10px 0; }
+html #section-footer #region-postscript-first ul.menu > li.first.expanded > a, html #section-footer #region-postscript-second ul.menu > li.first.expanded > a, html #section-footer #region-postscript-third ul.menu > li.first.expanded > a { text-transform: uppercase; font-size: 14px !important; font-weight: bold; }
+html #section-footer #region-postscript-first ul.menu > li.first.expanded > a :first-letter, html #section-footer #region-postscript-second ul.menu > li.first.expanded > a :first-letter, html #section-footer #region-postscript-third ul.menu > li.first.expanded > a :first-letter { text-transform: capitalize; }
+html #section-footer #region-postscript-first ul.menu > li.first.expanded ul.menu, html #section-footer #region-postscript-second ul.menu > li.first.expanded ul.menu, html #section-footer #region-postscript-third ul.menu > li.first.expanded ul.menu { margin-top: 10px; }
+html #section-footer #zone-footer { text-align: center; }
+html #section-footer #zone-footer .panel-pane { display: inline-block; text-align: center; }
+html #section-footer #zone-footer .pane-custom { text-transform: capitalize; }
+html #section-footer #zone-footer .pane-custom :first-letter { text-transform: capitalize; }
+html #section-footer #zone-footer .pane-custom p::before { content: "\00a0"; }
+html #section-footer #zone-footer #footer-issn .snippet-content { margin: 8px 0; }
+html #section-footer #zone-footer #footer-issn .snippet-content::before { content: "Online ISSN "; }
+html #section-footer #zone-footer #footer-issn .snippet-content::after { content: " | "; }
+html #section-footer #zone-footer .panel-separator { display: none; }
+
+html .qtip .abstract { font-size: 14px !important; }
+
+html .ui-widget-overlay { position: fixed; }
+
+#most-read-alternative .highwire-article-citation, #most-cited-alternative .highwire-article-citation { padding-left: 15px; }
+#most-read-alternative .highwire-cite-title, #most-cited-alternative .highwire-cite-title { font-weight: normal !important; font-size: 13px !important; }
+#most-read-alternative .highwire-cite-title .highwire-cite .highwire-cite-title, #most-cited-alternative .highwire-cite-title .highwire-cite .highwire-cite-title { padding: 0 10px !important; }
+#most-read-alternative .highwire-cite-title > a:before, #most-cited-alternative .highwire-cite-title > a:before { content: "\f04d" "\00a0"; position: relative; margin-right: 5px; }
+
+.pane-roysoc-most-read-most-cited .pane-panels-ajax-tab-container .pane-highwire-reports-feed .pane-content { width: auto; }
+
+.left-pager-arrow-icon:before { content: "\f104"; font-style: normal; }
+
+.right-pager-arrow-icon:before { content: "\f105"; font-style: normal; }
+
+.double-left-pager-arrow-icon:before { content: "\f100"; font-style: normal; }
+
+.double-right-pager-arrow-icon:before { content: "\f101"; font-style: normal; }
+
+html .pane-highwire-node-pager .pane-content, .pager-full-pagination .pager-items-first, .pager-full-pagination .pager-items-last { padding-top: 10px; font-size: 14px !important; }
+html .pane-highwire-node-pager .pane-content a, .pager-full-pagination .pager-items-first a, .pager-full-pagination .pager-items-last a { font-weight: bold; }
+
+.pager-full-pagination .pager-items { padding-top: 10px; }
+
+.pane-highwire-pap .pager-wrapper { padding-top: 10px; }
+
+html .advanced-search-link { margin: 0; }
+html .advanced-search-link a { text-transform: capitalize; }
+
+html .pane-highwire-seach-quicksearch { margin-bottom: 12px; }
+
+html .pane-jnl-rs-quicksearch .highwire-quicksearch.button-style-mini .form-item-keywords .form-text { width: 100%; }
+
+.highwire-collection-search-panel .panel-pane { margin-bottom: 0; }
+.highwire-collection-search-panel #highwire-search-form fieldset.form-wrapper { margin: 0; padding: 0; border-bottom: 0px; }
+.highwire-collection-search-panel #highwire-search-form fieldset.form-wrapper .fieldset-wrapper { padding: 0; }
+.highwire-collection-search-panel #highwire-search-form fieldset.form-wrapper label { display: block !important; width: auto !important; margin: 0.5em 0 !important; text-align: left !important; }
+.highwire-collection-search-panel #highwire-search-form fieldset.form-wrapper .chosen-container { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; min-width: 100%; }
+.highwire-collection-search-panel .form-actions { margin: 0; }
+.highwire-collection-search-panel .form-actions .form-submit { margin-top: 0; }
+
+html .pane-panels-ajax-tab-tabs + .panel-separator + .pane-panels-ajax-tab-container { margin: -20px 0 0 0; }
+
+html .pane-panels-ajax-tab-tabs ul li a { text-transform: uppercase; font-weight: bold; }
+html .pane-panels-ajax-tab-tabs ul li a :first-letter { text-transform: capitalize; }
+
+html .pane-panels-ajax-tab-tabs .panels-ajax-tab-tab { font-size: 14px !important; }
+
+html .panel-region-content .panels-ajax-tab .panels-ajax-tab-tab { font-weight: bold; }
+html .panel-region-content .pane-panels-ajax-tab-tabs .panels-ajax-tab-tab { padding: 6px 10px; }
+html .panel-region-content .pane-panels-ajax-tab-tabs .panels-ajax-tab > li.last a, html .panel-region-content .pane-panels-ajax-tab-tabs .item-list .panels-ajax-tab > li.last a { margin-right: 0; }
+html .panel-region-content .pane-article .panels-ajax-tab-tab { padding: 6px 5px; margin-right: 5px; text-transform: capitalize; }
+html .panel-region-content .pane-article a[data-panel-name="roysoc_tab_elets"].panels-ajax-tab-tab { text-transform: inherit; }
+
+html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .panel-pane > .pane-title { font-weight: bold; }
+html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .item-list > ul { padding: 0 !important; }
+
+html .pane-content { font-family: Arial, Helvetica, sans-serif !important; }
+html .pane-content .pane-highwire-issue-cover .cover-issue-image { margin-left: 10px; }
+html .pane-content .back-to-top { font-size: 13px !important; }
+
+.panel-pane-highlighted, .see-other-royal-society-journals { padding: 10px; }
+.panel-pane-highlighted .panel-pane, .see-other-royal-society-journals .panel-pane { margin-bottom: 10px; }
+.panel-pane-highlighted .panel-pane .pane-content .form-item, .see-other-royal-society-journals .panel-pane .pane-content .form-item { margin-bottom: 0.4em; }
+.panel-pane-highlighted .pane-title, .see-other-royal-society-journals .pane-title, .panel-pane-highlighted .pane-title .pane-content, .see-other-royal-society-journals .pane-title .pane-content, .panel-pane-highlighted .facet-title, .see-other-royal-society-journals .facet-title, .panel-pane-highlighted .facet-title .pane-content, .see-other-royal-society-journals .facet-title .pane-content { margin-bottom: 10px; }
+.panel-pane-highlighted .article-issue-cover-date .pane-content, .see-other-royal-society-journals .article-issue-cover-date .pane-content, .panel-pane-highlighted .current-issue-cover-date .pane-content, .see-other-royal-society-journals .current-issue-cover-date .pane-content { font-weight: bold; text-transform: capitalize !important; }
+.panel-pane-highlighted .pane-content ul, .see-other-royal-society-journals .pane-content ul { padding-left: 10px; }
+.panel-pane-highlighted .pane-content ul.inline li, .see-other-royal-society-journals .pane-content ul.inline li { padding: 0; }
+.panel-pane-highlighted .pane-content .snippet-content p:last-child, .see-other-royal-society-journals .pane-content .snippet-content p:last-child, .panel-pane-highlighted .pane-content .pane-content p:last-child, .see-other-royal-society-journals .pane-content .pane-content p:last-child { margin-bottom: 0; }
+
+.pane-node-field-highwire-article-keyword .pane-content { padding-left: 10px; }
+.pane-node-field-highwire-article-keyword .field-items > .field-item + .field-item:before { content: ""; }
+.pane-node-field-highwire-article-keyword .field-items > .field-item:after { content: ",\0020"; }
+.pane-node-field-highwire-article-keyword .field-items > .field-item:last-child:after { content: ""; }
+
+.panel-pane-article-related-collections .pane-content { padding-left: 10px; }
+.panel-pane-article-related-collections ul { margin: 0 !important; padding: 0 !important; }
+.panel-pane-article-related-collections ul li { display: inline; }
+.panel-pane-article-related-collections ul li:after { content: ",\0020"; }
+.panel-pane-article-related-collections ul li:last-child:after { content: ""; }
+
+.responsive-layout-wide .panel-pane-highlighted.pane-highwire-article-nav .highwire-article-nav, .responsive-layout-wide .pane-highwire-article-nav.see-other-royal-society-journals .highwire-article-nav { width: 380px; }
+
+.pane-roysoc-iss-issue.panel-pane-highlighted .pane-title, .pane-roysoc-iss-issue.see-other-royal-society-journals .pane-title { text-transform: capitalize !important; }
+.pane-roysoc-iss-issue.panel-pane-highlighted .pane-title :first-letter, .pane-roysoc-iss-issue.see-other-royal-society-journals .pane-title :first-letter { text-transform: capitalize; }
+
+.panel-pane-article-related-collections.panel-pane-highlighted .pane-title, .panel-pane-article-related-collections.see-other-royal-society-journals .pane-title, .pane-highwire-related-articles.panel-pane-highlighted .pane-title, .pane-highwire-related-articles.see-other-royal-society-journals .pane-title { text-transform: lowercase !important; }
+.panel-pane-article-related-collections.panel-pane-highlighted .pane-title :first-letter, .panel-pane-article-related-collections.see-other-royal-society-journals .pane-title :first-letter, .pane-highwire-related-articles.panel-pane-highlighted .pane-title :first-letter, .pane-highwire-related-articles.see-other-royal-society-journals .pane-title :first-letter { text-transform: capitalize; }
+.panel-pane-article-related-collections.panel-pane-highlighted .pane-title:first-letter, .panel-pane-article-related-collections.see-other-royal-society-journals .pane-title:first-letter, .pane-highwire-related-articles.panel-pane-highlighted .pane-title:first-letter, .pane-highwire-related-articles.see-other-royal-society-journals .pane-title:first-letter { text-transform: capitalize !important; }
+.panel-pane-article-related-collections.panel-pane-highlighted .pane-title:first-letter :first-letter, .panel-pane-article-related-collections.see-other-royal-society-journals .pane-title:first-letter :first-letter, .pane-highwire-related-articles.panel-pane-highlighted .pane-title:first-letter :first-letter, .pane-highwire-related-articles.see-other-royal-society-journals .pane-title:first-letter :first-letter { text-transform: capitalize; }
+
+html div.pane-highwire-subject-collections { overflow: hidden; }
+html div.pane-highwire-subject-collections > .pane-title { text-transform: uppercase !important; font-weight: bold; }
+html div.pane-highwire-subject-collections > .pane-content > ul > li.hidden { display: none; }
+html div.pane-highwire-subject-collections > .pane-content > ul > li.show { display: list-item; }
+html div.pane-highwire-subject-collections .pane-content ul, html div.pane-highwire-subject-collections .pane-content ol { padding: 0; }
+html div.pane-highwire-subject-collections .highwire-list-expand .data-wrapper { padding-left: 10px; }
+html div.pane-highwire-subject-collections ul.highwire-list-expand { margin-bottom: 0; }
+html div.pane-highwire-subject-collections .show-more-subject-collection.more-articles-link { margin: 0; }
+
+html .panel-pane-highlighted.pane-highwire-subject-collections .pane-content ul li, html .pane-highwire-subject-collections.see-other-royal-society-journals .pane-content ul li, html .panel-pane-highlighted.pane-roysoc-toc-subject-collection .pane-content ul li, html .pane-roysoc-toc-subject-collection.see-other-royal-society-journals .pane-content ul li { float: left; width: 50%; }
+
+html .panel-pane-highlighted.pane-roysoc-toc-subject-collection, html .pane-roysoc-toc-subject-collection.see-other-royal-society-journals { padding-bottom: 5px; }
+
+html .highwire-cite .highwire-cite-title { font-family: Arial, Helvetica, sans-serif !important; padding: 0 !important; font-weight: bold; font-style: normal; margin: 0 !important; }
+html .highwire-cite .highwire-cite-title div { display: inline; }
+
+html .highwire-article-citation .highwire-cite > div img { float: left; margin-right: 10px; }
+html .highwire-article-citation .highwire-cite > div.highwire-cite-access { float: left; width: 0; padding-top: 4px; left: -28px; position: relative; }
+
+/* END */
+html .highwire-cite-highwire-article { padding: 0 10px; }
+
+.highwire-cite-metadata, .highwire-cite-authors { font-size: 14px !important; font-family: Arial, Helvetica, sans-serif !important; }
+.highwire-cite-metadata, .highwire-cite-metadata .label, .highwire-cite-authors, .highwire-cite-authors .label { font-weight: normal; }
+
+.highwire-citation-jnl-rs-article-icon-title-and-author .highwire-cite-authors { font-size: 14px !important; }
+
+.highwire-cite-highwire-article.has-author-tooltip .highwire-citation-authors span:hover { cursor: pointer; }
+
+html .highwire-article-citation.tooltip-enable { margin: -10px 0; }
+
+html .page-content-continous-publication-articles .highwire-citation-type-highwire-article #page-title { font-size: 16px !important; }
+
+html .qtip .qtip-title .highwire-cite-title { font-weight: bold; }
+
+html .highwire-citation-jnl-rs-article-title-with-type .highwire-cite-title { font-size: 15px !important; }
+html .highwire-citation-jnl-rs-article-title-with-type > .highwire-cite-access { float: left; margin-left: -23px; top: 0 !important; padding-top: 0px !important; left: 0 !important; }
+
+html .node-type-highwire-article .highwire-article-citation .highwire-citation-highwire-article-top-a div.highwire-cite-authors { line-height: 1.7em; }
+html .node-type-highwire-article .highwire-article-citation .highwire-citation-highwire-article-top-a span.highwire-cite-metadata-doi::after { content: '.'; }
+
+.ui-widget .ui-accordion-header.panel-pane-highlighted-title > *, .ui-widget .panel-pane-highlighted .ui-accordion-header.pane-title > *, .panel-pane-highlighted .ui-widget .ui-accordion-header.pane-title > *, .ui-widget .see-other-royal-society-journals .ui-accordion-header.pane-title > *, .see-other-royal-society-journals .ui-widget .ui-accordion-header.pane-title > *, .ui-widget .panel-pane-highlighted .pane-title .ui-accordion-header.pane-content > *, .panel-pane-highlighted .pane-title .ui-widget .ui-accordion-header.pane-content > *, .ui-widget .see-other-royal-society-journals .pane-title .ui-accordion-header.pane-content > *, .see-other-royal-society-journals .pane-title .ui-widget .ui-accordion-header.pane-content > *, .ui-widget .panel-pane-highlighted .ui-accordion-header.facet-title > *, .panel-pane-highlighted .ui-widget .ui-accordion-header.facet-title > *, .ui-widget .see-other-royal-society-journals .ui-accordion-header.facet-title > *, .see-other-royal-society-journals .ui-widget .ui-accordion-header.facet-title > *, .ui-widget .panel-pane-highlighted .facet-title .ui-accordion-header.pane-content > *, .panel-pane-highlighted .facet-title .ui-widget .ui-accordion-header.pane-content > *, .ui-widget .see-other-royal-society-journals .facet-title .ui-accordion-header.pane-content > *, .see-other-royal-society-journals .facet-title .ui-widget .ui-accordion-header.pane-content > *, .ui-widget h3.ui-accordion-header > *, .ui-widget html .panel-region-content .panels-ajax-tab .ui-accordion-header.panels-ajax-tab-tab > *, html .panel-region-content .panels-ajax-tab .ui-widget .ui-accordion-header.panels-ajax-tab-tab > *, .ui-widget html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .panel-pane > .ui-accordion-header.pane-title > *, html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .ui-widget .panel-pane > .ui-accordion-header.pane-title > *, .ui-widget html div.pane-highwire-subject-collections > .ui-accordion-header.pane-title > *, html .ui-widget div.pane-highwire-subject-collections > .ui-accordion-header.pane-title > *, .ui-widget html .jcore-home-layout .panel-region-carousel .ui-accordion-header.pane-title > *, html .jcore-home-layout .panel-region-carousel .ui-widget .ui-accordion-header.pane-title > *, .ui-widget .pane-highwire-article-data-supp span h2.ui-accordion-header > *, .pane-highwire-article-data-supp span .ui-widget h2.ui-accordion-header > *, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > h1.ui-accordion-header > *, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > h1.ui-accordion-header > *, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > h1.ui-accordion-header > *, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > h1.ui-accordion-header > *, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > *, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > *, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > *, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > *, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > .ui-accordion-header#page-title > *, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div.highwire-cite > .ui-accordion-header#page-title > *, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div.highwire-cite > .ui-accordion-header#page-title > *, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div.highwire-cite > .ui-accordion-header#page-title > *, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .ui-accordion-header.pane-title > *, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .ui-widget div > .ui-accordion-header.pane-title > *, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > *, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > *, .ui-widget .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-title > *, .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-title > *, .ui-widget html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > *, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > *, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .ui-accordion-header.pane-title > *, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .ui-widget div > .ui-accordion-header.pane-title > *, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > *, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > *, .ui-widget .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-title > *, .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-title > *, .ui-widget html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > *, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > *, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .ui-accordion-header.highwire-citation-authors > *, .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .ui-widget .ui-accordion-header.highwire-citation-authors > *, .ui-widget html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .ui-accordion-header.highwire-citation-authors > *, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .ui-widget .ui-accordion-header.highwire-citation-authors > * { text-transform: lowercase; display: inline-block; }
+.ui-widget .ui-accordion-header.panel-pane-highlighted-title > * :first-letter, .ui-widget .panel-pane-highlighted .ui-accordion-header.pane-title > * :first-letter, .panel-pane-highlighted .ui-widget .ui-accordion-header.pane-title > * :first-letter, .ui-widget .see-other-royal-society-journals .ui-accordion-header.pane-title > * :first-letter, .see-other-royal-society-journals .ui-widget .ui-accordion-header.pane-title > * :first-letter, .ui-widget .panel-pane-highlighted .pane-title .ui-accordion-header.pane-content > * :first-letter, .panel-pane-highlighted .pane-title .ui-widget .ui-accordion-header.pane-content > * :first-letter, .ui-widget .see-other-royal-society-journals .pane-title .ui-accordion-header.pane-content > * :first-letter, .see-other-royal-society-journals .pane-title .ui-widget .ui-accordion-header.pane-content > * :first-letter, .ui-widget .panel-pane-highlighted .ui-accordion-header.facet-title > * :first-letter, .panel-pane-highlighted .ui-widget .ui-accordion-header.facet-title > * :first-letter, .ui-widget .see-other-royal-society-journals .ui-accordion-header.facet-title > * :first-letter, .see-other-royal-society-journals .ui-widget .ui-accordion-header.facet-title > * :first-letter, .ui-widget .panel-pane-highlighted .facet-title .ui-accordion-header.pane-content > * :first-letter, .panel-pane-highlighted .facet-title .ui-widget .ui-accordion-header.pane-content > * :first-letter, .ui-widget .see-other-royal-society-journals .facet-title .ui-accordion-header.pane-content > * :first-letter, .see-other-royal-society-journals .facet-title .ui-widget .ui-accordion-header.pane-content > * :first-letter, .ui-widget h3.ui-accordion-header > * :first-letter, .ui-widget html .panel-region-content .panels-ajax-tab .ui-accordion-header.panels-ajax-tab-tab > * :first-letter, html .panel-region-content .panels-ajax-tab .ui-widget .ui-accordion-header.panels-ajax-tab-tab > * :first-letter, .ui-widget html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .panel-pane > .ui-accordion-header.pane-title > * :first-letter, html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .ui-widget .panel-pane > .ui-accordion-header.pane-title > * :first-letter, .ui-widget html div.pane-highwire-subject-collections > .ui-accordion-header.pane-title > * :first-letter, html .ui-widget div.pane-highwire-subject-collections > .ui-accordion-header.pane-title > * :first-letter, .ui-widget html .jcore-home-layout .panel-region-carousel .ui-accordion-header.pane-title > * :first-letter, html .jcore-home-layout .panel-region-carousel .ui-widget .ui-accordion-header.pane-title > * :first-letter, .ui-widget .pane-highwire-article-data-supp span h2.ui-accordion-header > * :first-letter, .pane-highwire-article-data-supp span .ui-widget h2.ui-accordion-header > * :first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > h1.ui-accordion-header > * :first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > h1.ui-accordion-header > * :first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > h1.ui-accordion-header > * :first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > h1.ui-accordion-header > * :first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > * :first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > * :first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > * :first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > * :first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > .ui-accordion-header#page-title > * :first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div.highwire-cite > .ui-accordion-header#page-title > * :first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div.highwire-cite > .ui-accordion-header#page-title > * :first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div.highwire-cite > .ui-accordion-header#page-title > * :first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .ui-accordion-header.pane-title > * :first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .ui-widget div > .ui-accordion-header.pane-title > * :first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > * :first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > * :first-letter, .ui-widget .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-title > * :first-letter, .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-title > * :first-letter, .ui-widget html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > * :first-letter, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > * :first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .ui-accordion-header.pane-title > * :first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .ui-widget div > .ui-accordion-header.pane-title > * :first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > * :first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > * :first-letter, .ui-widget .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-title > * :first-letter, .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-title > * :first-letter, .ui-widget html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > * :first-letter, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > * :first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .ui-accordion-header.highwire-citation-authors > * :first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .ui-widget .ui-accordion-header.highwire-citation-authors > * :first-letter, .ui-widget html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .ui-accordion-header.highwire-citation-authors > * :first-letter, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .ui-widget .ui-accordion-header.highwire-citation-authors > * :first-letter { text-transform: capitalize; }
+.ui-widget .ui-accordion-header.panel-pane-highlighted-title > *:first-letter, .ui-widget .panel-pane-highlighted .ui-accordion-header.pane-title > *:first-letter, .panel-pane-highlighted .ui-widget .ui-accordion-header.pane-title > *:first-letter, .ui-widget .see-other-royal-society-journals .ui-accordion-header.pane-title > *:first-letter, .see-other-royal-society-journals .ui-widget .ui-accordion-header.pane-title > *:first-letter, .ui-widget .panel-pane-highlighted .pane-title .ui-accordion-header.pane-content > *:first-letter, .panel-pane-highlighted .pane-title .ui-widget .ui-accordion-header.pane-content > *:first-letter, .ui-widget .see-other-royal-society-journals .pane-title .ui-accordion-header.pane-content > *:first-letter, .see-other-royal-society-journals .pane-title .ui-widget .ui-accordion-header.pane-content > *:first-letter, .ui-widget .panel-pane-highlighted .ui-accordion-header.facet-title > *:first-letter, .panel-pane-highlighted .ui-widget .ui-accordion-header.facet-title > *:first-letter, .ui-widget .see-other-royal-society-journals .ui-accordion-header.facet-title > *:first-letter, .see-other-royal-society-journals .ui-widget .ui-accordion-header.facet-title > *:first-letter, .ui-widget .panel-pane-highlighted .facet-title .ui-accordion-header.pane-content > *:first-letter, .panel-pane-highlighted .facet-title .ui-widget .ui-accordion-header.pane-content > *:first-letter, .ui-widget .see-other-royal-society-journals .facet-title .ui-accordion-header.pane-content > *:first-letter, .see-other-royal-society-journals .facet-title .ui-widget .ui-accordion-header.pane-content > *:first-letter, .ui-widget h3.ui-accordion-header > *:first-letter, .ui-widget html .panel-region-content .panels-ajax-tab .ui-accordion-header.panels-ajax-tab-tab > *:first-letter, html .panel-region-content .panels-ajax-tab .ui-widget .ui-accordion-header.panels-ajax-tab-tab > *:first-letter, .ui-widget html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .panel-pane > .ui-accordion-header.pane-title > *:first-letter, html .node-type-highwire-article #panels-ajax-tab-container-highwire_article_tabs .ui-widget .panel-pane > .ui-accordion-header.pane-title > *:first-letter, .ui-widget html div.pane-highwire-subject-collections > .ui-accordion-header.pane-title > *:first-letter, html .ui-widget div.pane-highwire-subject-collections > .ui-accordion-header.pane-title > *:first-letter, .ui-widget html .jcore-home-layout .panel-region-carousel .ui-accordion-header.pane-title > *:first-letter, html .jcore-home-layout .panel-region-carousel .ui-widget .ui-accordion-header.pane-title > *:first-letter, .ui-widget .pane-highwire-article-data-supp span h2.ui-accordion-header > *:first-letter, .pane-highwire-article-data-supp span .ui-widget h2.ui-accordion-header > *:first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > h1.ui-accordion-header > *:first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > h1.ui-accordion-header > *:first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > h1.ui-accordion-header > *:first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > h1.ui-accordion-header > *:first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > *:first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > *:first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > *:first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-highwire-search-token-summary.pane-page-title-suffix > *:first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > .ui-accordion-header#page-title > *:first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div.highwire-cite > .ui-accordion-header#page-title > *:first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div.highwire-cite > .ui-accordion-header#page-title > *:first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div.highwire-cite > .ui-accordion-header#page-title > *:first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .ui-accordion-header.pane-title > *:first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .ui-widget div > .ui-accordion-header.pane-title > *:first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > *:first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > *:first-letter, .ui-widget .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-title > *:first-letter, .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-title > *:first-letter, .ui-widget html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > *:first-letter, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > *:first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .ui-accordion-header.pane-title > *:first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .ui-widget div > .ui-accordion-header.pane-title > *:first-letter, .ui-widget html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > *:first-letter, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > *:first-letter, .ui-widget .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .ui-accordion-header.pane-title > *:first-letter, .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .ui-widget div > .ui-accordion-header.pane-title > *:first-letter, .ui-widget html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .ui-accordion-header.pane-title > *:first-letter, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span .ui-widget div > .ui-accordion-header.pane-title > *:first-letter, .ui-widget .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .ui-accordion-header.highwire-citation-authors > *:first-letter, .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .ui-widget .ui-accordion-header.highwire-citation-authors > *:first-letter, .ui-widget html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .ui-accordion-header.highwire-citation-authors > *:first-letter, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .ui-widget .ui-accordion-header.highwire-citation-authors > *:first-letter { text-transform: capitalize; }
+
+html .ui-accordion .ui-accordion-content > .highwire-list { padding: 10px; }
+
+.panel-pane-announcement .snippet-content > * { margin: 0; }
+
+.panel-pane-announcement > .inside > .panel-pane, .panel-pane-announcement > .inside > div > .panel-pane { padding: 5px 10px; }
+
+html .pane-highwire-article-crossmark { margin: 10px 0 0 0; padding-left: 5px; }
+
+div.highwire-markup ol.cit-list { font-size: 12px !important; }
+div.highwire-markup ol.cit-list > li { line-height: 20px; }
+
+html .node-type-highwire-issue .panel-panel .highwire-markup div > h1, html .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > #page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title { margin-top: 20px; }
+html .node-type-highwire-issue .highwire-markup .highwire-index-by-author-heading + .highwire-list { margin: 0 auto 20px auto; }
+
+.node-type-highwire-article .panels-ajax-tab-container .pane-highwire-markup .pane-content { padding: 0; }
+.node-type-highwire-article div.highwire-markup .article div.section.abstract h2, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div > h1, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .article div.section.abstract div > h1, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .article div.section.abstract div > .pane-highwire-search-token-summary.pane-page-title-suffix, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div.highwire-cite > #page-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .article div.section.abstract div.highwire-cite > #page-title, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract .top-wrapper #page-title div > .pane-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .article div.section.abstract .top-wrapper #page-title div > .pane-title, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .top-wrapper #page-title .article div.section.abstract div > .pane-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .top-wrapper #page-title .article div.section.abstract div > .pane-title, .node-type-highwire-article html .top-wrapper #page-title .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .article div.section.abstract div > .pane-title, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract .rss-page .pane-snippet div > .pane-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .article div.section.abstract .rss-page .pane-snippet div > .pane-title, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .rss-page .pane-snippet .article div.section.abstract div > .pane-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .rss-page .pane-snippet .article div.section.abstract div > .pane-title, .node-type-highwire-article html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .article div.section.abstract div > .pane-title, html .node-type-highwire-article div.highwire-markup .article div.section.abstract .highwire-cite-highwire-article.has-author-tooltip .highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip div.highwire-markup .article div.section.abstract .highwire-citation-authors, .node-type-highwire-article div.highwire-markup div.article div.section > h2, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.section > h1, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup div.article div.section > h1, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.section > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup div.article div.section > .pane-highwire-search-token-summary.pane-page-title-suffix, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.highwire-cite.section > #page-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup div.article div.highwire-cite.section > #page-title, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup div.article .top-wrapper #page-title div.section > .pane-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup div.article .top-wrapper #page-title div.section > .pane-title, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .top-wrapper #page-title div.article div.section > .pane-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .top-wrapper #page-title div.article div.section > .pane-title, .node-type-highwire-article html .top-wrapper #page-title .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.section > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup div.article div.section > .pane-title, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup div.article .rss-page .pane-snippet div.section > .pane-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup div.article .rss-page .pane-snippet div.section > .pane-title, .node-type-highwire-article html .node-type-highwire-issue .panel-panel div.highwire-markup .rss-page .pane-snippet div.article div.section > .pane-title, html .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup .rss-page .pane-snippet div.article div.section > .pane-title, .node-type-highwire-article html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.section > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .node-type-highwire-article div.highwire-markup div.article div.section > .pane-title, html .node-type-highwire-article div.highwire-markup div.article .highwire-cite-highwire-article.has-author-tooltip div.section > .highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip div.highwire-markup div.article div.section > .highwire-citation-authors { font-size: inherit !important; }
+.node-type-highwire-article div.highwire-markup .fig-caption > *, .node-type-highwire-article div.highwire-markup .table-caption > * { font-size: 14px !important; }
+.node-type-highwire-article div.highwire-markup .highwire-figure-links a { line-height: inherit; }
+.node-type-highwire-article .highwire-markup div.contributors ol.corresp-list .corresp:before { content: "*\00a0"; }
+
+.cover-issue-journal-description .pane-content { margin-bottom: 0; }
+.cover-issue-journal-description .pane-content .snippet-content { text-align: right; }
+.cover-issue-journal-description .pane-content .snippet-content p { margin-bottom: 5px; text-align: right; }
+
+.vol-issue-date .pane-content { margin-bottom: 0 !important; }
+.vol-issue-date .pane-content .pane-issue-title, .vol-issue-date .pane-content .pane-issue-date { text-transform: capitalize !important; }
+
+/* General Styling of navigation */
+.pane-highwire-toc-sections .pane-content ul li:before, .pane-highwire-toc-sections .pane-content ul li > a:before, .pane-highwire-toc-sections .pane-content ul li > a:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li > a:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li > a:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li > a:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li > a:before, .pane-highwire-article-nav .highwire-article-nav ul li:before, .pane-highwire-article-nav .highwire-article-nav ul li > a:before, .pane-highwire-article-nav .highwire-article-nav ul li > a:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li > a:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li > a:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li > a:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li > a:before { content: "\2610" "\00a0"; position: relative; }
+.pane-highwire-toc-sections .pane-content ul li a:hover:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li a:hover:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li a:hover:before, .pane-highwire-article-nav .highwire-article-nav ul li a:hover:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li a:hover:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li a:hover:before { content: "\f04d" "\00a0"; position: relative; }
+.pane-highwire-toc-sections .pane-content ul li:after, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li:after, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li:after, .pane-highwire-article-nav .highwire-article-nav ul li:after, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li:after, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li:after { height: 70%; }
+.pane-highwire-toc-sections .pane-content > ul > li:before, .pane-highwire-toc-sections .pane-content ul li > a:hover:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content > ul > li:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li > a:hover:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content > ul > li:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li > a:hover:before, .pane-highwire-article-nav .highwire-article-nav > ul > li:before, .pane-highwire-article-nav .highwire-article-nav ul li > a:hover:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav > ul > li:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li > a:hover:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav > ul > li:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li > a:hover:before { font-size: 16px; }
+.pane-highwire-toc-sections .pane-content ul li > a:hover:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content ul li > a:hover:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content ul li > a:hover:before, .pane-highwire-article-nav .highwire-article-nav ul li > a:hover:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav ul li > a:hover:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav ul li > a:hover:before { top: 0.04em; left: -25px; }
+.pane-highwire-toc-sections .pane-content > .highwire-list > ul > li > a:hover:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content > .highwire-list > ul > li > a:hover:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content > .highwire-list > ul > li > a:hover:before, .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul > li > a:hover:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul > li > a:hover:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul > li > a:hover:before { top: -0.5px !important; left: -25px !important; }
+.pane-highwire-toc-sections .pane-content > .highwire-list > ul li:after, .pane-style-alt-content .pane-highwire-toc-sections .pane-content > .highwire-list > ul li:after, .pane-style-alt-content.pane-highwire-toc-sections .pane-content > .highwire-list > ul li:after, .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:after, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:after, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:after { top: 1.2em; left: -1.4em; }
+.pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, .pane-style-alt-content .pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, .pane-style-alt-content.pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before { top: -2px; bottom: 2px; font-size: 10px !important; left: -1.7em; }
+.pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li:after, .pane-style-alt-content .pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li:after, .pane-style-alt-content.pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li:after, .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li:after, .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li:after, .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li:after { height: 90%; left: -1em; top: 1em; }
+
+/* END */
+.pane-highwire-toc-sections .pane-content > ul > li:after { top: 1.2em; }
+.pane-highwire-toc-sections .pane-content > ul li > a:hover:before { top: 0; font-size: 13px !important; left: -22px !important; }
+.pane-highwire-toc-sections .pane-content ul { padding-left: 35px; }
+
+.pane-highwire-article-nav { padding-left: 0; }
+.pane-highwire-article-nav .highwire-article-nav ul { margin-bottom: 0; }
+.pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul > li:after { height: 74%; }
+
+#page-title { margin-bottom: 15px !important; }
+
+html .page-content-by-year .pane-page-title + .panel-separator + .pane-page-title-suffix, html .page-content-by-volume .pane-page-title + .panel-separator + .pane-page-title-suffix { display: block; padding: 0; margin-bottom: 10px; }
+
+.pane-highwire-search-token-summary.pane-page-title-suffix { padding-top: 25px; top: 0 !important; padding-left: 7px !important; }
+
+html .qtip #page-title { margin: 15px 15px 0 0 !important; font-style: normal; font-weight: bold; font-family: Arial, Helvetica, sans-serif !important; font-size: 14px !important; }
+
+/* Remove extra table border in article page markup as tbody handles it already */
+html .node-type-highwire-article .highwire-markup .table-expansion table { border: none; font-size: 12px !important; }
+
+/* Featured article carousel */
+html .jcore-home-layout .panel-region-carousel .pane-title { padding: 0; font-weight: bold; }
+
+html .jcarousel-view--hw-article-carousel--default { width: 1884px; }
+
+html .jcarousel-skin-pap_carousel .jcarousel-prev-horizontal, html .jcarousel-skin-pap_carousel .jcarousel-next-horizontal { top: 20px; }
+html .jcarousel-skin-pap_carousel .jcarousel-prev-horizontal { width: 48px; }
+html .jcarousel-skin-pap_carousel .jcarousel-prev-horizontal:before, html .jcarousel-skin-pap_carousel .jcarousel-next-horizontal:before { left: -9px; top: 0; }
+html .jcarousel-skin-pap_carousel .jcarousel-prev-horizontal:before { content: "\f104"; }
+html .jcarousel-skin-pap_carousel .jcarousel-next-horizontal:before { content: "\f105"; }
+html .jcarousel-skin-pap_carousel .jcarousel-item-horizontal { width: 318px; margin-right: 3px; }
+html .jcarousel-skin-pap_carousel .jcarousel-container-horizontal { padding-left: 59px; padding-right: 59px; }
+html .jcarousel-skin-pap_carousel .views-field .field-content a { font-family: Arial, Helvetica, sans-serif !important; font-size: 15px; font-style: normal; font-weight: bold; }
+html .jcarousel-skin-pap_carousel .highwire-cite-title { margin: 0 !important; }
+html .jcarousel-skin-pap_carousel .highwire-cite-title a, html .jcarousel-skin-pap_carousel .highwire-cite-title a div { margin: 0 !important; line-height: 20px !important; }
+
+html .views-slideshow-bxslider li img { height: auto; }
+html .views-slideshow-bxslider .bx-wrapper .bx-controls-direction a { text-indent: inherit !important; opacity: 0.6; }
+html .views-slideshow-bxslider .bx-wrapper .bx-controls-direction a:hover { text-indent: inherit !important; opacity: 1; }
+
+/* END */
+#home-issue .cover-issue-image { text-align: center; }
+
+/* News carousel */
+html .news-features { font-style: normal; content: "\f105"; }
+
+html .bx-wrapper .bx-pager.bx-default-pager a { border-radius: 0; }
+html .bx-wrapper .bx-prev:before, html .bx-wrapper .bx-next:before { font-size: 2em; }
+html .bx-wrapper .bx-prev, html .bx-wrapper .bx-next { background: none; }
+html .bx-wrapper .bx-prev:before { content: "\f104"; }
+html .bx-wrapper .bx-next:before { content: "\f105"; }
+
+/* END */
+/* General TOC styles */
+html #toc-description { margin-top: 5px; }
+
+html .panel-region-content .highwire-markup .issue-toc .toc-item { padding-bottom: 0; margin-bottom: 5px; }
+html .panel-region-content .highwire-markup .issue-toc .toc-section { list-style-type: none; }
+
+html .top-wrapper #page-title .pane-title, html .highwire-markup .highwire-index-by-author-links { margin-top: 25px; }
+
+.highwire-markup .highwire-list-index-by-author .highwire-list-title + .highwire-list .last { padding-bottom: 10px; }
+
+/* General article styles */
+html .node-type-highwire-article { /* END */ }
+html .node-type-highwire-article .panel-region-content > .inside > * { padding-left: 10px; }
+html .node-type-highwire-article .highwire-article-collections .highlight, html .node-type-highwire-article .highwire-article-collections a.highlight { padding: 0; }
+html .node-type-highwire-article .highwire-article-collection-term .hightlight, html .node-type-highwire-article .highwire-article-collection-term a.highlight { font-weight: normal !important; }
+html .node-type-highwire-article .highwire-article-collection-term .highlight .icon-caret-right { border: none !important; }
+html .node-type-highwire-article #art_tools .pane-content .snippet-content > p { margin-bottom: 0; }
+html .node-type-highwire-article #art_tools .pane-content .snippet-content > p a { padding-left: 3px; }
+html .node-type-highwire-article #art_tools .pane-content #article-reuse .snippet-content > p:before { content: "\f044"; font-size: 1.25em; }
+html .node-type-highwire-article #art_tools .pane-content #cc-by-logo .snippet-content > p a { background: url('/sites/default/files/additional_assets/cc-by-logo.png') transparent no-repeat left center; display: block; height: 15px; width: 80px; }
+html .node-type-highwire-article .pane-highwire-article-nav { z-index: 1; }
+html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav .highwire-list > ul { padding-left: 35px; }
+html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav ul { margin-bottom: 0; }
+html .node-type-highwire-article .pane-highwire-toc-sections .pane-content ul li:before, html .node-type-highwire-article .pane-highwire-toc-sections .pane-content ul li > a:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav ul li:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav ul li > a:before { content: "\2610" "\00a0"; position: relative; }
+html .node-type-highwire-article .pane-highwire-toc-sections .pane-content > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li > a:hover:before { content: "\f04d" "\00a0"; position: relative; top: -0.3px !important; font-size: 13px !important; left: -1.8em !important; }
+html .node-type-highwire-article .pane-highwire-toc-sections .pane-content > .highwire-list > ul li:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content > .highwire-list > ul li:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content > .highwire-list > ul li:after, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:after { top: 1.18em; }
+html .node-type-highwire-article .pane-highwire-toc-sections .pane-content > .highwire-list > ul li:last-child:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content > .highwire-list > ul li:last-child:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content > .highwire-list > ul li:last-child:after, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:last-child:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:last-child:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul li:last-child:after { display: none; }
+html .node-type-highwire-article .pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li > a:hover:before { content: "\f04d" "\00a0"; position: relative; top: -2px; bottom: 2px; font-size: 10px !important; left: -1.6em !important; }
+html .node-type-highwire-article .pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content .highwire-list .highwire-list ul li:after, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav .highwire-list .highwire-list ul li:after { height: 98%; left: -1.05em; top: 1.05em; }
+html .node-type-highwire-article .pane-highwire-toc-sections .pane-content .pane-highwire-toc-sections .pane-content ul li:after, html .node-type-highwire-article .pane-highwire-toc-sections .pane-content .pane-highwire-article-nav .highwire-article-nav ul li:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content .pane-highwire-toc-sections .pane-content ul li:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-toc-sections .pane-content .pane-highwire-article-nav .highwire-article-nav ul li:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content .pane-highwire-toc-sections .pane-content ul li:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-toc-sections .pane-content .pane-highwire-article-nav .highwire-article-nav ul li:after, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav .pane-highwire-toc-sections .pane-content ul li:after, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav .pane-highwire-article-nav .highwire-article-nav ul li:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav .pane-highwire-toc-sections .pane-content ul li:after, html .node-type-highwire-article .pane-style-alt-content .pane-highwire-article-nav .highwire-article-nav .pane-highwire-article-nav .highwire-article-nav ul li:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav .pane-highwire-toc-sections .pane-content ul li:after, html .node-type-highwire-article .pane-style-alt-content.pane-highwire-article-nav .highwire-article-nav .pane-highwire-article-nav .highwire-article-nav ul li:after { height: 80%; left: 1.1em; }
+html .node-type-highwire-article .pane-highwire-toc-sections .pane-content > ul > li:before, html .node-type-highwire-article .pane-highwire-article-nav .highwire-article-nav > .highwire-list > ul > li:before { font-size: 1.25em; }
+html .node-type-highwire-article .highwire-citation-type-highwire-article .highwire-cite .highwire-cite-title { margin: 5px 0 !important; }
+html .node-type-highwire-article .highwire-citation-type-highwire-article .highwire-cite > div.highwire-cite-access { padding-top: 0; left: -20px; top: 5px !important; }
+html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .highwire-cite-metadata { font-size: 14px !important; }
+html .node-type-highwire-article .author-tooltip-affiliation .author-tooltip-text span.nlm-aff:after { content: ';\00a0'; }
+html .node-type-highwire-article .author-tooltip-affiliation .author-tooltip-text span.nlm-aff:last-child:after { content: ''; }
+html .node-type-highwire-article .disp-formula-label { text-align: right; display: block; }
+
+/* END */
+div.highwire-markup .article div.section.abstract h2, html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div > h1, html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div.highwire-cite > #page-title, html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract .top-wrapper #page-title div > .pane-title, html .node-type-highwire-issue .panel-panel div.highwire-markup .top-wrapper #page-title .article div.section.abstract div > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div > .pane-title, html .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract .rss-page .pane-snippet div > .pane-title, html .node-type-highwire-issue .panel-panel div.highwire-markup .rss-page .pane-snippet .article div.section.abstract div > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel div.highwire-markup .article div.section.abstract div > .pane-title, div.highwire-markup .article div.section.abstract html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip div.highwire-markup .article div.section.abstract .highwire-citation-authors, div.highwire-markup div.article div.section > h2, html .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.section > h1, html .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.section > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.highwire-cite.section > #page-title, html .node-type-highwire-issue .panel-panel div.highwire-markup div.article .top-wrapper #page-title div.section > .pane-title, html .node-type-highwire-issue .panel-panel div.highwire-markup .top-wrapper #page-title div.article div.section > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.section > .pane-title, html .node-type-highwire-issue .panel-panel div.highwire-markup div.article .rss-page .pane-snippet div.section > .pane-title, html .node-type-highwire-issue .panel-panel div.highwire-markup .rss-page .pane-snippet div.article div.section > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel div.highwire-markup div.article div.section > .pane-title, div.highwire-markup div.article html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip div.section > .highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip div.highwire-markup div.article div.section > .highwire-citation-authors { font-size: inherit !important; }
+
+html .pane-highwire-related-articles ul.inline li, html .pane-highwire-related-articles ul.inline, html .pane-highwire-related-articles ul.links.inline { display: block; }
+
+.pane-highwire-article-data-supp span { font-size: 14px !important; font-family: Arial, Helvetica, sans-serif !important; }
+.pane-highwire-article-data-supp span h2, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > h1, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > h1, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-highwire-search-token-summary.pane-page-title-suffix, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite > #page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div.highwire-cite > #page-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .pane-highwire-article-data-supp span div > .pane-title, .pane-highwire-article-data-supp span html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .pane-highwire-article-data-supp span .highwire-citation-authors { font-weight: bold; }
+
+/* General archive styles */
+html .page-content-by-year, html .page-content-by-volume { /* Style for 'refine archives' panel. */ /* END */ /* Cover issue. */ /* END */ /* Apply style for the archive issue list */ /* END */ }
+html .page-content-by-year .pane-highwire-issue-archive-date-nav .issue-browser .active a, html .page-content-by-year .pane-highwire-issue-archive-pager a, html .page-content-by-volume .pane-highwire-issue-archive-date-nav .issue-browser .active a, html .page-content-by-volume .pane-highwire-issue-archive-pager a { font-weight: bold; }
+html .page-content-by-year .pane-highwire-issue-archive-refine-prefix, html .page-content-by-volume .pane-highwire-issue-archive-refine-prefix { margin-bottom: 0; text-align: left; padding: 10px 0 0 10px; font-weight: bold; font-size: 15px !important; }
+html .page-content-by-year .pane-highwire-issue-archive-refine-prefix:first-letter, html .page-content-by-volume .pane-highwire-issue-archive-refine-prefix:first-letter { text-transform: uppercase; }
+html .page-content-by-year .pane-highwire-issue-archive-refine-prefix:first-letter :first-letter, html .page-content-by-volume .pane-highwire-issue-archive-refine-prefix:first-letter :first-letter { text-transform: capitalize; }
+html .page-content-by-year .pane-highwire-issue-archive-refine form, html .page-content-by-volume .pane-highwire-issue-archive-refine form { text-align: left; padding-left: 10px; }
+html .page-content-by-year .pane-highwire-issue-archive-refine form .form-actions, html .page-content-by-volume .pane-highwire-issue-archive-refine form .form-actions { text-align: right; }
+html .page-content-by-year .highwire-2col-stacked .content-column .panel-region-content-left, html .page-content-by-volume .highwire-2col-stacked .content-column .panel-region-content-left { margin-right: 0; }
+html .page-content-by-year .current-issue-cover-date.pane-title, html .page-content-by-volume .current-issue-cover-date.pane-title { font-weight: bold; }
+html .page-content-by-year .current-issue-cover-date.pane-title .pane-content, html .page-content-by-volume .current-issue-cover-date.pane-title .pane-content { font-size: 15px !important; }
+html .page-content-by-year #current-issue-archive > h2.pane-title, html .page-content-by-year .node-type-highwire-issue .panel-panel .highwire-markup div#current-issue-archive > h1.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-year div#current-issue-archive > h1.pane-title, html .page-content-by-year .node-type-highwire-issue .panel-panel .highwire-markup div#current-issue-archive > .pane-title.pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-year div#current-issue-archive > .pane-title.pane-highwire-search-token-summary.pane-page-title-suffix, html .page-content-by-year .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite#current-issue-archive > .pane-title#page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-year div.highwire-cite#current-issue-archive > .pane-title#page-title, html .page-content-by-year .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div#current-issue-archive > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .page-content-by-year div#current-issue-archive > .pane-title, html .page-content-by-year .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div#current-issue-archive > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-year div#current-issue-archive > .pane-title, html .page-content-by-year .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div#current-issue-archive > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .page-content-by-year div#current-issue-archive > .pane-title, html .page-content-by-year .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div#current-issue-archive > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-year div#current-issue-archive > .pane-title, html .page-content-by-year .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip #current-issue-archive > .pane-title.highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .page-content-by-year #current-issue-archive > .pane-title.highwire-citation-authors, html .page-content-by-volume #current-issue-archive > h2.pane-title, html .page-content-by-volume .node-type-highwire-issue .panel-panel .highwire-markup div#current-issue-archive > h1.pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-volume div#current-issue-archive > h1.pane-title, html .page-content-by-volume .node-type-highwire-issue .panel-panel .highwire-markup div#current-issue-archive > .pane-title.pane-highwire-search-token-summary.pane-page-title-suffix, html .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-volume div#current-issue-archive > .pane-title.pane-highwire-search-token-summary.pane-page-title-suffix, html .page-content-by-volume .node-type-highwire-issue .panel-panel .highwire-markup div.highwire-cite#current-issue-archive > .pane-title#page-title, html .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-volume div.highwire-cite#current-issue-archive > .pane-title#page-title, html .page-content-by-volume .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title div#current-issue-archive > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .top-wrapper #page-title .page-content-by-volume div#current-issue-archive > .pane-title, html .page-content-by-volume .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup div#current-issue-archive > .pane-title, html .top-wrapper #page-title .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-volume div#current-issue-archive > .pane-title, html .page-content-by-volume .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet div#current-issue-archive > .pane-title, html .node-type-highwire-issue .panel-panel .highwire-markup .rss-page .pane-snippet .page-content-by-volume div#current-issue-archive > .pane-title, html .page-content-by-volume .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup div#current-issue-archive > .pane-title, html .rss-page .pane-snippet .node-type-highwire-issue .panel-panel .highwire-markup .page-content-by-volume div#current-issue-archive > .pane-title, html .page-content-by-volume .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip #current-issue-archive > .pane-title.highwire-citation-authors, html .node-type-highwire-article .highwire-cite-highwire-article.has-author-tooltip .page-content-by-volume #current-issue-archive > .pane-title.highwire-citation-authors { display: none; }
+html .page-content-by-year .archive-issue-list .issue-month-detail:after, html .page-content-by-volume .archive-issue-list .issue-month-detail:after { display: none; }
+html .page-content-by-year .archive-issue-list .issue-month-detail:before, html .page-content-by-year .archive-issue-list .issue-month-detail:after, html .page-content-by-volume .archive-issue-list .issue-month-detail:before, html .page-content-by-volume .archive-issue-list .issue-month-detail:after { width: 100px; border-radius: 0px; height: 2px; top: 5px; left: -97px; }
+html .page-content-by-year .archive-issue-list .issue-month-detail, html .page-content-by-volume .archive-issue-list .issue-month-detail { width: 50%; margin: 10px 0 25px 100px; }
+html .page-content-by-year .archive-issue-list .issue-month-detail .first:before, html .page-content-by-year .archive-issue-list .issue-month-detail .first:after, html .page-content-by-volume .archive-issue-list .issue-month-detail .first:before, html .page-content-by-volume .archive-issue-list .issue-month-detail .first:after { border-style: none; }
+html .page-content-by-year .pane-highwire-issue-archive .issue-link a, html .page-content-by-volume .pane-highwire-issue-archive .issue-link a { display: block; }
+
+.nav-parent .issue-browser { overflow: hidden; }
+
+/*REMOVE ME WHEN JCORE FIX IS IN*/ html .issue-archive-browser .bx-wrapper .bx-prev:before, html .issue-archive-browser .bx-wrapper .bx-next:before { display: none; }
+
+html .page-alerts-search .pane-panels-ajax-tab-tabs .panels-ajax-tab a, html .page-alerts .pane-panels-ajax-tab-tabs .panels-ajax-tab a { font-style: normal; font-weight: bold !important; font-family: Arial, Helvetica, sans-serif !important; font-size: 14px !important; }
+
+.search-result-tool li:last-child, .collection-icon-list li:last-child { margin-right: 0; }
+.search-result-tool a, .collection-icon-list a { line-height: 30px; vertical-align: bottom; }
+
+.highwire-facet-show-more-less .links { text-align: right !important; }
+.highwire-facet-show-more-less a { padding: 0 !important; border: 0 !important; font-size: 12px !important; background: none !important; }
+.highwire-facet-show-more-less i[class^="icon-"] { display: none; }
+.highwire-facet-show-more-less ul li a { font-weight: normal; }
+
+.highwire-search-results-list .search-result-highwire-citation > *:not(.highwire-cite) { padding: 0 10px; }
+.highwire-search-results-list .title a { padding: 0 !important; margin: 0 !important; font-size: 15px; font-family: Arial, Helvetica, sans-serif !important; font-weight: bold; font-style: normal; }
+.highwire-search-results-list .search-snippet { font-size: 11.5px !important; border-left: 0 !important; }
+
+#highwire-search-form fieldset.form-wrapper .fieldset-wrapper { overflow: visible; }
+
+.highwire-article-citation-list li, .page-taxonomy-term .panel-region-content .item-list ul:not(.pager) li { padding: 0; margin: 0 0 5px 0; }
+
+html .panel-pane .highwire-article-citation-list ul li { padding: 15px 0 5px 0 !important; margin: 0; }
+/* SF-572210
+  Fixing stylig for Access Indicator on Pap List
+*/
+html .panel-pane .highwire-article-citation-list ul li .highwire-cite .highwire-cite-access { margin-top: -2px; }
+html .panel-pane .highwire-article-citation-list ul li.last { padding: 15px 0 0 0; }
+html .panel-pane .highwire-article-citation-list .pager li { padding: 0.5em !important; }
+html .panel-pane .highwire-article-citation-list .highwire-cite-title { font-weight: bold !important; }
+html .panel-pane .highwire-article-citation-list .highwire-citation-type-highwire-issue, html .panel-pane .highwire-article-citation-list .highwire-citation-type-highwire-article { padding-left: 10px; }
+
+html .ui-accordion .ui-accordion-content .highwire-article-citation-list ul li { padding: 5px; }
+
+/* remove red lines between li items on homepage lastest-most box */
+.panels-ajax-tab-container .highwire-article-citation-list .highwire-list ul li {
+  border-bottom: 0;
+}
+
+/* remove dotted red lines between li items on tocs and search results */
+.panel-region-content .highwire-markup .issue-toc .toc-item, .panel-region-content .highwire-search-results-list .search-result {
+  border-bottom: 0;
+}
+
+/* General rss styles */
+.rss-links .pane-content .pane-content a:before, .rss-links .pane-content .snippet-content a:before { margin-right: 5px; }
+
+.page-collection #collection .data-wrapper { padding-left: 0; }
+.page-collection .panel-region-content .panel-pane { margin-bottom: 0; }
+
+.collection-icon-list { position: relative; top: -52px; float: right; }
+.collection-icon-list .pane-content > ul li { padding: 0; }
+
+.page-taxonomy-term.context-collection #collection { margin-bottom: 0; }
+
+.page-taxonomy-term .panel-region-content .item-list ul { padding-left: 0; }
+
+.no-results-top-text { font-size: 24px; margin-bottom: 20px; }
+
+.no-results-wrapper ul { margin-top: 10px; }
+.no-results-wrapper ul li { margin: 5px 0; }
+
+/* General user login page styles */
+html .page-user-login .panel-panel > div, html .page-user-login .panel-pane, html .not-logged-in.page-user .panel-panel > div, html .not-logged-in.page-user .panel-pane { margin-bottom: 0 !important; }
+html .page-user-login ul.tabs.primary, html .not-logged-in.page-user ul.tabs.primary { display: none; }
+html .page-user-login .user-login-form .form-item label, html .not-logged-in.page-user .user-login-form .form-item label { font-weight: bold; }
+html .page-user-login .pane-user-login-form .form-item, html .page-user-login .pane-user-login-form .form-actions, html .not-logged-in.page-user .pane-user-login-form .form-item, html .not-logged-in.page-user .pane-user-login-form .form-actions { margin-top: 0; }
+html .page-user-login .pane-user-login-links .pane-content > *, html .page-user-login .shib-login-link, html .page-user-login .openathens-sites, html .page-user-login .openathens-login-link, html .page-user-login .reset-password, html .not-logged-in.page-user .pane-user-login-links .pane-content > *, html .not-logged-in.page-user .shib-login-link, html .not-logged-in.page-user .openathens-sites, html .not-logged-in.page-user .openathens-login-link, html .not-logged-in.page-user .reset-password { margin: 0 0 10px 0; }
+html .page-user-login .pane-login-subscription-links, html .not-logged-in.page-user .pane-login-subscription-links { position: relative; top: 116px; }
+html .page-user-login .pane-login-subscription-links .pane-content > *, html .not-logged-in.page-user .pane-login-subscription-links .pane-content > * { margin-bottom: 10px; }
+
+/* General user request password page styles */
+html .page-user-password ul.tabs.primary { display: none; }
+
+/* General user register page styles */
+html .page-user-register ul.tabs.primary { display: none; }
+
+/* General user regain access styles */
+html .page-user-regain ul.tabs.primary { display: none; }
+
+/* SF00592450 - prevent FOUC */
+.hide-peer-review-tab .panel-region-content .pane-panels-ajax-tab-tabs a[data-panel-name="roysoc_tab_peer_review"] {
+  display: none;
+}
+
+/* Styling logo images */
+#region-branding > div > div.branding-data.clearfix {
+  width: 100%;
+  max-width: 560px;
+  margin: 1em 0 1em 0;
+}
+#region-branding > div > div.branding-data.clearfix .logo-im,
+#region-branding .logo-img {
+  margin: 0;
+}
+.logo-img img#logo {
+  width: auto;
+  margin-right: 6.1em;
+  float: left;
+}
+.logo-img img#publishing-link {
+  width: auto;
+  float: right;
+}
+.responsive-layout-narrow .logo-img img#logo {
+  width: 70%;
+  margin-right: 10%;
+}
+.responsive-layout-narrow .logo-img img#publishing-link { width: 20%; }
+.responsive-layout-mobile .logo-img a.active { width: 100%; margin-right: 5%; float: left;  }
+.responsive-layout-mobile .logo-img a.publishing-link {width: 25%; float: left; }
+.responsive-layout-mobile .logo-img img#logo {
+  width: inherit;
+  float: left;
+}
+.responsive-layout-mobile .logo-img img#publishing-link { width: auto; float: left; }
+.hide_publishing_logo .logo-img img#logo {
+  width: 100%;
+}
+.hide_publishing_logo .responsive-layout-narrow .logo-img img#logo {
+  padding-top: 0;
+}
+.hide_publishing_logo .responsive-layout-mobile .logo-img a.active {
+  width: 95%;
+}
+.hide_publishing_logo .responsive-layout-mobile .logo-img img#logo {
+  width: 100%;
+}
+
+/*add 1px border around cover image*/
+.cover-issue .cover-issue-image img {
+  border: 1px solid #000000;
+}
+
+.highwire-markup .boxed-text {
+  border: 1px solid #c8c8c8;
+  padding: .5em 1em;
+  margin:1em 0.5em;
+}
+
+/*spacing after toc-blurb content*/
+.issue-toc .toc-blurb {
+  padding-bottom: 18px;
+}
+.highwire-markup .pdf-container {
+  display:block;
+}
+
+/* case-00438354 */
+.responsive-layout-mobile.front .pane-content ul.inline,
+.responsive-layout-mobile.front .pane-content ul.inline li,
+.responsive-layout-mobile.front .pane-content ul.inline li a {
+  display: block;
+  margin: 0px;
+  width: auto;
+}
+
+.responsive-layout-mobile.front .pane-content ul.inline li {
+  padding: 2px;
+}
+
+/************************************Fonts and Icons*******************************************/
+@font-face{
+  font-family: 'Proxima Nova';
+  src: url('../font/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix');
+  src: url('../font/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix') format('eot'),url('../font/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff') format('woff'),url('../font/2aff4f81-3e97-4a83-9e6c-45e33c024796.ttf') format('truetype'),url('../font/ab9cd062-380f-4b53-b1a7-c0bec7402235.svg#ab9cd062-380f-4b53-b1a7-c0bec7402235') format('svg');
+}
+
+body .cookieConsent {
+  height: 39px;
+  background-color: #333132;
+  bottom: 0;
+  display: table;
+  left: 0;
+  position: fixed;
+  z-index: 99999998;
+}
+
+body .cookieConsent p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Proxima Nova",Arial,Helvetica,sans-serif;
+  margin: 0;
+  padding: 9px calc(1% + 60px) 8px 10px;
+  width: auto;
+}
+
+.cookieConsent p input {
+  background: none repeat scroll 0 0 #BA0C2F;
+  border: medium none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 100;
+  padding: 6px 10px;
+  float: right;
+  position: absolute;
+  font-size: 14px;
+  font-family: "Proxima Nova",Arial,Helvetica,sans-serif;
+  right: 1%;
+  top: 5px;
+}
+
+/* Style for recent article and cited by accordion*/
+#mini-panel-roysoc_accordion .highwire-cited-by li > a:before, #mini-panel-roysoc_accordion .highwire-related-articles li > a:before {
+  content: "\f04d" "\00a0";
+  position: relative;
+  margin-right: 5px;
+  font-family: FontAwesome;
+  color: #d31245;
+  float: left;
+}
+#mini-panel-roysoc_accordion .highwire-cited-by li, #mini-panel-roysoc_accordion .highwire-related-articles li {
+  width: 100%;
+  float: left;
+  margin-bottom: 1em;
+  border: 0;
+}
+#highwire_article_accordion_container.ui-accordion .ui-accordion-content > .highwire-list-footer {
+  padding: 5px;
+}
+.ui-accordion .ui-accordion-content {
+  max-height: none;
+}
+#mini-panel-roysoc_accordion .highwire-cited-by li > a, #mini-panel-roysoc_accordion .highwire-related-articles li > a {
+  display: inline-block;
+}
+.pane-roysoc-iss-issue.panel-pane-highlighted .pane-title {
+  text-transform: none !important;
+}
+
+/*
+  SF-599684 Remove border from issue-browser ul.
+ */
+
+.issue-archive-browser .issue-browser {
+  border: 0px;
+}
+/* SF 01034150 - don't need this */
+#jnl-rs-issue-title-day-check .highwire-cite .highwire-cite-metadata > * + *:before {
+  display: none; 
+}
+#jnl-rs-issue-title-day-check .highwire-article-citation .highwire-cite-metadata {
+  color: #333132;
+}
+

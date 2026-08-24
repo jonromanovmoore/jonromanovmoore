@@ -1,0 +1,27 @@
+<Advertisements>
+
+   <Ad>
+      <ImageUrl>banner1.gif</ImageUrl>
+      <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+      <AlternateText>Alt Text</AlternateText>
+      <Keyword>Computers</Keyword>
+      <Impressions>80</Impressions>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>banner2.gif</ImageUrl>
+      <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+      <AlternateText>Alt Text</AlternateText>
+      <Keyword>Computers</Keyword>
+      <Impressions>80</Impressions>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>banner3.gif</ImageUrl>
+      <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+      <AlternateText>Alt Text</AlternateText>
+      <Keyword>Computers</Keyword>
+      <Impressions>80</Impressions>
+   </Ad>
+
+</Advertisements>

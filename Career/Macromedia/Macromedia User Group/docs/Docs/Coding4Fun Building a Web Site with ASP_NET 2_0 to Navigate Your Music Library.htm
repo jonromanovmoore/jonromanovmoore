@@ -1,0 +1,779 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0067)http://msdn.microsoft.com/coding4fun/webcoder/musiclib/default.aspx -->
+<HTML><HEAD><TITLE>Coding4Fun: Building a Web Site with ASP.NET 2.0 to Navigate Your Music Library</TITLE><!--Enter title and description-->
+<META content=en-us name=ms.locale>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="Coding4Fun: web" name=Description><LINK 
+href="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/lab-msdn-mnp25-eyebrow.css" 
+type=text/css rel=Stylesheet><LINK 
+href="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/css.css" 
+type=text/css rel=Stylesheet>
+<SCRIPT language=Javascript 
+src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/js.aspx" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=Javascript 
+src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/menujs.config&amp;clicktrax=False" 
+type=text/javascript></SCRIPT>
+<LINK 
+href="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/dc2e.css" 
+type=text/css rel=Stylesheet><LINK 
+href="C:\Inetpub\wwwroot\JonathanMoore\Workshop\Docs\Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files\css(1).css" 
+type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript>var doImage=doImage;var TType=TType;
+function mhHover(tbl,idx,cls){var t,d;if(document.getElementById)t=document.getElementById(tbl);else t=document.all(tbl);if(t==null)return;if(t.getElementsByTagName)d=t.getElementsByTagName("TD");else d=t.all.tags("TD");if(d==null)return;if(d.length<=idx)return;d[idx].className=cls;}
+function footerjs(doc){if(doImage==null){var tt=TType==null?"PV":TType;doc.write('<layer visibility="hide"><div style="display:none"><img src="http://c.microsoft.com/trans_pixel.asp?source=msdn&TYPE=' + tt + '&p=coding4fun_webcoder_musiclib&URI=%2fcoding4fun%2fwebcoder%2fmusiclib%2fdefault.aspx&GUID=1F4FC18C-F71E-47FB-8FC9-612F8EE59C61&r=http%3a%2f%2fmsdn.microsoft.com%2fcoding4fun%2f" width=0 height=0 hspace=0 vspace=0 border=0 /></div></layer>');}}</SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/broker.js"></SCRIPT>
+<LINK 
+href="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/SmartComponents.css" 
+type=text/css rel=stylesheet><LINK 
+href="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/c4f.css" 
+type=text/css rel=stylesheet>
+<SCRIPT language=javascript 
+src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/mmcglobal.js"></SCRIPT>
+
+<STYLE>DIV.clsDocBody {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.2668" name=GENERATOR></HEAD>
+<BODY leftMargin=0 topMargin=0><A name=top></A><!--NOINDEX_START-->
+<SCRIPT language=Javascript>
+				if (self.name == "MNPMainFrame") top.location.href = self.location.href;
+			</SCRIPT>
+
+<DIV id=msviMasthead>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%">
+      <TABLE height=22 cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD id=msviRegionIdGraphic bgColor=#ffffff></TD>
+          <TD id=msviRegionGradient1 
+          style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#98B2E6', gradientType='1')" 
+          width="50%"></TD>
+          <TD id=msviRegionGradient2 
+          style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#98B2E6', endColorStr='#3568CC', gradientType='1')" 
+          width="50%"></TD></TR></TBODY></TABLE></TD>
+    <TD id=msviGlobalToolbar dir=ltr noWrap align=left bgColor=#3568cc 
+height=22>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=gt0 onmouseover="mhHover('msviGlobalToolbar', 0, 'gt1')" 
+          onmouseout="mhHover('msviGlobalToolbar', 0, 'gt0')" noWrap><A 
+            href="http://www.microsoft.com/">Microsoft.com Home</A></TD>
+          <TD class=gtsep>|</TD>
+          <TD class=gt0 onmouseover="mhHover('msviGlobalToolbar', 2, 'gt1')" 
+          onmouseout="mhHover('msviGlobalToolbar', 2, 'gt0')" noWrap><A 
+            href="http://msdn.microsoft.com/library/toolbar/3.0/sitemap/en-us.mspx">Site 
+            Map</A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR vAlign=top>
+    <TD width="100%">
+      <TABLE height=42 cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top>
+          <TD id=msviBrandBanner bgColor=#ffffff><A 
+            href="http://msdn.microsoft.com/"><IMG title="" height=42 alt=MSDN 
+            src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/msdn_masthead_ltr.gif" 
+            width=225 border=0></A></TD>
+          <TD 
+          style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#6799FF', gradientType='1')" 
+          width="100%"></TD></TR></TBODY></TABLE></TD>
+    <TD id=msviGlobalSearch bgColor=#6799ff>
+      <DIV id=msviNoSearch></DIV></TD></TR></TBODY></TABLE>
+<DIV id=msviLocalToolbar>
+<TABLE height=19 cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD id=msviHomePageLink noWrap><A href="http://msdn.microsoft.com/">MSDN 
+      Home</A></TD>
+    <TD><SPAN class=ltsep>|</SPAN></TD>
+    <TD class=lt0 onmouseover="mhHover('msviLocalToolbar', 2, 'lt1')" 
+    onmouseout="mhHover('msviLocalToolbar', 2, 'lt0')" noWrap><A 
+      href="http://msdn.microsoft.com/developercenters/">Developer 
+Centers</A></TD>
+    <TD><SPAN class=ltsep>|</SPAN></TD>
+    <TD class=lt0 onmouseover="mhHover('msviLocalToolbar', 4, 'lt1')" 
+    onmouseout="mhHover('msviLocalToolbar', 4, 'lt0')" noWrap><A 
+      href="http://msdn.microsoft.com/library/default.asp">Library</A></TD>
+    <TD><SPAN class=ltsep>|</SPAN></TD>
+    <TD class=lt0 onmouseover="mhHover('msviLocalToolbar', 6, 'lt1')" 
+    onmouseout="mhHover('msviLocalToolbar', 6, 'lt0')" noWrap><A 
+      href="http://msdn.microsoft.com/downloads/">Downloads</A></TD>
+    <TD><SPAN class=ltsep>|</SPAN></TD>
+    <TD class=lt0 onmouseover="mhHover('msviLocalToolbar', 8, 'lt1')" 
+    onmouseout="mhHover('msviLocalToolbar', 8, 'lt0')" noWrap><A 
+      href="http://msdn.microsoft.com/howtobuy/">How to Buy</A></TD>
+    <TD><SPAN class=ltsep>|</SPAN></TD>
+    <TD class=lt0 onmouseover="mhHover('msviLocalToolbar', 10, 'lt1')" 
+    onmouseout="mhHover('msviLocalToolbar', 10, 'lt0')" noWrap><A 
+      href="http://msdn.microsoft.com/subscriptions/">Subscribers</A></TD>
+    <TD><SPAN class=ltsep>|</SPAN></TD>
+    <TD class=lt0 onmouseover="mhHover('msviLocalToolbar', 12, 'lt1')" 
+    onmouseout="mhHover('msviLocalToolbar', 12, 'lt0')" noWrap><A 
+      href="http://msdn.microsoft.com/worldwide.aspx">Worldwide</A></TD>
+    <TD width="100%"></TD></TR></TBODY></TABLE></DIV></DIV>
+<TABLE dir=ltr cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR vAlign=top>
+    <TD style="OVERFLOW-X: hidden" width=181 height="100%">
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=mnpQuickSearch dir=ltr 
+          style="BACKGROUND: #cccccc; COLOR: #000000">
+            <FORM style="MARGIN: 0px" 
+            action=http://msdn.microsoft.com/msdn-online/shared/components/mscomsearch30.aspx><NOBR><FONT 
+            color=#000000>Search for</FONT><BR><INPUT class=mnpSearchBox id=qu 
+            style="WIDTH: 165px" maxLength=255 name=qu><BR>
+            <TABLE style="MARGIN-TOP: 2px" cellSpacing=0 cellPadding=0 
+            width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD class=mnpQuickSearch 
+                style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px" 
+                width="100%"><SELECT class=mnpSearchScopes 
+                  style="WIDTH: 137px" name=SearchScope><OPTION value=1 
+                    selected>MSDN and KB</OPTION><OPTION value=2>MSDN 
+                    Library</OPTION><OPTION value=3>Code and 
+                    Downloads</OPTION><OPTION value=4>Product 
+                    Information</OPTION><OPTION value=5>Knowledge Base 
+                    (KB)</OPTION></SELECT></TD>
+                <TD><INPUT class=mnpSearchButton type=submit value=Go><BR></TD></TR></TBODY></TABLE><A 
+            onmouseover="style.color='#0033CC';" style="COLOR: #000000" 
+            onmouseout="style.color='#000000';" 
+            href="http://search.microsoft.com/search/search.aspx?View=msdn&amp;st=a&amp;c=0&amp;s=1">Advanced 
+            Search</A></NOBR></FORM></TD></TR></TBODY></TABLE>
+      <DIV class=mnpMenuTop id=mnpMenuTop dir=ltr 
+      style="OVERFLOW-X: hidden; WIDTH: 181px" 
+      parent="/coding4fun/webcoder/default.aspx" 
+      url="/coding4fun/webcoder/musiclib/default.aspx">
+      <DIV class=mnpInherit>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1"><IMG 
+      class=mnpMenuArrow title="" style="LEFT: 166px; VISIBILITY: hidden" 
+      height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/">Coding4Fun</A></DIV>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="m544c0ab426464cbdb778e3d6bd750b3d"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/inthebox/default.aspx">In the 
+      Box</A></DIV>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="mf8896663f5eb4c0fb6a0b465299d2ea6"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/someassemblyrequired/default.aspx">Some 
+      Assembly Required</A></DIV>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #999999; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #999999; WIDTH: 176px; BORDER-TOP-COLOR: #999999; BORDER-RIGHT-COLOR: #999999" 
+      menu="m38b933b02f544a999da2887b6fc696a0"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/webcoder/default.aspx">Web 
+      Coder</A></DIV>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="m8b0d1721fe4a4a0fb788d0563bf1f7a8"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/gamedevelopment/default.aspx">Game 
+      Development</A></DIV>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="m0aa69fdbe6694e53aa6d656db7b87f79"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/coolapplications/default.aspx">Cool 
+      Applications</A></DIV>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="mccebce3522604cd9984b6e44dc3940ad"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/xmlforfun/default.aspx">XML for 
+      Fun</A></DIV>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="mbb72daa190c94addac1896f32c71c822"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/updates/default.aspx">Weekly 
+      Updates</A></DIV>
+      <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1"><IMG 
+      class=mnpMenuArrow title="" style="LEFT: 166px; VISIBILITY: hidden" 
+      height=7 alt=* 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://msdn.microsoft.com/coding4fun/whoweare/default.aspx">Mission 
+      Statement</A></DIV>
+      <DIV class=mnpMenuBorder 
+      style="MARGIN-BOTTOM: 0px; WIDTH: 180px"></DIV></DIV></DIV>
+      <DIV class=mnpAds 
+      style="BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 0px solid; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 20px; BORDER-LEFT: #999999 0px solid; WIDTH: 181px; BORDER-BOTTOM: #999999 0px solid; HEIGHT: 100%">
+      <CENTER>
+      <DIV 
+      style="BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 20px"></DIV><IFRAME 
+      id=rad_CMSAN1F3 style="BACKGROUND: #f1f1f1" marginWidth=0 marginHeight=0 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/ADSAdClient31.htm" 
+      frameBorder=0 width=120 scrolling=no height=240 
+      allowTransparency></IFRAME><BR></CENTER></DIV></TD>
+    <TD dir=ltr width="100%"><!--NOINDEX_STOP-->
+      <DIV class=clsDocBody id=pageContainer 
+      padding:0px;margin-top:0px;margin-left:0px;?>
+      <TABLE id=hpcontenttable style="WIDTH: 100%" cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD><!-- START CODING FOR FUN -->
+            <DIV id=c4f-pagewrapper><!-- TITLE HEADER -->
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR class=c4f-graybg>
+                <TD width=156><A 
+                  href="http://msdn.microsoft.com/coding4fun/webcoder/musiclib/default.aspx#"><IMG 
+                  height=79 alt="Coding 4 Fun" 
+                  src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/c4f-title.gif" 
+                  width=156 border=0></A></TD>
+                <TD>
+                  <DIV align=right><IMG height=79 alt=web 
+                  src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/c4f-pagetitle-web.jpg" 
+                  width=286 border=0></DIV></TD>
+                <TD width=3 bgColor=#ffffff><IMG height=1 alt="" 
+                  src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/spacer.gif" 
+                  width=3 border=0></TD>
+                <TD width=164>
+                  <DIV align=right><IMG height=79 alt="" 
+                  src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/c4f-curve-right.gif" 
+                  width=164 border=0></DIV></TD></TR></TBODY></TABLE><!-- MAIN CONTENT TABLE -->
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR vAlign=top><!-- MAIN CONTENT -->
+                <TD bgColor=#7d7e86><!-- PAGE HEADER -->
+                  <DIV id=c4f-pageheader><SPAN class=eyebrow id=_ctl0_eb 
+                  style="PADDING-LEFT: 14px; WIDTH: 100%; COLOR: #ffffff; PADDING-TOP: 4px"><A 
+                  href="http://msdn.microsoft.com/">MSDN 
+                  Home</A>&nbsp;&gt;&nbsp;<A 
+                  href="http://msdn.microsoft.com/coding4fun/default.aspx">Coding4Fun</A>&nbsp;&gt;&nbsp;<A 
+                  href="http://msdn.microsoft.com/coding4fun/webcoder/default.aspx">Web 
+                  Coder</A>&nbsp;&gt;&nbsp;Building a Web Site with ASP.NET 2.0 
+                  to Navigate Your Music Library</SPAN> <IMG alt="" 
+                  src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/c4f-poster-web.jpg"> 
+<!-- don't put spaces here else IE will render space we dont want --></DIV>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=top>
+                        <DIV id=c4f-articleheader>
+                        <DIV id=c4f-articletitle>Building a Web Site with 
+                        ASP.NET 2.0 to Navigate Your Music Library</DIV>
+                        <P>Jeff Key<BR>InRule Technology</P></DIV></TD>
+                      <TD vAlign=bottom width=249>
+                        <DIV id=c4f-download><A 
+                        href="http://download.microsoft.com/download/d/4/5/d4556729-81f9-4578-936a-111721b27e49/Web%20Coder%20-%20Music%20Library%20Web%20Site.msi"><IMG 
+                        alt=download 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/rtg_save.gif" 
+                        border=0>Code for this article</A><BR><BR><A 
+                        href="http://msdn.microsoft.com/coding4fun/webcoder/musiclib/default.aspx?print=true"><IMG 
+                        alt=Print 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/rtg_print.gif" 
+                        border=0>Printable 
+                  version</A><BR></DIV></TD></TR></TBODY></TABLE>
+                  <DIV></DIV>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=top>
+                        <DIV 
+                        class=c4f-maincontent><!-- begin main content --><STRONG>Introduction<BR><BR></STRONG>It's 
+                        easy to assume that most people with computers have 
+                        media libraries. As computers become cheaper, easier to 
+                        network and easier to use, people are more likely to 
+                        create home networks. Since servers aren't practical in 
+                        a home setting, information is distributed amongst the 
+                        computers in the network, which makes managing and 
+                        finding formation difficult. This is probably most 
+                        evident in music libraries.<BR><BR>Most media players 
+                        maintain a private database containing all of the songs 
+                        they're aware of. Keeping these databases up-to-date can 
+                        be a chore on a single computer, and keeping databases 
+                        current on several computers often seems impossible. 
+                        <BR><BR>A common solution is to keep all music files on 
+                        a single computer and have other computers' media 
+                        libraries point to, and stay current with, the files on 
+                        that computer. Anyone that has tried this in practice 
+                        knows that it's an adequate solution, but not an ideal 
+                        one. Personally, I just want to listen to music, not 
+                        manage it.<BR><BR>My home setup consists of a Windows 
+                        Media Center computer that drives my TV and has all of 
+                        my music on it, my workstation, and occasionally a 
+                        laptop. Keeping the workstation current with the music 
+                        on the Media Center has always been a hassle, and doing 
+                        so on the laptop just isn't practical. I wanted a 
+                        simple, clean way to listen to music anywhere in my 
+                        apartment, from any computer, without having to worry 
+                        about the accuracy of the library. I chose to build a 
+                        little website whose only purpose would be to get me to 
+                        the music I wanted to listen to as painlessly as 
+                        possible. I used <A 
+                        href="http://lab.msdn.microsoft.com/express/vwd/">Microsoft 
+                        Visual Web Developer 2005 Express Edition Beta 2</A> to 
+                        make this happen.<BR><BR><STRONG>COM: A friend from the 
+                        past<BR><BR></STRONG>Back in the old days we had a 
+                        technology called <A 
+                        href="http://www.microsoft.com/com/default.mspx">COM</A> 
+                        that let us use libraries written in any language from 
+                        our code, regardless of the langauge we were using (as 
+                        long as it supported COM), much like .NET does today. 
+                        COM did a great job solving some problems, but 
+                        introduced a few others that became more apparent over 
+                        time. .NET is, among other things, a solution to many of 
+                        these problems.<BR><BR>Years ago, Microsoft started 
+                        exposing operating system and application services via 
+                        COM. This let common folk write code against Microsoft 
+                        Word, Windows Scripting Host, Windows Media Player, and 
+                        countless others. Due to the number of languages, 
+                        frameworks, etc. that support COM, it's still a major 
+                        player in the Microsoft world and it's common to find 
+                        COM support in Microsoft applications before .NET 
+                        support. Luckily, .NET does a great job talking to COM 
+                        (most of the time).<BR><BR>This history lesson is 
+                        relevant because the site uses the Windows Media Player 
+                        COM component to access its media library. Adding a 
+                        reference to a COM component is just as easy as adding a 
+                        reference to a .NET assembly. Click the Website menu and 
+                        select Add Reference, then click the COM tab on the Add 
+                        Reference dialog.<BR><BR>
+                        <DIV align=center><IMG 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/AddWmpComReference.png"></DIV>
+                        <DIV align=center><STRONG>Figure 1: Adding a reference 
+                        to the Windows Media Player COM 
+                        component<BR></STRONG></DIV><BR><STRONG>Database<BR><BR></STRONG>Quick 
+                        access to a subset of the WMP library's information is 
+                        required, so an in-memory database consisting of Artist, 
+                        Album, Database and Track classes is required. The 
+                        Database class has a static (or shared in Visual Basic) 
+                        constructor that populates the database with a call to 
+                        the Refresh method:<BR><BR><PRE>    Private Shared Sub Refresh()
+        Dim wmp As WindowsMediaPlayer = New WindowsMediaPlayer
+        Dim playlist As IWMPPlaylist = wmp.mediaCollection.getAll()
+        Dim artistDictionary As Dictionary(Of String, Artist) = _<BR>          New Dictionary(Of String, Artist)
+
+        For i As Integer = 0 To playlist.count - 1
+            Dim media As IWMPMedia = playlist.Item(i)
+            Dim albumArtistName As String = media.getItemInfo("AlbumArtist")
+            Dim albumName As String = media.getItemInfo("Album")
+            Dim trackName As String = media.getItemInfo("Title")
+            Dim trackLocation As String = media.getItemInfo("SourceUrl")
+            Dim trackNumberString As String = media.getItemInfo("OriginalIndex")
+
+            Dim theArtist As Artist
+            Dim artistSortName As String = Artist.GetSortName(albumArtistName)
+
+            If Not artistDictionary.TryGetValue(artistSortName, theArtist) Then
+                theArtist = New Artist(albumArtistName)
+                artistDictionary.Add(artistSortName, theArtist)
+            End If
+
+            Dim theAlbum As Album
+
+            If Not theArtist.Albums.TryGetValue(albumName, theAlbum) Then
+                theAlbum = New Album(albumName, theArtist)
+                theArtist.Albums.Add(albumName, theAlbum)
+            End If
+
+            Dim theTrack As Track
+
+            If Not theAlbum.Tracks.TryGetValue(trackName, theTrack) Then
+                Dim trackNumber As Integer
+
+                If Integer.TryParse(trackNumberString, trackNumber) Then
+                    theTrack = New Track(trackNumber, trackName, trackLocation)
+                Else
+                    theTrack = New Track(trackName, trackLocation)
+                End If
+
+                theTrack.Album = theAlbum
+                theAlbum.Tracks.Add(trackName, theTrack)
+            End If
+        Next
+
+        ArtistList.AddRange(artistDictionary.Values)
+        ArtistList.Sort()
+    End Sub
+</PRE><BR>The WMP library is a flat structure of media 
+                        items, so the Artist -&gt; Albums -&gt; Tracks hierarchy 
+                        must be created manually while populating the database. 
+                        Accessing the WMP library is simple; calling the getAll 
+                        method off of a WindowsMediaPlayer object's 
+                        mediaCollection property returns a playlist of all items 
+                        in the library, represented by the IWMPPlaylist 
+                        interface. Collecting the information needed from each 
+                        media item (represented by the IWMPMedia interface) is 
+                        just as easy, via a call to IWMPMedia's getItemInfo 
+                        method. Once all of the relevant information for the 
+                        media item is collected, the artist, album and track 
+                        objects must be retrieved or created. <BR><BR>Note that 
+                        I've used a generic Dictionary object to store the 
+                        artists while we're iterating through the playlist. Some 
+                        media collections consist of tens of thousands of items, 
+                        and having to do a brute-force search through the 
+                        ArtistList for every media item would further slow down 
+                        an already slow operation. (Why the Dictionary object is 
+                        quicker is beyond the scope of this article. Please see 
+                        Scott Mitchell's examination of the Hashtable class, 
+                        Dictionary's non-generic counterpart, in an <A 
+                        href="http://msdn.microsoft.com/vcsharp/default.aspx?pull=/library/en-us/dv_vstechart/html/datastructures_guide2.asp">article</A> 
+                        from his fantastic series on data 
+                        structures.)<BR><BR><STRONG>Designing the 
+                        website<BR><BR></STRONG>To keep things as simple as 
+                        possible, we'll make three pages: Artists, Artist's 
+                        Albums, and Album. <BR><BR>
+                        <DIV align=center><IMG 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/ArtistsPage.png"></DIV>
+                        <DIV align=center><STRONG>Figure 2: The Artists 
+                        page</STRONG></DIV><BR>The Artists page (Figure 2) shows 
+                        ten groups of artists at a time. Each time a group is 
+                        clicked, that group is shown and so on until the user 
+                        gets to the artist she's looking for.<BR><BR>
+                        <DIV align=center><IMG 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/AlbumsPage.png"></DIV>
+                        <DIV align=center><STRONG>Figure 3: The Albums 
+                        page</STRONG></DIV><BR>The Albums page (Figure 3) shows 
+                        all of the albums, including artwork, for an artist. 
+                        Clicking the album name brings the user to the Album 
+                        page, and clicking the play button will launch a 
+                        playlist containing the tracks in the album in Windows 
+                        Media Player.<BR><BR>
+                        <DIV align=center><IMG 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/AlbumPage.png"></DIV>
+                        <DIV align=center><STRONG>Figure 4: The Album 
+                        page</STRONG></DIV><BR>The Album page shows the large 
+                        album artwork and tracks. The user can play the entire 
+                        album or individual tracks.<BR><BR>Each page uses object 
+                        data binding and shares a common master page. ASP.NET 
+                        has a new feature called Master Pages, which allows you 
+                        to create a consistent layout for the Web site and share 
+                        common functionality without having to duplicate it for 
+                        every page. The Master Page in this website is used to 
+                        share Cascading Style Sheet (CSS) information and host 
+                        the "breadcrumb bar," or SiteMapPath, as it's called in 
+                        ASP.NET. I won't be covering the SiteMapPath control, 
+                        but the implementation should be interesting to anyone 
+                        that needs to drive one programmatically and not through 
+                        a static definition. More information about master pages 
+                        can be found in Fritz Onion's <A 
+                        href="http://msdn.microsoft.com/msdnmag/issues/04/06/ASPNET20MasterPages/default.aspx">Master 
+                        Your Site Design with Visual Inheritance and Page 
+                        Templates</A>.<BR><BR>The Albums and Album page also 
+                        have images and play buttons that launch Windows Media 
+                        Player playlist files. Album images are cached in a 
+                        Web-accessible directory, and WMP playlist files are 
+                        generated on the fly in an HTTP handler. Both of these 
+                        topics are covered below.<BR><BR><STRONG>Binding objects 
+                        to grids<BR><BR></STRONG>The new ObjectDataSource is the 
+                        middleman between the grid and objects. It must be 
+                        configured to work with a class to return data requested 
+                        by the grid. We'll step through creating the data source 
+                        for the Albums page.<BR><BR>
+                        <DIV align=center><IMG 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/ObjectDataSourceWizard1.png"></DIV>
+                        <DIV align=center><STRONG>Figure 5: The ObjectDataSource 
+                        wizard, first page</STRONG></DIV><BR>The "Binder" class 
+                        is selected as the business object. The objects used to 
+                        represent the artists, et al, are simple and primarily 
+                        represent data, and therefore don't have much in the way 
+                        of persistence methods. The Binder class provides the 
+                        functionality that may otherwise be handled by the 
+                        objects themselves.<BR><BR>
+                        <DIV align=center><IMG 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/ObjectDataSourceWizard2.png"></DIV>
+                        <DIV align=center><STRONG>Figure 6: The ObjectDataSource 
+                        wizard, second page</STRONG></DIV><BR>The next page is 
+                        where we choose which method we would like to use to get 
+                        the data, so we pick GetAlbums. Update, Insert and 
+                        Delete methods can also be specified, but are not 
+                        required.<BR><BR>
+                        <DIV align=center><IMG 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/ObjectDataSourceWizard3.png"></DIV>
+                        <DIV align=center><STRONG>Figure 7: The ObjectDataSource 
+                        wizard, third page</STRONG></DIV><BR>The final page 
+                        specifies where the parameter values will come from. The 
+                        value can come from one of the following: Cookie, 
+                        Control, Form, Profile, QueryString and Session. 
+                        <BR><BR>Once the data source is configured, setting it 
+                        as the DataSource of the grid is all that's required to 
+                        make the magic happen.<BR><BR><STRONG>Generating custom 
+                        grid values<BR><BR></STRONG>All of the grids use 
+                        template columns and custom code to generate their 
+                        hyperlinks. For example, the artists page (figure 2) 
+                        consists of a single GridView that's bound to a generic 
+                        List of RangeListItems. RangeListItem is a custom class 
+                        that represents the first and last artist IDs in the 
+                        range, as well as the text that is displayed in the 
+                        grid. The hyperlinks are created by using a template 
+                        field in the grid and calling a method in the page's 
+                        server-side script section.<BR><BR>
+                        <DIV align=center><IMG 
+                        src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/TemplateFieldColumn.png"></DIV>
+                        <DIV align=center><STRONG>Figure 8: The template field 
+                        column for the Artists page</STRONG></DIV><BR>The 
+                        NavigateUrl attribute is populated by a call to the 
+                        CreateNavigateUrl method:<BR><BR><?xml version="1.0" ?><PRE><!--
+
+Code highlighting produced by Actipro SyntaxEditor
+http://www.ActiproSoftware.com/Products/DotNet/
+
+-->    Private Function CreateNavigateUrl(ByVal o As Object) As String
+        Dim listItem As RangeListItem = CType(o, RangeListItem)
+        
+        If (listItem.StartIndex = listItem.EndIndex) Then
+            Return "albums.aspx?artist=" &amp; listItem.StartIndex
+        Else
+            Return String.Format("default.aspx?start={0}&amp;end={1}", _<BR>              listItem.StartIndex, listItem.EndIndex)
+        End If
+    End Function    </PRE>More information about 
+                        templates in ASP.NET 2.0 can be found in Dino Esposito's 
+                        <A 
+                        href="http://msdn.microsoft.com/msdnmag/issues/04/08/GridView/default.aspx">Move 
+                        Over DataGrid, There's a New Grid in 
+                        Town!</A>.<BR><BR><STRONG>Displaying Album 
+                        Art<BR></STRONG><BR>Windows Media Player downloads album 
+                        art, both large and small versions, when possible. These 
+                        image files are stored in the same folders as the album 
+                        tracks, but are hidden by default. These images must be 
+                        copied to a child folder of the Web site so the browser 
+                        can access them. This is done by first finding the 
+                        correct image, then copying that file to a subfolder of 
+                        the Web site and giving it a unique name to so it can be 
+                        more easily retrieved the next time it's required. If 
+                        album art isn't found, a small transparent image is used 
+                        instead.<BR><BR><PRE>    Public Function GetAlbumArtUrl(ByVal size As AlbumArtSize) As String
+        Dim albumArtFileName As String = GetCustomAlbumArtFileName(size)
+        Dim albumArtFullFilename As String = _<BR>          Path.Combine(_albumArtDirectory, albumArtFileName)
+
+        Dim fileExists As Boolean = File.Exists(albumArtFullFilename)
+
+        If Not fileExists Then
+            Dim dir As String = Path.GetDirectoryName(Tracks(0).Location)
+            Dim filename As String
+
+            If Directory.Exists(dir) Then
+                filename = GetRealAlbumArtFileName(dir, size)
+
+                If Not filename Is Nothing Then
+                    File.Copy(filename, albumArtFullFilename)
+                    File.SetAttributes(albumArtFullFilename, FileAttributes.Normal)
+                    fileExists = True
+                End If
+            End If
+        End If
+
+        Dim url As String
+
+        If fileExists Then
+            url = "/coding4fun/images/coolapps/musiclib/AlbumArt/" &amp; _<BR>              albumArtFileName
+        Else
+            url = "/coding4fun/images/coolapps/musiclib/dot.gif"
+        End If
+
+        Return url
+    End Function
+</PRE><BR>The GetCustomAlbumArtFileName method creates a 
+                        consistent name that is used to save the copy of the 
+                        image and more easily retrieve it in subsequent 
+                        requests:<BR><BR><?xml version="1.0" ?><PRE><!--
+
+Code highlighting produced by Actipro SyntaxEditor
+http://www.ActiproSoftware.com/Products/DotNet/
+
+-->    Private Function GetCustomAlbumArtFileName(ByVal size As AlbumArtSize) As String
+        Return String.Format("{0}-{1}-{2}.jpg", _<BR>          GetAlphanumericString(_artist.Name), _<BR>          GetAlphanumericString(Name), size.ToString)
+    End Function
+
+    Private Function GetAlphanumericString(ByVal s As String) As String
+        Dim sb As StringBuilder = New StringBuilder
+
+        For Each c As Char In s
+            If Char.IsLetterOrDigit(c) Then
+                sb.Append(c)
+            End If
+        Next
+
+        Return sb.ToString()
+    End Function</PRE>To make things even more 
+                        interesting, album art filenames can match any of the 
+                        following patterns:<BR><BR>
+                        <TABLE style="WIDTH: 652px" align=center border=0>
+                          <TBODY>
+                          <TR>
+                            <TD style="HEIGHT: 20px"><STRONG>Large</STRONG></TD>
+                            <TD 
+                              style="HEIGHT: 20px">AlbumArt_{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}_Large.jpg</TD></TR>
+                          <TR>
+                            <TD style="HEIGHT: 21px"></TD>
+                            <TD style="HEIGHT: 21px">AlbumArt__Large.jpg</TD></TR>
+                          <TR>
+                            <TD style="HEIGHT: 19px"></TD>
+                            <TD style="HEIGHT: 19px">Folder.jpg</TD></TR>
+                          <TR>
+                            <TD><STRONG>Small</STRONG></TD>
+                            <TD>AlbumArt_{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}_Small.jpg</TD></TR>
+                          <TR>
+                            <TD></TD>
+                            <TD>AlbumArt__Small.jpg</TD></TR>
+                          <TR>
+                            <TD style="HEIGHT: 20px"></TD>
+                            <TD 
+                          style="HEIGHT: 20px">AlbumArtSmall.jpg</TD></TR></TBODY></TABLE><BR>GetRealAlbumArtFileName 
+                        gets the filename for the album art, if it exists, by 
+                        searching for the patterns above:<BR><BR><?xml version="1.0" ?><PRE>    Private Function GetRealAlbumArtFileName(ByVal dir As String, _<BR>      ByVal size As AlbumArtSize) As String
+        Dim filename As String = Nothing
+        Dim filenames() As String = Directory.GetFiles(dir, "AlbumArt*" &amp; _<BR>         size.ToString() &amp; ".jpg")
+
+        If (filenames.Length &gt; 0) Then
+            filename = filenames(0)
+        ElseIf (size = AlbumArtSize.Large) Then
+            Dim file As FileInfo = New FileInfo(Path.Combine(dir, "Folder.jpg"))
+            If file.Exists Then
+                filename = file.FullName
+            End If
+        End If
+
+        Return filename
+    End Function
+</PRE><BR><STRONG>Creating a 
+                        Playlist<BR></STRONG><BR>Playlists are created by the 
+                        PlaylistCreator class, which is a lightweight web 
+                        request handler that implements the <A 
+                        href="http://msdn2.microsoft.com/library/7ezc17x8(en-us,vs.80).aspx">IHttpHandler 
+                        interface</A>. The handler is quite simple: It writes 
+                        out a header, notifying the browser that the type of 
+                        content it will be returning is "video/x-ms-asf", then 
+                        creates and returns an XML playlist. The content type 
+                        header helps the browser determine what to do with the 
+                        content, and is a very important step since we want to 
+                        play the playlist, not show it in the 
+                        browser.<BR><BR>PlaylistCreator writes directly to the 
+                        response stream with an XmlTextWriter:<BR><BR><?xml version="1.0" ?><PRE>    Public Sub ProcessRequest(ByVal context As HttpContext) _<BR>      Implements IHttpHandler.ProcessRequest
+        _trackIndex = QueryStringHelper.TrackIndex
+        _artistIndex = QueryStringHelper.ArtistIndex
+        _albumIndex = QueryStringHelper.AlbumIndex
+
+        context.Response.ContentType = "video/x-ms-asf"
+
+        Dim streamWriter As StreamWriter = _<BR>          New StreamWriter(context.Response.OutputStream)
+        _writer = New XmlTextWriter(streamWriter)
+        _writer.WriteProcessingInstruction("wpl", "version=\""1.0\""")
+
+        _writer.WriteStartElement("smil")
+
+        CreateHead()
+
+        _writer.WriteStartElement("body")
+        _writer.WriteStartElement("seq")
+
+        If _trackIndex.HasValue Then
+            CreateTrackEntry()
+        ElseIf _albumIndex.HasValue Then
+            CreateAlbumEntries()
+        End If
+
+        _writer.WriteEndElement()
+        _writer.WriteEndElement()
+        _writer.WriteEndElement()
+
+        _writer.Close()
+    End Sub
+</PRE><BR><STRONG>Registering the Playlist 
+                        Creator<BR><BR></STRONG>ASP.NET knows how to handle 
+                        requests to ASPX pages: it finds the page with the same 
+                        name and executes it. HTTP handlers are handled a bit 
+                        differently. An entry must be made in the web.config 
+                        file associating a file name or pattern with the type of 
+                        the object to use to handle the request. The XML 
+                        fragment below is from the configuration/system.web 
+                        section of the web.config file. It's instructing ASP.NET 
+                        to direct any request with an extention of "wpl" to an 
+                        object of type "PlaylistCreator".<BR><BR><PRE>     &lt;httpHandlers&gt;
+          &lt;add path="*.wpl" type="PlaylistCreator" verb="*" validate="false" /&gt;
+     &lt;/httpHandlers&gt;</PRE>
+                        <HR>
+                        Jeff Key is an architect at <A 
+                        href="http://www.inrule.com/">InRule Technology</A>, the 
+                        leader in .NET business rule engine technology. Jeff has 
+                        spent his professional life evolving with the Microsoft 
+                        platform, from fat client to CGI, MTS/COM+ and ASP, and 
+                        all the different flavors of .NET since the beta days. 
+                        He can be contacted via his <A 
+                        href="http://www.sliver.com/">web site</A>. 
+                    </DIV></TD></TR></TBODY></TABLE></TD>
+                <TD width=3 bgColor=#ffffff><IMG height=1 alt="" 
+                  src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/spacer.gif" 
+                  width=3 border=0></TD><!-- RIGHT COLUMN-->
+                <TD class=c4f-graybg vAlign=top width=164>
+                  <DIV id=c4f-rightcolumn></DIV></TD></TR></TBODY></TABLE></DIV><!-- END CODING FOR FUN --></TD></TR></TBODY></TABLE><!--pull table--><A 
+      href="http://msdn.microsoft.com/coding4fun/webcoder/musiclib/default.aspx#top"><IMG 
+      alt="Top of Page" 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/top.gif" 
+      border=0></A> <A title="Top of Page" 
+      href="http://msdn.microsoft.com/coding4fun/webcoder/musiclib/default.aspx#top">Top 
+      of Page</A> 
+      <P></P></DIV>
+      <P></P></TD></TR></TBODY></TABLE><!--NOINDEX_START--><BR 
+style="OVERFLOW: hidden; LINE-HEIGHT: 1px" clear=all>
+<TABLE id=msviFooter cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD id=msviFooter2 
+    style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#669AFF', gradientType='1')">
+      <DIV id=msviLocalFooter><NOBR><A 
+      href="http://go.microsoft.com/?linkid=317027">Manage Your Profile</A> 
+      |</NOBR><WBR><NOBR><A 
+      href="http://msdn.microsoft.com/isapi/gomscom.asp?target=/legal/" 
+      target=_parent>Legal</A> |</NOBR><WBR><NOBR><A 
+      href="http://go.microsoft.com/?linkid=2028439" target=_parent>Contact 
+      Us</A> |</NOBR><WBR><NOBR><A href="http://msdn.microsoft.com/flash/" 
+      target=_parent>MSDN Flash Newsletter</A></NOBR></DIV>
+      <DIV id=msviGlobalFooter><SPAN dir=ltr>© 2005 Microsoft Corporation. All 
+      rights reserved.&nbsp;</SPAN><NOBR><A 
+      href="http://www.microsoft.com/info/cpyright.mspx">Terms of Use</A> 
+      |</NOBR><WBR><NOBR><A 
+      href="http://msdn.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx">Trademarks</A> 
+      |</NOBR><WBR><NOBR><A 
+      href="http://www.microsoft.com/info/privacy.mspx">Privacy 
+      Statement</A></NOBR></DIV></TD>
+    <TD width=105 bgColor=#669aff><IMG title="" height=29 alt=Microsoft 
+      src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/text.jpg" 
+      width=105 border=0></TD></TR></TBODY></TABLE>
+<SCRIPT language=javascript>var msviFooter2;if (document.getElementById){msviFooter2 = document.getElementById("msviFooter2");msviFooter2.style.filter = "";}</SCRIPT>
+
+<TABLE height=58 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR vAlign=top>
+    <TD>
+      <DIV style="WIDTH: 200px"></DIV></TD>
+    <TD 
+    style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#669AFF', gradientType='1')" 
+    width="100%"></TD></TR></TBODY></TABLE><LAYER visibility="hide">
+<DIV style="DISPLAY: none"><IMG height=0 hspace=0 
+src="Coding4Fun Building a Web Site with ASP_NET 2_0 to Navigate Your Music Library_files/trans_pixel.gif" 
+width=0 border=0></DIV></LAYER></BODY></HTML>

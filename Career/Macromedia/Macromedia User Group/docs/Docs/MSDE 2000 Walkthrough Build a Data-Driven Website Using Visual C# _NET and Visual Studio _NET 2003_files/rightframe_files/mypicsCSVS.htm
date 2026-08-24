@@ -1,0 +1,1711 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0082)http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true -->
+<!--TOOLBAR_EXEMPT--><HTML xmlns:tool = 
+"http://www.microsoft.com/tooltip"><HEAD><TITLE>MSDE 2000 Walkthrough: Build a Data-Driven Website Using Visual C# .NET and Visual Studio .NET 2003 (MSDE 2000 Web Resource Kit)</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META 
+content="Create a data-driven website with MSDE and ASP.NET 1.1, and Visual C# .NET code written in Visual Studio .NET 2003." 
+name=Description>
+<META content="" name=Robots>
+<META content="" name=Keywords>
+<META content=en-us name=MS.LOCALE><LINK href="mypicsCSVS_files/ie4.css" 
+type=text/css rel=stylesheet><LINK href="mypicsCSVS_files/ie5.css" type=text/css 
+rel=stylesheet>
+<STYLE>BODY {
+	MARGIN: 0px; FONT-FAMILY: verdana,arial,helvetica
+}
+</STYLE>
+
+<SCRIPT language=javascript src="mypicsCSVS_files/toolbar.js"></SCRIPT>
+
+<SCRIPT language=javascript src="mypicsCSVS_files/Broker.js"></SCRIPT>
+<LINK href="mypicsCSVS_files/default.css" type=text/css rel=stylesheet><LINK 
+href="mypicsCSVS_files/ie.css" type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript><!--
+   function BrowserData()
+{
+		this.userAgent = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)";
+
+		this.bot = false;
+
+		this.browser = "MSIE";
+
+		this.majorVer = 6;
+
+		this.minorVer = "0";
+
+		this.betaVer = "0";
+
+		this.platform = "NT";
+
+		this.platVer = "5.1; SV1; .NET CLR 1.1.4322";
+
+		this.getsNavBar = true;
+
+		this.doesActiveX = true;
+
+		this.doesPersistence = true;
+
+		this.fullVer = 6;
+
+   }
+
+   var oBD = new BrowserData();
+
+   //--></SCRIPT>
+
+<SCRIPT>
+	if( self == top )
+{
+	location = "/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp";
+}
+
+</SCRIPT>
+<xml id=xmlPageContext><eyebrow findmenu="false">
+	<item label="MSDN Home" url="/default.asp"/>
+	<item label="MSDN Library" url="/library/default.asp"/>
+	<item label="Win32 and COM Development" url="/library/en-us/dnanchor/html/anch_win32com.asp" id="msdnlib1366" xmlsrc="/library/en-us/toc/msdnlib/msdnlib1366_.xml"/><item label="Data Access and Storage" url="/library/en-us/dnanchor/html/anch_dataaccess.asp" id="msdnlib1453" xmlsrc="/library/en-us/toc/msdnlib/msdnlib1453_.xml"/><item label="Microsoft Data Engine (MSDE)" id="msdnlib1468"/><item label="MSDE 2000 Web Resource Kit" id="msdnlib1469"/><item label="MSDE 2000 Walkthrough: Build a Data-Driven Website Using Visual C# .NET and Visual Studio .NET 2003" url="/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp" id="dnmsde2kwrk6"/></eyebrow></xml>
+<SCRIPT>
+var sContentID = "_1045120"; 
+ </SCRIPT>
+<!--VENUS_START-->
+<META 
+content="MSDE 2000 Walkthrough: Build a Data-Driven Website Using Visual C# .NET and Visual Studio .NET 2003" 
+name=MSHTOCTitle>
+<META 
+content="MSDE 2000 Walkthrough: Build a Data-Driven Website Using Visual C# .NET and Visual Studio .NET 2003" 
+name=MSHRLTitle>
+<META content=mypicsCSVS name=MSHKeywordA>
+<META content="MSDE 2000, Web Resources Kit" name=MSHKeywordK>
+<META content="SQL Server 2000, creating Web applications with MSDE 2000" 
+name=MSHKeywordK>
+<META content=mypicsCSVS name=MSHKeywordA>
+<META content=DevLang:CSharp name=MSHAttr>
+<META content=DevLangVers:CSharp name=MSHAttr>
+<META content=DocSet:kbmsdn name=MSHAttr>
+<META content=HostCPU:kbx86 name=MSHAttr>
+<META content=HostOS:Windows name=MSHAttr>
+<META content=HostOSVers:kbWinOS name=MSHAttr>
+<META content=Locale:kbEnglish name=MSHAttr>
+<META content=Product:SQLServer name=MSHAttr>
+<META content=Product:VB name=MSHAttr>
+<META content=ProductVers:kbSQLServ2000 name=MSHAttr>
+<META content=Product:VS name=MSHAttr>
+<META content=ProductVers:kbVSNet2003 name=MSHAttr>
+<META content=TargetCPU:kbx86 name=MSHAttr>
+<META content=TargetOS:Windows name=MSHAttr>
+<META content=TargetOSVers:kbWinOS name=MSHAttr>
+<META content=Technology:ASP name=MSHAttr>
+<META content=Technology:kbdbengine name=MSHAttr>
+<META content=Technology:ASPNET name=MSHAttr>
+<META content=TechnologyVers:kbASPNET name=MSHAttr>
+<META content=TechnologyVers:kbdbengine name=MSHAttr>
+<META content=TopicType:kbArticle name=MSHAttr><!---VENUS_END---><LINK 
+href="mypicsCSVS_files/css.css" type=text/css rel=stylesheet>
+<SCRIPT language=javascript>
+var doImage=doImage;var TType=TType;
+function mhHover(tbl,idx,cls){var t,d;if(document.getElementById)t=document.getElementById(tbl);else t=document.all(tbl);if(t==null)return;if(t.getElementsByTagName)d=t.getElementsByTagName("TD");else d=t.all.tags("TD");if(d==null)return;if(d.length<=idx)return;d[idx].className=cls;}
+function footerjs(doc){if(doImage==null){var tt=TType==null?"PV":TType;doc.write('<layer visibility="hide"><div style="display:none"><img src="http://c.microsoft.com/trans_pixel.asp?source=msdn&TYPE=' + tt + '&p=library_en-us_dnmsde2kwrk_html&URI=%2flibrary%2ftoolbar%2f3.0%2fasp.aspx%3fmode%3dhead%26c%3d%2fnonlibraryshell.config%26h%3dmsdn%252Emicrosoft%252Ecom%26u%3d%252Flibrary%252Fen%252Dus%252Fdnmsde2kwrk%252Fhtml%252FmypicsCSVS%252Easp%26r%3d&GUID=1F4FC18C-F71E-47FB-8FC9-612F8EE59C61" width=0 height=0 hspace=0 vspace=0 border=0 /></div></layer>');}}
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.2627" name=GENERATOR></HEAD>
+<BODY text=#000000 bgColor=#ffffff leftMargin=0 topMargin=0 MARGINWIDTH="0" 
+MARGINHEIGHT="0">
+<TABLE height=24 cellSpacing=0 cellPadding=4 width="100%" bgColor=#ffffff 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=eyebrow vAlign=center align=left width="100%">&nbsp;&nbsp; <A 
+      class=small href="http://msdn.microsoft.com/default.asp" target=_top>MSDN 
+      Home</A>&nbsp;&gt;&nbsp; <A class=small 
+      href="http://msdn.microsoft.com/library/default.asp" target=_top>MSDN 
+      Library</A>&nbsp;&gt;&nbsp; <A class=small 
+      href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnanchor/html/anch_win32com.asp" 
+      target=_top>Win32 and COM Development</A>&nbsp;&gt;&nbsp; <A class=small 
+      href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnanchor/html/anch_dataaccess.asp" 
+      target=_top>Data Access and Storage</A>&nbsp;&gt;&nbsp;<A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/"></A> 
+  </TD></TR></TBODY></TABLE>
+<TABLE class=clsContainer style="TABLE-LAYOUT: fixed" cellSpacing=0 
+cellPadding=15 width="100%" border=0 float="left">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE class=clsPartContainer id=topTable 
+      style="FLOAT: right; MARGIN-LEFT: 8px; MARGIN-RIGHT: 6px" cellSpacing=0 
+      cellPadding=0 width=145 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top><!-- Page Options web part Start -->
+            <TABLE class=clsPart id=BF309568-1CD4-4c9c-A46E-BB1CA97E0C97 
+            cellSpacing=0 cellPadding=0 width=145 border=0>
+              <TBODY>
+              <TR>
+                <TD class=clsPartHead vAlign=center align=left width=15 
+                height=19><IMG class=clsPartHead height=19 
+                  src="mypicsCSVS_files/gripblue.gif" width=15 align=absMiddle> 
+                </TD>
+                <TD class=clsPartHead vAlign=center align=middle width=115><B 
+                  class=clsPartHead>Page Options</B> </TD>
+                <TD class=clsPartRight vAlign=center align=right width=25 
+                height=19><IMG class=clsMinimize height=19 
+                  src="mypicsCSVS_files/downlevel.gif" width=25 align=absMiddle> 
+                </TD></TR>
+              <TR>
+                <TD colSpan=3>
+                  <TABLE id=Table1 cellSpacing=0 cellPadding=0 width="100%" 
+                  bgColor=#ffffff border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=top width=1 bgColor=#6699cc>
+                        <DIV 
+                        style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1px; PADDING-TOP: 0px"></DIV></TD>
+                      <TD vAlign=top width=145 bgColor=#f1f1f1><IFRAME 
+                        id=frmRatingsOptions src="mypicsCSVS_files/ratings.htm" 
+                        frameBorder=0 width="100%" scrolling=no 
+                        height=130></IFRAME></TD>
+                      <TD vAlign=top width=1 bgColor=#6699cc>
+                        <DIV 
+                        style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1px; PADDING-TOP: 0px"></DIV></TD></TR>
+                    <TR>
+                      <TD vAlign=top bgColor=#6699cc colSpan=3 height=1>
+                        <DIV 
+                        style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1px; PADDING-TOP: 0px"></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- Page Options web part end -->
+            <DIV class=storeUserData id=oLayout></DIV></TD></TR></TBODY></TABLE><!--TOOLBAR_START--><!--TOOLBAR_EXEMPT--><!--TOOLBAR_END--><!-- Begin Content --><!--NONSCROLLING BANNER START-->
+      <DIV id=nsbanner>
+      <DIV id=TitleRow>
+      <H1 class=dtH1><A name=mypicscsvs></A>MSDE 2000 Walkthrough: Build a 
+      Data-Driven Website Using Visual C# .NET and Visual Studio .NET 
+      2003</H1></DIV></DIV><!--NONSCROLLING BANNER END-->
+      <DIV id=nstext valign="bottom">&nbsp; 
+      <P>Brian A. Randell<BR><A href="http://www.mcwtech.com/">MCW Technologies, 
+      LLC</A></P>
+      <P>March 2004</P>
+      <P>Applies to:<BR>&nbsp;&nbsp;&nbsp;Microsoft® ASP.NET 
+      1.1<BR>&nbsp;&nbsp;&nbsp;Microsoft® SQL Server™ 2000 Desktop Engine 
+      (MSDE)<BR>&nbsp;&nbsp;&nbsp;Microsoft® Visual C#® 
+      .NET<BR>&nbsp;&nbsp;&nbsp;Microsoft® Visual Studio® .NET 2003</P>
+      <P><B><A name=mypicscsvs_download></A><B class=le>Summary</B></B>: Create 
+      a data-driven website with MSDE and ASP.NET 1.1, and Visual C# .NET code 
+      written in Visual Studio .NET 2003. (40 printed pages)</P>
+      <P>Download the associated <A 
+      href="http://download.microsoft.com/download/7/0/f/70f286f1-eeae-4901-a23e-5b3e45009069/CSVSSupport.exe">CSVSSupport.exe</A> 
+      walkthrough code sample.</P>
+      <P>Download the complete <A 
+      href="http://download.microsoft.com/download/b/f/2/bf2c691b-5a4d-4375-bc40-19570740bd6e/CSVSSetup.exe">C# 
+      .NET and Visual Studio .NET Sample</A>. To use the sample, create the 
+      Pics2Share database, following the instructions in the Building the 
+      Pics2Share Sample Database-3.rtf file. Then run the .msi file to install 
+      the sample application. </P>
+      <FORM name=x></FORM><A class=p.button 
+      href="javascript:document.x.iv.LoadSamples('CSVSSupport.sfl')">Download 
+      the CSVSSupport.exe source code.</A><A class=p.button 
+      href="javascript:document.x.iv.LoadSamples('CSVSSetup.sfl')">Download the 
+      CSVSSetup.exe source code.</A> 
+      <H4 class=dtH1>Contents</H4>
+      <P><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic1" 
+      target=_self>Introduction</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic2" 
+      target=_self>Prerequisites</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic3" 
+      target=_self>Getting Started</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic4" 
+      target=_self>Building the Data Access Layer</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic5" 
+      target=_self>Building the Image Upload Facility</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic6" 
+      target=_self>Generating the Thumbnail Images</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic7" 
+      target=_self>Building the Main Page</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic8" 
+      target=_self>Enabling Full Size Image Display</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic9" 
+      target=_self>Adding Security</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic10" 
+      target=_self>Tracking Sessions</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic11" 
+      target=_self>Error Handling</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic12" 
+      target=_self>Conclusion</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic13" 
+      target=_self>Appendix A: Changing File System Permissions</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic14" 
+      target=_self>Additional Links</A><BR><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_topic15" 
+      target=_self>Related Books</A></P>
+      <H2 class=dtH1><A name=mypicscsvs_topic1></A>Introduction</H2>
+      <P>In this walkthrough, you will iteratively build a Web application that 
+      displays pictures from the file system and picture metadata from an MSDE 
+      database. The application will support dynamically generated pages based 
+      upon whether the user is anonymous or not. If the user is authenticated, 
+      data will be filtered by their role.</P>
+      <H2 class=dtH1><A name=mypicscsvs_topic2></A>Prerequisites</H2>
+      <P>To perform this walkthrough, the following software and components must 
+      be installed on the development computer: 
+      <UL type=disc>
+        <LI>Microsoft Visual Studio 2003 Professional (or later) 
+        <LI>Microsoft SQL Server 2000 Desktop Engine (MSDE) Release A 
+        <LI>The sample Pics2Share database. See the Building the Pics2Share 
+        Sample Database.rtf file for instructions, which is available in the <A 
+        href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsCSVS.asp?frame=true#mypicscsvs_download" 
+        target=_self>downloadable code sample</A> listed at the start of this 
+        article. 
+        <LI>The codecsvs.txt file containing source code, HTML, etc., necessary 
+        to build the solution, and the denied.gif and noimage.gif files, 
+        available in the sample code download file provided at the start of this 
+        article. </LI></UL>
+      <H2 class=dtH1><A name=mypicscsvs_topic3></A>Getting Started</H2>
+      <P>To get started, create a Visual Studio .NET 2003 project what works 
+      with ASP.NET 1.1.</P>
+      <H3 class=dtH1>To create an ASP.NET Web Application project </H3>
+      <OL type=1>
+        <LI>Start Visual Studio .NET, and on the <B>File </B>menu, point to<B> 
+        New</B>, and click <B>Project</B>. 
+        <LI>In the <B>Project Types</B> pane, <B>Visual C# Projects</B>. 
+        <LI>In the <B>Templates</B> pane, select <B>ASP.NET Web Application</B>. 
+
+        <LI>Give the project a <B>Location</B> of http://localhost/mypics. 
+        <LI>Click <B>OK</B> to create the project. 
+        <LI>In addition, you might want to open the AssemblyInfo.cs file and set 
+        the appropriate attributes for your project, such as 
+        <B>AssemblyVersion</B>. </LI></OL>
+      <H3 class=dtH1>Adding a Default Style Sheet</H3>
+      <P>In order to give the application a consistent look and feel, you will 
+      use a cascading style sheet (CSS) file: 
+      <OL type=1>
+        <LI>In Visual Studio .NET, right-click on your project in the Solution 
+        Explorer and select <B>Add</B>, <B>Add New Item</B>. 
+        <LI>In the Add New Item dialog, select the <B>Style Sheet</B> template 
+        and name it Styles.css. 
+        <LI>If you've not already done it, open the codecsvs.txt file. 
+        <LI>Copy the entire text of <B>Item 1</B> from codecsvs.txt to the 
+        clipboard. 
+        <LI>In the Styles.css file, highlight and replace the Body style by 
+        pasting the text on the clipboard. 
+        <LI>Save your work and close the Styles.css file. </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic4></A>Building the Data Access 
+      Layer</H2>
+      <P>In this part you will build a class to perform all of your data access, 
+      isolating the data access code for convenience and future ease of 
+      maintenance. First you will add a database connection string to your 
+      web.config file for later retrieval.</P>
+      <H3 class=dtH1>To add a database connection string</H3>
+      <OL type=1>
+        <LI>Open the project's web.config configuration file. 
+        <LI>Locate the top-level &lt;configuration&gt; element, and just below 
+        that element, add the following XML (which can be copied from 
+        codecsvs.txt, <B>Item 2</B>): <PRE class=code>&lt;appSettings&gt;
+   &lt;add key="ConnectionString" value="Server=localhost;Database=Pics2Share;Trusted_Connection=True;Connection Timeout=60;Pooling=True;Min Pool Size=0;Max Pool Size=5"/&gt;
+&lt;/appSettings&gt;</PRE>
+        <BLOCKQUOTE class=dtBlock><B class=le>Note&nbsp;&nbsp;&nbsp;</B>The 
+          configuration fragment above assumes you've installed the sample 
+          database, Pics2Share, on the default instance of MSDE 2000 (or SQL 
+          Server 2000) on the same machine as your Web server. If this is not 
+          the case you will need to modify connection string, possibly adjusting 
+          the security settings also.</BLOCKQUOTE>
+        <LI>Save your work and close the web.config file. </LI></OL>
+      <H3 class=dtH1>To create the data access class</H3>
+      <OL type=1>
+        <LI>Add a new class file to your project called SSDAL. 
+        <LI>Right-click on your project in the Solution Explorer and select 
+        <B>Add</B>, <B>Add Class</B>. 
+        <LI>At the top of the new class, add the following using directives: <PRE class=code>using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Web;</PRE>
+        <LI>Add the following static function to your new <B>SSDAL</B> class 
+        (<B>Item 3</B> in codecsvs.txt): <PRE class=code>public static int AddImage(string ImageName, string ImageDesc,
+  string ImagePath, string ImageThumb,
+  int UserId, int MinRole, int ImageGroupId)
+{
+  int retVal = -1;
+  SqlConnection mcon=null;
+  SqlCommand mcmd=null;
+
+  string conString;
+  conString = ConfigurationSettings.AppSettings["ConnectionString"];
+
+  using (mcon = new SqlConnection(conString))
+  {
+    mcmd = new SqlCommand("AddImageMetaData", mcon);
+    mcmd.CommandType = CommandType.StoredProcedure;
+
+    SqlParameter prm;
+    prm = new SqlParameter("@ImageName", SqlDbType.VarChar, 255);
+    prm.Value = ImageName;
+    mcmd.Parameters.Add(prm);
+
+    prm = new SqlParameter("@ImageDesc", SqlDbType.VarChar, 255);
+    prm.Value = ImageDesc;
+    mcmd.Parameters.Add(prm);
+
+    prm = new SqlParameter("@ImagePath", SqlDbType.VarChar, 255);
+    prm.Value = ImagePath;
+    mcmd.Parameters.Add(prm);
+
+    prm = new SqlParameter("@ImageThumb", SqlDbType.VarChar, 255);
+    prm.IsNullable = true;
+    if (ImageThumb == null)
+      prm.Value = DBNull.Value;
+    else
+      prm.Value = ImageThumb;
+    
+    mcmd.Parameters.Add(prm);
+
+    prm = new SqlParameter("@UserId", SqlDbType.Int);
+    prm.Value = UserId;
+    mcmd.Parameters.Add(prm);
+
+    prm = new SqlParameter("@MinRole", SqlDbType.Int);
+    prm.Value = MinRole;
+    mcmd.Parameters.Add(prm);
+
+    prm = new SqlParameter("@ImageGroupId", SqlDbType.Int);
+    prm.Value = ImageGroupId;
+    mcmd.Parameters.Add(prm);
+
+    prm = new SqlParameter("RETURN_VALUE", SqlDbType.Int);
+    prm.Direction = ParameterDirection.ReturnValue;
+    mcmd.Parameters.Add(prm);
+
+    mcon.Open();
+    mcmd.ExecuteNonQuery();
+
+    retVal = (int)mcmd.Parameters["RETURN_VALUE"].Value;
+    return retVal;
+  }
+}</PRE>
+        <LI>Add the following static property to your class (<B>Item 4</B>): <PRE class=code>public static DataTable ImageGroups
+{
+  get 
+  {
+    DataTable dt;
+    string conString = 
+      ConfigurationSettings.AppSettings["ConnectionString"];
+    using (SqlConnection conn = new SqlConnection(conString))
+    {
+      SqlCommand cmd = new SqlCommand("GetAllImageGroups", conn);
+      cmd.CommandType = CommandType.StoredProcedure;
+
+      SqlDataAdapter da = new SqlDataAdapter(cmd);
+      DataSet ds = new DataSet();
+      da.Fill(ds, "AllImageGroups");
+      dt = ds.Tables[0];
+      return dt;
+    }
+  }
+}</PRE>
+        <LI>Finally add the following static property to your class (<B>Item 
+        5</B>): <PRE class=code>public static DataView UserRoles
+{
+  get
+  {
+    DataView retVal = null;
+    string conString = 
+      ConfigurationSettings.AppSettings["ConnectionString"];
+    using (SqlConnection conn = new SqlConnection(conString))
+    {
+      SqlCommand cmd = new SqlCommand("GetAllUserRoles", conn);
+      cmd.CommandType = CommandType.StoredProcedure;
+      SqlDataAdapter da = new SqlDataAdapter(cmd);
+      DataSet ds = new DataSet("UserRoles");
+      da.Fill(ds, "AllUserRoles");
+      if (ds.Tables[0].Rows.Count &gt; 0)
+        retVal = ds.Tables[0].DefaultView;
+      return retVal;
+    }
+  }
+}</PRE></LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic5></A>Building the Image Upload 
+      Facility</H2>
+      <P>In this section, you will build the facility to upload images to your 
+      Web application.</P>
+      <H3 class=dtH1>Building the Upload Form</H3>
+      <OL type=1>
+        <LI>Rename WebForm1.aspx to NewImage.aspx. To do this, right-click the 
+        file in the Solution Explorer and select rename, then type in the new 
+        name. 
+        <LI>Open the NewImage.aspx file in the designer by double-clicking the 
+        file in the Solution Explorer. 
+        <LI>In the Solution Explorer window, select Styles.css, then drag and 
+        drop the file onto the page designer. This action links the selected 
+        style sheet to the current page. 
+        <LI>Change the <B>title</B> property from Webform1 to <B>Add a New 
+        Image</B>. 
+        <LI>Change the <B>pageLayout</B> property from GridLayout to 
+        <B>FlowLayout</B>. 
+        <LI>Change to the page from Design view to HTML view and replace the 
+        default &lt;form&gt;&lt;/form&gt; block with the HTML in <B>Item 6</B> 
+        from codecsvs.txt. 
+        <LI>Save your work and return to Design view. 
+        <LI>Add a handler for the <B>Click</B> event of the <B>Upload Now</B> 
+        Button on your form by double-clicking it. 
+        <LI>You should now be looking at the code-behind source file 
+        NewImage.aspx.cs. At the top of the file, note that Visual Studio has 
+        left the class name as <B>WebForm1</B>—change it now to NewImage so that 
+        it better matches the file. 
+        <LI>At the top of the file, add the following using directive: <PRE class=code>using System.Drawing.Imaging;</PRE>
+        <LI>Next add the following two methods to your class to populate the two 
+        DropDownList controls (<B>Item 7</B>). <PRE class=code>void LoadImageGroups()
+{
+   DataView dv = new DataView(SSDAL.ImageGroups);
+  
+   // Perform Data Binding
+   if (dv != null)
+   {
+      cboImageGroups.DataSource = dv;
+      cboImageGroups.DataValueField = "ImageGroupId";
+      cboImageGroups.DataTextField = "ImageGroup";
+      cboImageGroups.DataBind();
+   }
+}
+
+void LoadRoles()
+{
+   DataView dv = SSDAL.UserRoles;
+  
+   // Perform Data Binding
+   if (dv != null)
+   {
+      cboMinRole.DataSource = dv;
+      cboMinRole.DataValueField = "RoleId";
+      cboMinRole.DataTextField = "RoleName";
+      cboMinRole.DataBind();
+   }
+}</PRE>
+        <LI>Now, call these two methods from your <B>Page_Load</B> method as 
+        follows (<B>Item 8</B>): <PRE class=code>if (!Page.IsPostBack)
+{
+   LoadImageGroups();
+   LoadRoles();
+}</PRE>
+        <LI>Add the following using directive to the top of the file and save 
+        your work: <PRE class=code>using System.IO;</PRE>
+        <LI>Add a new class to your project called <B>AppGlobals</B>. To do 
+        this, in the Solution Explorer window, right-click on your project and 
+        select <B>Add</B>, then <B>Add Class</B> from the context menu. 
+        <LI>Add the following constant members to your <B>AppGlobals</B> class 
+        (<B>Item 9</B>): <PRE class=code>public const string pathUploads = "Uploads";
+
+public const string fileDenied = "images/denied.gif";
+public const string fileNotFound = "images/noimage.gif";</PRE>
+        <LI>Back in your NewImage.aspx.cs file, locate the 
+        <B>btnUpload_Click</B> handler you generated earlier, and add the 
+        following logic (<B>Item 10</B>). This procedure will be enhanced a few 
+        more times before the application is complete. <PRE class=code>hlinkViewImage.Visible = false;
+string strUploadFileName = Upfile.PostedFile.FileName;
+string strFileNameOnly = Path.GetFileName(strUploadFileName);
+string strServerPath = Server.MapPath(AppGlobals.pathUploads);
+
+if ( !strServerPath.EndsWith("\\") )
+   strServerPath += "\\";
+
+string strServerFileName = strServerPath + strFileNameOnly;
+
+try
+{
+   // Save the file to disk
+   Upfile.PostedFile.SaveAs(strServerFileName);
+
+   // Generate the thumbnail
+   string strThumbFile = "Thmb" + strFileNameOnly;
+   string strFullThumbFile = strServerPath + strThumbFile;
+
+   // TODO -- Generate Thumbnail
+   
+   // TODO -- Once security is enabled, 
+   // provide the correct user id
+
+   int intImageId = SSDAL.AddImage(strFileNameOnly, 
+      txtImageDesc.Text,
+      strServerPath, strThumbFile, 1,
+      Convert.ToInt32(cboMinRole.SelectedValue),
+      Convert.ToInt32(cboImageGroups.SelectedValue));
+
+   if (intImageId &gt; 0)
+   {
+      // TODO -- Add Encryption
+      hlinkViewImage.NavigateUrl = 
+         string.Format("ShowImage.aspx?{0}", 
+         "Path=" + strServerPath + strFileNameOnly);
+      hlinkViewImage.Visible = true;
+   }
+}
+catch (Exception ex)
+{
+   lblMsg.Text = ex.Message;
+}
+finally
+{
+   if (lblMsg.Text.Length &gt; 0)
+      lblMsg.Visible = true;
+}</PRE>
+        <LI>In the Solution Explorer window, right-click on the project. Select 
+        Add and then New Folder from the context menu. Name the new folder 
+        Uploads. 
+        <BLOCKQUOTE class=dtBlock><B class=le>Caution&nbsp;&nbsp;&nbsp;</B>You 
+          must give <B>Modify</B> rights to the account under which ASP.NET is 
+          executing to this new directory using the NTFS DACL editor. If you do 
+          not, you will receive an exception when your code attempts to save a 
+          new image to the hard drive. See the <B>Appendix A:</B> <B>Changing 
+          File System Permissions</B> at the end of this walkthrough for 
+          instructions.</BLOCKQUOTE>
+        <LI>Repeat the process and create a folder named Images. Copy the two 
+        image files included with this walkthrough, denied.gif and noimage.gif 
+        to the newly created Images folder. 
+        <LI>Also in the Solution Explorer, right-click on NewImage.aspx and 
+        select the <B>Set As Start Page</B> command. 
+        <LI>Now press <B>F5</B> to try and run the application so far. You 
+        should be able to upload an image. Verify the image exists by looking in 
+        the Uploads folder and checking the Images table in MSDE. </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic6></A>Generating the Thumbnail 
+      Images</H2>
+      <P>In this section, you will add the ability to generate a thumbnail image 
+      for each uploaded image.</P>
+      <H3 class=dtH1>Creating an Image Utility Class</H3>
+      <OL type=1>
+        <LI>Create a new class file in your project called ImageUtil.cs. 
+        <LI>Since this class will be used only within the one assembly created 
+        by your project, change the <B>public</B> specifier to be 
+        <B>internal</B>. 
+        <LI>Add the following using directive to the top of the file: <PRE class=code>using System.Drawing;</PRE>
+        <LI>Add a static function called <B>GenerateThumb</B> to the class as 
+        shown below (<B>Item 11</B>): <PRE class=code>public static Bitmap GenerateThumb(string FilePath)
+{
+   // We've selected 120 pixels as the arbitrary height 
+   // for the thumbnails. The code preserves the size ratio, 
+   // given this height. If you want larger thumbnails, 
+   // you can modify this value.
+   const int THUMBNAIL_HEIGHT = 120;
+
+   Bitmap bmp = null;
+   try
+   {
+      bmp = new Bitmap(FilePath);
+      Decimal decRatio = ((Decimal)bmp.Width / bmp.Height);
+      int intWidth = (int)(decRatio * THUMBNAIL_HEIGHT);
+
+      Image.GetThumbnailImageAbort myCallback =
+         new Image.GetThumbnailImageAbort(ThumbnailCallback);
+   
+      Image img = bmp.GetThumbnailImage(
+         intWidth, THUMBNAIL_HEIGHT, myCallback, IntPtr.Zero);
+
+      return (Bitmap)img;
+   }
+   catch (Exception)
+   {
+      return null;
+   }
+   finally
+   {
+      if (bmp != null)
+      {
+         bmp.Dispose();
+      }
+   }
+}</PRE>
+        <LI>Add one more function to satisfy the callback method required by the 
+        <B>GetThumbnailImage</B> method of the Framework's Bitmap class (<B>Item 
+        12</B>): <PRE class=code>private static bool ThumbnailCallback()
+{
+   // You have to supply this delegate, even though the thumbnail
+   // retrieval doesn't actually use it. See the documentation 
+   // for more information.
+   return false;
+}</PRE>
+        <LI>Now, go back to your NewImage.aspx.cs file and locate the <B>TODO -- 
+        Generate Thumbnail</B> comment within the <B>btnUpload_Click</B> handler 
+        and add the following logic (<B>Item 13</B>) to generate the thumbnail 
+        image immediately after that comment: <PRE class=code>Bitmap bmp = null;
+try
+{
+  if (!File.Exists(strFullThumbFile))
+  {
+    bmp = ImageUtil.GenerateThumb(strServerFileName);
+    if (bmp != null)
+      bmp.Save(strFullThumbFile, ImageFormat.Jpeg);
+    else
+      strFullThumbFile = null;
+  }
+}
+catch (Exception)
+{
+  strFullThumbFile = null;
+}
+finally
+{
+  if (bmp != null)
+    bmp.Dispose();
+}</PRE>
+        <LI>Compile and run your application again. Try uploading another image, 
+        and verify that an additional image file is generated in the Uploads 
+        directory with the "Thmb" prefix. </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic7></A>Building the Main Page</H2>
+      <P>In this section you will build the default page of the application. 
+      This page will display the image thumbnails and image metadata to the user 
+      five images at a time.</P>
+      <H3 class=dtH1>Adding Default.aspx</H3>
+      <P>Now that you have the basic uploading of images working, it is time to 
+      build the main display page. 
+      <OL type=1>
+        <LI>Add new Web form to your project called Default.aspx. In the 
+        Solution Explorer window, right-click on your project and select 
+        <B>Add</B>, then <B>Add Web Form</B> from the context menu. 
+        <LI>Drag &amp; drop the Styles.css file from the Solution Explorer on to 
+        the design surface of Default.aspx. 
+        <LI>Change the <B>title</B> property from Default to <B>My Pictures</B>. 
+
+        <LI>Change the <B>pageLayout</B> property from GridLayout to 
+        <B>FlowLayout</B>. 
+        <LI>Change the page from Design view to HTML view and replace the 
+        default &lt;form&gt;&lt;/form&gt; block with the HTML in <B>Item 14</B> 
+        in codecsvs.txt. 
+        <LI>In the Solution Explorer, right-click on Default.aspx and select the 
+        <B>Set As Start Page</B> command. 
+        <LI>Save your work and return the page to Design view. 
+        <LI>Before you add the logic to display data on the page, you need to 
+        add another method to the data access layer that will return all of the 
+        image information. Open the SSDAL.cs file and add the following 
+        read-only static property to the <B>SSDAL</B> class (<B>Item 15</B>): <PRE class=code>public static DataTable AllImages
+{
+   get 
+   {
+      string conString = 
+         ConfigurationSettings.AppSettings["ConnectionString"];
+      using (SqlConnection conn = new SqlConnection(conString))
+      {
+         SqlCommand cmd = 
+            new SqlCommand("GetAllImageData", conn);
+         cmd.CommandType = CommandType.StoredProcedure;
+         SqlDataAdapter da = new SqlDataAdapter(cmd);
+         DataSet ds = new DataSet("Images");
+         da.Fill(ds, "AllImages");
+         return ds.Tables[0];
+      }
+   }
+}</PRE>
+        <LI>Now open the code-behind file for your Default.aspx page 
+        (Default.aspx.cs). Add a new method to your class to load the DataGrid 
+        (<B>Item 16</B>): <PRE class=code>private void LoadGridData()
+{
+   DataView dv = new DataView(SSDAL.AllImages);
+   dv.RowFilter = "ImageGroupId = " + cboImageGroups.SelectedValue;
+
+   grdImages.DataSource = dv;
+   grdImages.DataBind();
+}</PRE>
+        <LI>Add another method to your _Default class to populate the Image 
+        groups DropDownList (<B>Item 17)</B>: <PRE class=code>private void LoadImageGroups()
+{
+   DataView dv  = new DataView(SSDAL.ImageGroups);
+
+   // Perform Data Binding
+   if ( dv != null)
+   {
+      cboImageGroups.DataSource = dv;
+      cboImageGroups.DataValueField = "ImageGroupId";
+      cboImageGroups.DataTextField = "ImageGroup";
+      cboImageGroups.DataBind();
+      cboImageGroups.SelectedIndex = 0;
+   }
+}</PRE>
+        <LI>In the <B>Page_Load</B> handler, add a call to your new method 
+        <B>LoadGridData</B> if it is not a PostBack: <PRE class=code>if ( !Page.IsPostBack )
+{
+   LoadImageGroups();
+   LoadGridData();
+   LoadCboPages();
+}</PRE>
+        <LI>inally, open Default.aspx in design mode again, and double click on 
+        the <B>cboImageGroups</B> DropDownList to add a handler for the 
+        <B>SelectedIndexChanged</B> event. Modify the 
+        <B>SelectedIndexChanged</B> event handler so that it calls the 
+        <B>LoadGridData</B> method: <PRE class=code>LoadGridData();</PRE>
+        <LI>Save your work and then, run your application. You should see the 
+        Image ID and Description fields for any images you uploaded earlier 
+        displayed in the DataGrid, and you should be able to select different 
+        categories for your images. </LI></OL>
+      <H3 class=dtH1>Adding Basic Pagination</H3>
+      <P>The HTML that defined the layout for the DataGrid set some basic 
+      properties to support pagination, but you now to add some logic to 
+      actually implement pagination. 
+      <OL type=1>
+        <LI>Add a handler for the <B>PageIndexChanged</B> event of the 
+        <B>grdImages</B> control in your page. In this handler, set the 
+        <B>CurrentPageIndex</B> of the <B>grdImages</B> control to the incoming 
+        <B>NewPageIndex</B> property of the <B>DataGridPageChangedEventArgs</B> 
+        parameter. Then call your <B>LoadGridData</B> method. <PRE class=code>grdImages.CurrentPageIndex = e.NewPageIndex;
+LoadGridData();</PRE>
+        <LI>In your handler for <B>SelectedIndexChanged</B> of the image group 
+        DropDownList (<B>cboImageGroups_SelectedIndexChanged</B>) reset the 
+        <B>CurrentPageIndex</B> of the DataGrid to zero <I>before</I> the call 
+        to <B>LoadGridData</B>: <PRE class=code>grdImages.CurrentPageIndex = 0;</PRE>
+        <LI>You can try running your application now to verify that pagination 
+        is working correctly (just add more than five images to the database to 
+        see it in action). </LI></OL>
+      <H3 class=dtH1>Adding Support for Jumping Pages</H3>
+      <P>In addition to supporting browsing for images a page at-a-time, you are 
+      going to add support for jumping to a specific page of images within a 
+      particular image group. 
+      <OL type=1>
+        <LI>Add the following procedure (<B>Item 18</B>) to the code-behind file 
+        for your Default.aspx page (Default.aspx.cs) to populate the 
+        <B>cboGridPages</B> DropDownList with the list of available pages: <PRE class=code>private void LoadCboPages()
+{
+   DataView dv = (DataView)grdImages.DataSource;
+   int intRowCount =  dv.Count;
+
+   int intPageSize = 5;
+   int intRemainder = intRowCount % intPageSize;
+   int intPages = ((intRowCount - intRemainder) / intPageSize);
+
+   if ( intRemainder &gt; 0 )
+      intPages += 1;
+
+   if (intPages == 0)
+      intPages = 1; // deal with lower bound case
+  
+   string[] pages = new string[intPages];
+  
+   for (int i=0; i&lt;intPages; i++)
+      pages[i] = "Page " + (i+1).ToString();
+  
+   cboGridPages.DataSource = pages;
+   cboGridPages.DataBind();
+}</PRE>
+        <LI>Place a call to <B>LoadCboPages</B> at the end of your 
+        <B>Page_Load</B> handler when it is not a PostBack. Your 
+        <B>Page_Load</B> handler should now look like this: <PRE class=code>private void Page_Load(object sender, System.EventArgs e)
+{
+   // Put user code to initialize the page here
+   if ( !Page.IsPostBack )
+   {
+      LoadImageGroups();
+      LoadGridData();
+      LoadCboPages();
+   }
+}</PRE>
+        <LI>Place another call to <B>LoadCboPages</B> at the end of your 
+        <B>cboImageGroups_SelectedIndexChanged</B> handler. It should look like 
+        this: <PRE class=code>private void cboImageGroups_SelectedIndexChanged
+   (object sender, System.EventArgs e)
+{
+   grdImages.CurrentPageIndex = 0;
+   LoadGridData();
+   LoadCboPages();
+}</PRE>
+        <LI>Now add a handler for the <B>SelectedIndexChanged</B> event of the 
+        <B>cboGridPages</B> control by double-clicking on the control in the 
+        page designer. 
+        <LI>In this handler set the <B>CurrentPageIndex</B> of the 
+        <B>grdImages</B> DataGrid to whatever page was chosen and re-bind the 
+        DataGrid as follows: <PRE class=code>string strSelected = cboGridPages.SelectedValue;
+grdImages.CurrentPageIndex = 
+   (Convert.ToInt32(strSelected.Substring(5)) - 1);
+LoadGridData();</PRE>
+        <LI>Save your work and then run your application now to verify that page 
+        jumping is working correctly. </LI></OL>
+      <H3 class=dtH1>Enabling the Thumbnail Display</H3>
+      <P>In order to render both thumbnail and normal images back to the client, 
+      you are going to build a custom HttpHandler. The handler will service HTTP 
+      endpoints that map to ShowImage.axd (AXD is a pre-registered extension in 
+      IIS for ASP.NET). You will use query string parameters to determine which 
+      file to stream back as an image. 
+      <OL type=1>
+        <LI>Add a new class to your project called StreamImage.cs. 
+        <LI>Add the following using declarations to the top of file above the 
+        class declaration: <PRE class=code>using System.Collections.Specialized;
+using System.IO;
+using System.Web;
+using System.Web.SessionState;</PRE>
+        <LI>Your class needs to implement both the <B>IHttpHandler</B> and the 
+        <B>IReadOnlySessionState</B> interfaces. Add these two interface 
+        statements to your class definition. Your class should look like this: <PRE class=code>using System;
+using System.Collections.Specialized;
+using System.IO;
+using System.Web;
+using System.Web.SessionState;
+
+namespace mypics
+{
+  public class StreamImage : IHttpHandler, IReadOnlySessionState
+  {
+  }
+}</PRE>
+        <LI>Add the following property implementation to your class: <PRE class=code>public bool IsReusable  { get { return true; } }</PRE>
+        <LI>Add the following helper method to your class to stream an image 
+        from a file to the Response buffer (<B>Item 19</B>): <PRE class=code>private void WriteImage(HttpContext ctx, string FileName)
+{
+   string strContentType = "image/JPEG";
+   string ext = Path.GetExtension(FileName);
+   if (ext == ".gif")
+      strContentType = "image/GIF";
+
+   ctx.Response.ContentType = strContentType;
+   ctx.Response.WriteFile(FileName);
+}</PRE>
+        <BLOCKQUOTE class=dtBlock><B class=le>Note</B>:This implementation 
+          supports JPEG and GIF files. To support addition image types, you will 
+          need to extend this procedure with additional content type 
+        values.</BLOCKQUOTE>
+        <LI>Finally, add the following implementation of the 
+        <B>ProcessRequest</B> method of the <B>IHttpHandler</B> interface 
+        (<B>Item 20</B>): <PRE class=code>public void ProcessRequest(HttpContext ctx)
+{
+   string strPath = ctx.Request.Params["Path"];
+   if (strPath != null)
+   {
+     // TODO -- Add role check
+      
+      if (!File.Exists(strPath))
+      {
+         strPath = ctx.Server.MapPath(AppGlobals.fileNotFound);
+      }
+
+      WriteImage(ctx, strPath);
+   }
+}</PRE>
+        <LI>Save your work. In order to enable your handler for the 
+        ShowImage.axd endpoint, you need to let the ASP.NET runtime know about 
+        it. Open your web.config file. Locate the second-level 
+        &lt;system.web&gt; element, and just below that element, add the 
+        following XML (<B>Item 21</B>): <PRE class=code>&lt;httpHandlers&gt;
+&lt;add verb="GET" path="ShowImage.axd" type="mypics.StreamImage, mypics" /&gt;
+&lt;/httpHandlers&gt;</PRE>
+        <LI>Now, back in your Default.aspx file, you are ready to add the logic 
+        to render the thumbnail images as part of the DataGrid's rendering. Open 
+        the Default.aspx file in HTML view. 
+        <LI>Search for the string "&lt;asp:Image id="imgThumbnail"". This will 
+        locate the Image control that is within the ItemTemplate of the last 
+        column of the DataGrid. Add an ImageUrl attribute to the Image control 
+        as shown below (<B>Item 22</B>): <PRE class=code>ImageUrl='&lt;%# GetImageUrl(Container.DataItem, true) %&gt;'</PRE>
+        <LI>The complete image tag should look as follows: <PRE class=code>&lt;asp:Image id="imgThumbnail" runat="server" ImageAlign="Middle" ImageUrl="&lt;%# GetImageUrl(Container.DataItem, true) %&gt;"&gt;&lt;/asp:Image&gt;</PRE>
+        <LI>Save your changes and then open the code-behind file for this Web 
+        form (default.aspx.cs)—note you can do this while the form has focus by 
+        pressing the F7 key. Add the following method to your <B>_Default</B> 
+        class to support the data binding expression you added to the page 
+        (<B>Item 23</B>): <PRE class=code>protected string GetImageUrl(object dataItem, bool isThumbnail)
+{
+  string imageUrl;
+  string qstring;
+
+  if (isThumbnail)
+  {
+    qstring = string.Format("Path={0}&amp;MinRole={1}",
+      DataBinder.Eval(dataItem, "FullImageThumbPath"),
+      DataBinder.Eval(dataItem, "MinRole"));
+    imageUrl = "ShowImage.axd?" + qstring;
+  }
+  else
+  {
+    qstring = string.Format("Path={0}&amp;MinRole={1}",
+      DataBinder.Eval(dataItem, "FullImagePath"),
+      DataBinder.Eval(dataItem, "MinRole"));
+    imageUrl = "ShowImage.aspx?" + qstring;
+  }
+
+  return imageUrl;
+}</PRE>
+        <LI>You should now be able to run your program and see thumbnail images 
+        displayed in the DataGrid rendering. </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic8></A>Enabling Full Size Image 
+      Display</H2>
+      <OL type=1>
+        <LI>Add new Web form to your project called <B>ShowImage</B>. In the 
+        Solution Explorer window, right-click on your project and select 
+        <B>Add</B>, then <B>Add Web Form</B> from the context menu. 
+        <LI>Drag &amp; drop the Styles.css file from the Solution Explorer on to 
+        the design surface of ShowImage.aspx. 
+        <LI>Change the <B>title</B> property from Default to <B>View Full Size 
+        Image</B>. 
+        <LI>Change the <B>pageLayout</B> property from GridLayout to 
+        <B>FlowLayout</B>. 
+        <LI>Change to the page from Design view to HTML view and replace the 
+        default &lt;form&gt;&lt;/form&gt; block with the HTML in <B>Item 24</B> 
+        in codecsvs.txt. 
+        <LI>Save your work and return to Design view. 
+        <LI>Open the code-behind file for this page (ShowImage.aspx.cs). Add the 
+        following code to the <B>Page_Load</B> handler (<B>Item 25</B>). This 
+        will set the image URL of the Image control, passing along any query 
+        string that was passed to it: <PRE class=code>string strQstring = String.Empty;
+int idx = Request.RawUrl.IndexOf("?");
+if (idx &gt; 0)
+   strQstring = Request.RawUrl.Substring(idx + 1);
+
+// pass along the query string
+imgFullImage.ImageUrl = "ShowImage.axd?" + strQstring;</PRE>
+        <LI>To enable the links on your Default.aspx page to show full-size 
+        images, open Default.aspx in HTML mode and locate the 
+        <B>lnkDisplayImage</B> hyperlink in the ItemTemplate of the first column 
+        of the grdImages DataGrid. Add a <B>NavigateUrl</B> attribute to the 
+        control using the following string (<B>Item 26</B>): <PRE class=code>NavigateUrl='&lt;%# GetImageUrl(Container.DataItem, false) %&gt;'</PRE>
+        <LI>The completed HTML should like the following: <PRE class=code>&lt;asp:HyperLink id="lnkDisplayImage" NavigateUrl='&lt;%# GetImageUrl(Container.DataItem, False) %&gt;' runat="server"&gt;Display Image&lt;/asp:HyperLink&gt;</PRE>
+        <LI>Save your work. Running your application and you should now be able 
+        to click on the <B>Display Image</B> hyperlink in the first column of 
+        the DataGrid to view the full-sized image. </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic9></A>Adding Security</H2>
+      <P>In this section, you are going to add security to the site so that only 
+      logged in users can upload images. In addition, viewable images will be 
+      restricted based on the user's login id and role.</P>
+      <H3 class=dtH1>Building a Security Class</H3>
+      <OL type=1>
+        <LI>Add a new class to your project called <B>WebSecurity</B>. 
+        <LI>Add the following using declarations to the top of file above the 
+        class declaration: <PRE class=code>using System.Security.Cryptography;
+using System.Text;
+using System.Web.Security;</PRE>
+        <LI>Now add the following private member (note that the last character 
+        in the string <B>sha1</B> is the number one, not the letter l or i): <PRE class=code>private const string DefCryptoAlg = "sha1";</PRE>
+        <LI>Your class should look like this: <PRE class=code>using System;
+using System.Security.Cryptography;
+using System.Text;
+using System.Web.Security;
+
+namespace mypics
+{
+   public class WebSecurity
+   {
+      private const string DefCryptoAlg = "sha1";
+   }
+}</PRE>
+        <LI>Add the following method (<B>Item 27</B>) to the class. It will be 
+        used later to stored hashed and salted passwords in the database: <PRE class=code>public static void HashWithSalt(
+   string plaintext, ref string salt, out string hash)
+{
+   const int SALT_BYTE_COUNT = 16;
+   if (salt == null || salt == "")
+   {
+      byte[] saltBuf = new byte[SALT_BYTE_COUNT];
+      RNGCryptoServiceProvider rng = 
+         new RNGCryptoServiceProvider();
+      rng.GetBytes(saltBuf);
+      
+      StringBuilder sb = 
+         new StringBuilder(saltBuf.Length);
+      for (int i=0; i&lt;saltBuf.Length; i++)
+      sb.Append(string.Format("{0:X2}", saltBuf[i]));
+      salt = sb.ToString();
+   }
+
+   hash = FormsAuthentication.
+      HashPasswordForStoringInConfigFile(
+      salt+plaintext, DefCryptoAlg);
+}</PRE>
+        <LI>You also need to add two methods to support encryption of the query 
+        string. This first method is for encrypting (<B>Item 28</B>): <PRE class=code>public static string Encrypt(string plaintext)
+{
+   /* Although designed to encrypt time-stamped tickets, 
+    * using FormsAuthentication.Encrypt is by far the simplest 
+    * way to encrypt strings. It does incur a small amount 
+    * of additional space to store two date-time values and 
+    * the size of the FormsAuthenticationTicket itself. 
+    * The other advantage of this technique is that the 
+    * encryption key is auto-generated and stored as an 
+    * LSA secret for you. Be aware that the key is 
+    * server-specific, and if you need to scale the 
+    * application to a web farm you should set the 
+    * decryption key in machine.config on all machines 
+    * in the farm so that cross-machine 
+    * encryption/decryption works properly */
+
+   FormsAuthenticationTicket ticket;
+   ticket = new FormsAuthenticationTicket(1, "", DateTime.Now,
+      DateTime.Now, false, plaintext, "");
+
+   return FormsAuthentication.Encrypt(ticket);
+}</PRE>
+        <LI>This second method is for decrypting (<B>Item 29</B>): <PRE class=code>public static string Decrypt(string ciphertext)
+{
+   FormsAuthenticationTicket ticket;
+   ticket = FormsAuthentication.Decrypt(ciphertext);
+   return ticket.UserData;
+}</PRE>
+        <LI>Save your work. </LI></OL>
+      <H3 class=dtH1>Augmenting the Data Access Layer</H3>
+      <P>Next, you need to add a new method to your data access layer to 
+      interact with the database and validate users. 
+      <OL type=1>
+        <LI>Open the SSDAL.cs class file and add the following method to 
+        validate a set of user credentials against data stored in the database 
+        (<B>Item 30</B>): <PRE class=code>public static bool ValidateUser(
+ string UserAlias, string UserPassword, ref int UserId, ref int RoleId)
+{
+  bool intRetVal = false;
+  string strHash = null;
+  string conString = 
+   ConfigurationSettings.AppSettings["ConnectionString"];
+  SqlConnection conn;
+  SqlCommand cmd;
+  SqlParameter prm;
+
+  using (conn = new SqlConnection(conString))
+  {
+    cmd = new SqlCommand("ws_validateUser", conn);
+    cmd.CommandType = CommandType.StoredProcedure;
+
+    prm = cmd.Parameters.Add("@UserAlias", SqlDbType.VarChar, 255);
+    prm.Value = UserAlias;
+
+    prm = cmd.Parameters.Add("@UserId", SqlDbType.Int);
+    prm.Direction = ParameterDirection.Output;
+
+    prm = cmd.Parameters.Add("@UserHash", SqlDbType.VarChar, 50);
+    prm.Direction = ParameterDirection.Output;
+   
+    prm = cmd.Parameters.Add("@UserSalt", SqlDbType.VarChar, 50);
+    prm.Direction = ParameterDirection.Output;
+
+    prm = cmd.Parameters.Add("@RoleId", SqlDbType.Int);
+    prm.Direction = ParameterDirection.Output;
+
+    conn.Open();
+    int intQRetVal = cmd.ExecuteNonQuery();
+    string strDBHash = cmd.Parameters["@UserHash"].Value.ToString();
+    string strDBSalt = cmd.Parameters["@UserSalt"].Value.ToString();
+    WebSecurity.HashWithSalt(UserPassword, ref strDBSalt, out strHash);
+    if (strDBHash == strHash)
+    {
+      UserId = (int)cmd.Parameters["@UserId"].Value;
+      RoleId = (int)cmd.Parameters["@RoleId"].Value;
+      intRetVal = true;
+    }
+    else
+    {
+      UserId = -1;
+      RoleId = -1;
+    }
+
+    return intRetVal;
+  }
+}</PRE>
+        <LI>In addition, you want the application to be able to retrieve images 
+        filtered by group and role membership. Add the following method that 
+        calls the <B>GetImagesByImageGroupId</B> stored procedure (<B>Item 
+        31</B>): <PRE class=code>public static DataTable GetImagesByImageGroupId(
+   int GroupId, int MinRole)
+{
+   DataTable dt;
+   string conString =
+      ConfigurationSettings.AppSettings["ConnectionString"];
+
+   using (SqlConnection conn = new SqlConnection(conString))
+   {
+      SqlCommand cmd = new SqlCommand(
+         "GetImagesByImageGroupId", conn);
+      cmd.CommandType = CommandType.StoredProcedure;
+    
+      SqlParameter prm = new SqlParameter(
+         "@ImageGroupId", SqlDbType.Int);
+      prm.Value = GroupId;
+      cmd.Parameters.Add(prm);
+
+      prm = new SqlParameter("@MinRoleId", SqlDbType.Int);
+      prm.Value = MinRole;
+      cmd.Parameters.Add(prm);
+
+      SqlDataAdapter da = new SqlDataAdapter(cmd);
+      DataSet ds = new DataSet();
+      da.Fill(ds, "ImagesByImageGroupId");
+      dt = ds.Tables[0];
+
+      return dt;
+   }
+}</PRE>
+        <LI>Save your work. </LI></OL>
+      <H3 class=dtH1>Enabling User Login</H3>
+      <P class=normal>The next task is to allow users to login by providing an 
+      e-mail alias and password. 
+      <OL type=1>
+        <LI>To begin, open your AppGlobals.cs class file and add the following 
+        additional constant definitions: <PRE class=code>public const string sessKeyUserId = "UserId";
+public const string sessKeyRoleId = "RoleId";
+
+public const string 
+   errMsgInvalidUser = "Invalid User Id or Password";
+public const string errMsgCSS = "ErrorText";
+
+public const string infoMsgAnonymous = "Anonymous";</PRE>
+        <LI>Open Default.aspx in page design mode and add an event handler for 
+        the <B>Login</B> Button's Click event by double-clicking it, adding the 
+        following code to process the event (<B>Item 32</B>): <PRE class=code>int intUserId = -1;
+int intRoleId = -1;
+
+if (SSDAL.ValidateUser(txtUserAlias.Text, txtUserPassword.Text,
+   ref intUserId, ref intRoleId))
+{
+   // TODO -- Add Session Handling
+   FormsAuthentication.SetAuthCookie(txtUserAlias.Text, false);
+
+   Session[AppGlobals.sessKeyUserId] = intUserId;
+   Session[AppGlobals.sessKeyRoleId] = intRoleId;
+
+   Response.Redirect("default.aspx");
+}
+else
+{
+   lblUserId.CssClass = AppGlobals.errMsgCSS;
+   lblUserId.Text = AppGlobals.errMsgInvalidUser;
+}</PRE>
+        <LI>Add the following Imports directive to the top of the 
+        Default.aspx.cs file: <PRE class=code>using System.Web.Security;</PRE>
+        <LI>Return to Default.aspx in page design mode and add a handler for the 
+        <B>Logout</B> Button's Click event by double-clicking it and add the 
+        following code (<B>Item 33</B>): <PRE class=code>if ( User.Identity.IsAuthenticated )
+{
+   Session.Remove(AppGlobals.sessKeyUserId);
+   Session.Remove(AppGlobals.sessKeyRoleId);
+
+   // TODO -- Add Session Handling
+   FormsAuthentication.SignOut();
+
+   Response.Redirect("default.aspx");
+}</PRE>
+        <LI>Finally, you need to change the appearance of the page based on 
+        whether the user is logged in or not. Add the following method to the 
+        code-behind class _Default (<B>Item 34</B>): <PRE class=code>private void AdjustUI()
+{
+   bool fUA = User.Identity.IsAuthenticated;
+   if ( fUA )
+      lblUserId.Text = User.Identity.Name;
+   else
+      lblUserId.Text = AppGlobals.infoMsgAnonymous;
+
+   lblUserId.CssClass = String.Empty;
+   pnlLogin.Visible = (!fUA);
+   pnlLogout.Visible = fUA;
+}</PRE>
+        <LI>Place a call to this the newly added <B>AdjustUI</B> method at the 
+        top of your <B>Page_Load</B> handler. The <B>Page_Load</B> handler 
+        should look like this: <PRE class=code>private void Page_Load(object sender, System.EventArgs e)
+{
+   // Put user code to initialize the page here
+   AdjustUI();
+
+   if ( !Page.IsPostBack )
+   {
+      LoadImageGroups();
+      LoadGridData();
+      LoadCboPages();
+   }
+}</PRE>
+        <LI>In order for all of this to work, ASP.NET Forms Authentication must 
+        be enabled in the application's configuration file. Open web.config and 
+        find the <B>authentication</B> element. Change the <B>mode</B> attribute 
+        from Windows to <B>Forms</B> like below (<B>Item 35</B>): <PRE class=code>&lt;authentication mode="Forms" /&gt;</PRE>
+        <LI>Now that authentication is enabled, you need to ensure that 
+        anonymous users cannot upload images. In web.config, add the following 
+        XML snippet just below the top-level &lt;configuration&gt; element 
+        (<B>Item 36</B>): <PRE class=code>&lt;location path="NewImage.aspx"&gt;
+  &lt;system.web&gt;
+    &lt;authorization&gt;
+        &lt;deny users="?" /&gt; &lt;!-- deny anonymous users --&gt;
+    &lt;/authorization&gt;
+  &lt;/system.web&gt;
+&lt;/location&gt;</PRE>
+        <LI>There's one last task to perform before you test. You need modify 
+        the code used to add new image metadata to the database. The current 
+        procedure defaults to the user id value of one. Open NewImage.aspx.cs 
+        and locate the comment <B>TODO -- Once security is enabled, provide the 
+        correct user id</B> in the <B>btnUpload_Click</B> handler. In the call 
+        to <B>SSDAL.AddImage</B>, and change the 5th parameter from the 
+        hard-coded value of 1 to the following: <PRE class=code>Convert.ToInt32(Session[AppGlobals.sessKeyUserId])</PRE>
+        <LI>Now save your work, compile and test. You should be able to login 
+        with the following credentials:<BR>E-mail: 
+        <B>admin@nowhere.com</B><BR>Password: <B>password</B><BR><BR>You also 
+        should try an invalid combination to verify you cannot login. 
+        <BLOCKQUOTE class=dtBlock><B 
+          class=le>Note</B>&nbsp;&nbsp;&nbsp;Naturally if you changed the Admin 
+          user id and/or password when you built the database, you will need to 
+          provide those values.</BLOCKQUOTE></LI></OL>
+      <H3 class=dtH1>Restricting Access to Images Based on User Role 
+      Membership</H3>
+      <P>This database for this Web application is designed to restrict what 
+      images are visible to a user based upon the user's role membership. In 
+      addition, it can allow anonymous users to view images (if any exist in the 
+      database). 
+      <OL type=1>
+        <LI>To start, you will restrict the image groups that a particular user 
+        can assign to any uploaded files. Open the NewImage.aspx.cs file and 
+        locate the <B>LoadImageGroups</B> method. Modify it to look like the 
+        following (<B>Item 37</B>): <PRE class=code>void LoadImageGroups()
+{
+   DataView dv = new DataView(SSDAL.ImageGroups);
+
+   // Perform Data Binding
+   if (dv != null)
+   {
+      if (User.Identity.IsAuthenticated)
+         dv.RowFilter = "MinRoleId &lt;= " 
+            + Session[AppGlobals.sessKeyRoleId].ToString();
+      else
+         dv.RowFilter = "MinRoleId = 0";
+
+      cboImageGroups.DataSource = dv;
+      cboImageGroups.DataValueField = "ImageGroupId";
+      cboImageGroups.DataTextField = "ImageGroup";
+      cboImageGroups.DataBind();
+   }
+}</PRE>
+        <LI>Similarly, users assigned to a particular role can only restrict 
+        viewing of images they upload based on roles with an equal or lower 
+        privilege than what they have. In NewImage.aspx.cs, locate the 
+        <B>LoadRoles</B> method. Modify it to look like the following (<B>Item 
+        38</B>): <PRE class=code>void LoadRoles()
+{
+   DataView dv = SSDAL.UserRoles;
+
+   // Perform Data Binding
+   if (dv != null)
+   {
+      dv.RowFilter = "RoleId &lt;= " + 
+         Session[AppGlobals.sessKeyRoleId].ToString();
+      cboMinRole.DataSource = dv;
+      cboMinRole.DataValueField = "RoleId";
+      cboMinRole.DataTextField = "RoleName";
+      cboMinRole.DataBind();
+   }
+}</PRE>
+        <LI>Save your work, close NewImage.aspx.cs. 
+        <LI>Open Default.aspx.cs and locate the <B>LoadGridData</B> routine. 
+        Instead of retrieving all of the image metadata with the 
+        <B>AllImages</B> property of the data access class, you will use the new 
+        <B>GetImagesByImageGroupId</B> method. This method only retrieves those 
+        images that meet the group membership and security criteria of the 
+        current user. Change <B>LoadGridData</B> as follows (<B>Item 39</B>): <PRE class=code>private void LoadGridData()
+{
+   int intMinRoleId = 0;
+   if ( User.Identity.IsAuthenticated )
+      intMinRoleId =
+         Convert.ToInt32(Session[AppGlobals.sessKeyRoleId]);
+
+   int groupId = int.Parse(cboImageGroups.SelectedValue);
+   DataView dv = new DataView(
+      SSDAL.GetImagesByImageGroupId(groupId, intMinRoleId));
+
+   grdImages.DataSource = dv;
+   grdImages.DataBind();
+}</PRE>
+        <LI>Similarly, you want to only load those image groups that are 
+        viewable by the currently logged in user. Locate the 
+        <B>LoadImageGroups</B> method in Default.aspx.cs and change it to look 
+        like the following code (<B>Item 40</B>): <PRE class=code>private void LoadImageGroups()
+{
+   DataView dv  = new DataView(SSDAL.ImageGroups);
+  
+   // Perform Data Binding
+   if ( dv != null)
+   {
+      if ( User.Identity.IsAuthenticated )
+         dv.RowFilter = "MinRoleId &lt;= " + 
+            Session[AppGlobals.sessKeyRoleId].ToString();
+      else
+         dv.RowFilter = "MinRoleId = 0";
+
+      cboImageGroups.DataSource = dv;
+      cboImageGroups.DataValueField = "ImageGroupId";
+      cboImageGroups.DataTextField = "ImageGroup";
+      cboImageGroups.DataBind();
+      cboImageGroups.SelectedIndex = 0;
+   }
+}</PRE>
+        <LI>Save your work, close Default.aspx.cs. 
+        <LI>Lastly, you need to modify the StreamImage.cs handler to check for 
+        authenticated users and their role membership. Open StreamImage.cs and 
+        locate the <B>ProcessRequest</B> method. Within the method, find the 
+        comment <B>TODO -- Add Role Check</B>. After the comment, add the 
+        following logic (<B>Item 41</B>): <PRE class=code>int intMinRole = 0;
+string strMinRole = ctx.Request.Params["MinRole"];
+if (strMinRole != null)
+   intMinRole = int.Parse(strMinRole);
+  
+int intUserRoleLevel = 0;
+// use session
+if (ctx.User.Identity.IsAuthenticated)
+   intUserRoleLevel = (int)ctx.Session[AppGlobals.sessKeyRoleId];
+
+if (intUserRoleLevel &lt; intMinRole)
+   strPath = ctx.Server.MapPath(AppGlobals.fileDenied);</PRE>
+        <LI>Save your work, compile and test. Try adding images that require a 
+        certain role to view, and then try accessing them from an account with a 
+        lower role membership. Start by adding images using the Admin 
+        credentials listed earlier. Then try using the Guest account that has 
+        been assigned the role of 'Co-worker'. You should be able to login with 
+        the following credentials:<BR>E-mail: 
+        <B>guest@nowhere.com</B><BR>Password: <B>nopassword</B> 
+        <BLOCKQUOTE class=dtBlock><B class=le>Note</B>Naturally if you changed 
+          the Guest user id and/or password when you built the database, you 
+          will need to use those values.</BLOCKQUOTE></LI></OL>
+      <H3 class=dtH1>Encrypting Query String Parameters</H3>
+      <P>One last security issue is that requests made to the ShowImage 
+      HttpHandler have the path of the image on the server passed in clear text 
+      in the query string in addition to the user's role id. To see this in 
+      action, run the application before you perform this section and notice the 
+      value displayed in your browser's address bar whenever you view an image 
+      in full size mode.</P>
+      <P>To fix this, you are now going to encrypt the query string parameters 
+      for all requests made to the custom image handler. 
+      <OL type=1>
+        <LI>First, you need add the logic to encrypt the query string. Open the 
+        code-behind file Default.aspx.cs and locate the GetImageUrl method and 
+        call <B>WebSecurity.Encrypt</B> with the <B>strQstring</B> variable 
+        before concatenating it to the rest of the image URL as follows (<B>Item 
+        42</B>): <PRE class=code>protected string GetImageUrl(object dataItem, bool isThumbnail)
+{
+   string imageUrl;
+   string qstring;
+
+   if (isThumbnail)
+   {
+      qstring = string.Format("Path={0}&amp;MinRole={1}",
+         DataBinder.Eval(dataItem, "FullImageThumbPath"),
+         DataBinder.Eval(dataItem, "MinRole"));
+      imageUrl = "ShowImage.axd?" + WebSecurity.Encrypt(qstring);
+   }
+   else
+   {
+      qstring = string.Format("Path={0}&amp;MinRole={1}",
+         DataBinder.Eval(dataItem, "FullImagePath"),
+         DataBinder.Eval(dataItem, "MinRole"));
+      imageUrl = "ShowImage.aspx?" + WebSecurity.Encrypt(qstring);
+   }
+
+   return imageUrl;
+}</PRE>
+        <LI>In addition, you need to modify the <B>btnUpload_Click</B> handler 
+        in NewImage.aspx.cs to encrypt the query string so that you can view an 
+        image after it's been uploaded. Open NewImage.aspx.cs and search for the 
+        string <B>TODO -- Add Encryption</B>. Modify the code the sets the 
+        <B>hlinkViewImage</B> hyperlink's <B>NavigateUrl</B> property to include 
+        a call to <B>WebSecurity.Encrypt</B>: <PRE class=code>hlinkViewImage.NavigateUrl = string.Format("ShowImage.aspx?{0}", 
+     WebSecurity.Encrypt("Path=" + strServerPath + strFileNameOnly));</PRE>
+        <LI>Save and close NewImage.aspx.cs. 
+        <LI>Next, you need to decrypt the query string when it arrives at the 
+        custom image handler. Open StreamImage.cs and add the following helper 
+        method to parse the newly encrypted query string (<B>Item 43</B>): <PRE class=code>private NameValueCollection ParseQueryString(HttpContext ctx)
+{
+   NameValueCollection values = new NameValueCollection();
+   string qstring = string.Empty;
+   int idx = ctx.Request.RawUrl.IndexOf("?");
+   if (idx &gt; 0)
+   {
+      qstring = ctx.Request.RawUrl.Substring(idx + 1);
+      qstring = WebSecurity.Decrypt(qstring);
+      string[] stringPairs = qstring.Split('&amp;');
+      foreach (string s in stringPairs)
+      {
+         string[] pair = s.Split('=');
+         values[pair[0]] = pair[1];
+      }
+   }
+   return values;
+}</PRE>
+        <LI>Finally, you need to modify the <B>ProcessRequest</B> method of 
+        StreamImage.cs. Start by calling the new helper function at the 
+        beginning of the request processing: <PRE class=code>NameValueCollection values = ParseQueryString(ctx);</PRE>
+        <LI>Then replace all references to <B>ctx.Request.Params</B> with the 
+        new <B>values</B> variable. Your <B>ProcessRequest</B> method should 
+        look as follows (<B>Item 44</B>): <PRE class=code>public void ProcessRequest(HttpContext ctx)
+{
+   NameValueCollection values = ParseQueryString(ctx);
+
+   string strPath = values["Path"];
+   if (strPath != null)
+   {
+      // TODO - add role check
+      int intMinRole = 0;
+      string strMinRole = values["MinRole"]; 
+      if (strMinRole != null)
+         intMinRole = int.Parse(strMinRole);
+
+      int intUserRoleLevel = 0;
+      // use session
+      if (ctx.User.Identity.IsAuthenticated)
+         intUserRoleLevel = 
+            (int)ctx.Session[AppGlobals.sessKeyRoleId];
+
+      if (intUserRoleLevel &lt; intMinRole)
+         strPath = ctx.Server.MapPath(AppGlobals.fileDenied);
+
+      if (!File.Exists(strPath))
+         strPath = ctx.Server.MapPath(AppGlobals.fileNotFound);
+
+      WriteImage(ctx, strPath);
+   }
+}</PRE>
+        <LI>Save your work, compile and test. Verify that the query string 
+        passed to ShowImage.aspx is indeed encrypted, and that the image still 
+        displays correctly. </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic10></A>Tracking Sessions</H2>
+      <P>In this section, you will add the ability to track user sessions in the 
+      database. This requires modifying the data access layer and some of the 
+      presentation layer code.</P>
+      <H3 class=dtH1>Adding Session Tracking to the Data Access Layer</H3>
+      <OL type=1>
+        <LI>First you need to add a new method to interact with the database and 
+        validate users. Open the SSDAL.cs class file, and add the following 
+        method to invoke the <B>sm_SessionCreated</B> stored procedure (<B>Item 
+        45</B>): <PRE class=code>public static void SessionCreated(string SID)
+{
+   string conString = 
+      ConfigurationSettings.AppSettings["ConnectionString"];
+   SqlConnection conn = null;
+   SqlCommand cmd;
+
+   using (conn = new SqlConnection(conString))
+   {
+      cmd = new SqlCommand("sm_SessionCreated", conn);
+      cmd.CommandType = CommandType.StoredProcedure;
+      SqlParameter prm = 
+         cmd.Parameters.Add("@SessionIdAspNet", 
+         SqlDbType.VarChar, 24);
+
+      prm.Value = SID;
+      prm = cmd.Parameters.Add("@SessionCreated", 
+         SqlDbType.DateTime);
+
+      prm.Value = DateTime.Now;
+
+      conn.Open();
+      cmd.ExecuteNonQuery();
+   }
+}</PRE>
+        <LI>Next, add the following method to invoke the <B>sm_SessionEnded</B> 
+        stored procedure (<B>Item 46</B>): <PRE class=code>public static void SessionEnded(string SID)
+{
+   string conString = 
+      ConfigurationSettings.AppSettings["ConnectionString"];
+   SqlConnection conn = null;
+   SqlCommand cmd;
+
+   using (conn = new SqlConnection(conString))
+   {
+      cmd = new SqlCommand("sm_SessionEnded", conn);
+      cmd.CommandType = CommandType.StoredProcedure;
+      SqlParameter prm = 
+         cmd.Parameters.Add("@SessionIdAspNet", 
+         SqlDbType.VarChar, 24);
+
+      prm.Value = SID;
+      prm = cmd.Parameters.Add("@SessionEnded", 
+         SqlDbType.DateTime);
+      prm.Value = DateTime.Now;
+
+      conn.Open();
+      cmd.ExecuteNonQuery();
+   }
+}</PRE>
+        <LI>Finally, add the following method to invoke the 
+        <B>sm_SessionUserAuthenticated</B> stored procedure (<B>Item 47</B>): <PRE class=code>public static void SessionUserAuthenticated(
+   string SID, int UserId)
+{
+   string conString = 
+      ConfigurationSettings.AppSettings["ConnectionString"];
+   SqlConnection conn = null;
+   SqlCommand cmd;
+
+   using (conn = new SqlConnection(conString))
+   {
+      cmd = new SqlCommand("sm_SessionUserAuthenticated", conn);
+      cmd.CommandType = CommandType.StoredProcedure;
+      SqlParameter prm = 
+         cmd.Parameters.Add("@SessionIdAspNet", 
+         SqlDbType.VarChar, 24);
+
+      prm.Value = SID;
+      prm = 
+         cmd.Parameters.Add("@Authenticated", 
+         SqlDbType.DateTime);
+
+      prm.Value = DateTime.Now;
+      prm = cmd.Parameters.Add("@UserId", 
+         SqlDbType.Int);
+
+      prm.Value = UserId;
+
+      conn.Open();
+      cmd.ExecuteNonQuery();
+   }
+}</PRE>
+        <LI>Save your work. </LI></OL>
+      <H3 class=dtH1>Adding Session Tracking Code</H3>
+      <P>Now that the data access layer supports adding session data, you need 
+      to have the application use this code at the appropriate points as a user 
+      interacts with the application. 
+      <OL type=1>
+        <LI>First, open the code-behind file Default.aspx.cs. In the 
+        <B>btnLogin_Click</B> handler, place a call to the new 
+        <B>SSDAL.SessionUserAuthenticated</B> method with the SessionID and the 
+        user id just retrieved right after the call to SSDAL.ValidateUser. Your 
+        handler should look like this (<B>Item 48</B>): <PRE class=code>private void btnLogin_Click(object sender, System.EventArgs e)
+{
+   int intUserId = -1;
+   int intRoleId = -1;
+
+   if (SSDAL.ValidateUser(txtUserAlias.Text, txtUserPassword.Text,
+      ref intUserId, ref intRoleId))
+   {
+      // TODO -- Add Session Handling
+      SSDAL.SessionUserAuthenticated(Session.SessionID, intUserId);
+      FormsAuthentication.SetAuthCookie(txtUserAlias.Text, false);
+
+      Session[AppGlobals.sessKeyUserId] = intUserId;
+      Session[AppGlobals.sessKeyRoleId] = intRoleId;
+
+      Response.Redirect("default.aspx");
+   }
+   else
+   {
+      lblUserId.CssClass = AppGlobals.errMsgCSS;
+      lblUserId.Text = AppGlobals.errMsgInvalidUser;
+   }
+}</PRE>
+        <LI>In the <B>btnLogout_Click</B> handler, add the following line of 
+        code after the comment <B>TODO -- Add Session Handling</B> and before 
+        the next line of code: <PRE class=code>SSDAL.SessionEnded(Session.SessionID);</PRE>
+        <LI>Next, open the code behind file for your Global.asax file 
+        (Global.asax.cs). Locate the <B>Session_Start</B> handler and add a call 
+        to your new <B>SSDAL.SessionCreated</B> method: <PRE class=code>SSDAL.SessionCreated(Session.SessionID);</PRE>
+        <LI>In that same file, locate the <B>Session_End</B> handler and add a 
+        call to your new <B>SSDAL.SessionEnded</B> method: <PRE class=code>SSDAL.SessionEnded(Session.SessionID);</PRE>
+        <LI>Save your work, compile and test. To verify, run a query against the 
+        Sessions table in the database. </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic11></A>Error Handling</H2>
+      <P>In this last section, you will add a handler for any unhandled 
+      exceptions and provide an error message to the user. 
+      <OL type=1>
+        <LI>Add a new Web form to your project called CustomError.aspx. 
+        <LI>Drag &amp; drop the Styles.css file from the Solution Explorer on to 
+        the design surface of CustomError.aspx. 
+        <LI>Change the <B>title</B> property from CustomError to <B>Unexpected 
+        Error</B>. 
+        <LI>Change the pageLayout property from GridLayout to <B>FlowLayout</B>. 
+
+        <LI>Change to the page from Design view to HTML view and replace the 
+        default form element with the HTML in <B>Item 49</B> in codecsvs.txt. 
+        <LI>Save your work and return to Design view. 
+        <LI>Double-click anywhere on the page surface to access the 
+        <B>Page_Load</B> event handler. Add the following code (<B>Item 50</B>): 
+<PRE class=code>Exception ex = Server.GetLastError();
+if (ex != null)
+{
+lblError.Text = ex.Message;        
+}</PRE>
+        <LI>Open the code-behind file Global.asax.cs and add the following code 
+        to the <B>Application_Error</B> handler: <PRE class=code>Server.Transfer("CustomError.aspx");</PRE>
+        <LI>Save your work, compile, and test. One way to get an unexpected 
+        error is to stop your MSDE instance and try and run the application. 
+        </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic12></A>Conclusion</H2>
+      <P>ASP.NET 1.1 and MSDE make it easy to build a data-driven website. 
+      Making it secure and able to perform requires just a bit more effort. As a 
+      sample, this is far from being a complete application. Spend some time and 
+      think of ways to enhance the application to better suit your needs.</P>
+      <H2 class=dtH1><A name=mypicscsvs_topic13></A>Appendix A: Changing File 
+      System Permissions</H2>
+      <P>If you are running this walkthrough on Windows XP or earlier, the 
+      account you are looking for is ASP.NET worker account (aspnet_wp). If you 
+      are using Windows Server™ 2003, you will use the NETWORK SERVICE account. 
+      <OL type=1>
+        <LI>Start Windows Explorer. 
+        <LI>Navigate to the directory you want to modify. Typically for this 
+        walk through it will be C:\Inetpub\wwwroot\mypics\uploads. 
+        <LI>Right-click the directory and select the <B>Properties</B> command. 
+        <LI>Click the <B>Security</B> tab. If you do not see the appropriate 
+        account in the list, add it. 
+        <LI>Give the account <B>Modify</B> permissions (this will grant 
+        additional rights). 
+        <LI>Click <B>OK</B>. </LI></OL>
+      <H2 class=dtH1><A name=mypicscsvs_topic14></A>Additional Links</H2>
+      <P>For more information see the following:</P>
+      <P><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/msde2000webapp.asp">Using 
+      MSDE 2000 in a Web Application</A></P>
+      <P><A 
+      href="http://download.microsoft.com/download/b/f/2/bf2c691b-5a4d-4375-bc40-19570740bd6e/CSVSSetup.exe">C# 
+      .NET and Visual Studio .NET Sample</A></P>
+      <P>Additional walkthroughs:</P>
+      <P><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicscssdk.asp">MSDE 
+      2000 Walkthrough: Build a Data-Driven Website Using Visual C# .NET and the 
+      .NET Framework SDK</A></P>
+      <P><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicscswm.asp">MSDE 
+      2000 Walkthrough: Build a Data-Driven Website Using Visual C# .NET and 
+      ASP.NET Web Matrix</A></P>
+      <P><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsvbsdk.asp">MSDE 
+      2000 Walkthrough: Build a Data-Driven Website Using Visual Basic .NET and 
+      the .NET Framework SDK</A></P>
+      <P><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsvbvs.asp">MSDE 
+      2000 Walkthrough: Build a Data-Driven Website Using Visual Basic .NET and 
+      Visual Studio .NET 2003</A></P>
+      <P><A 
+      href="http://msdn.microsoft.com/library/en-us/dnmsde2kwrk/html/mypicsvbwm.asp">MSDE 
+      2000 Walkthrough: Build a Data-Driven Website Using Visual Basic .NET and 
+      ASP.NET Web Matrix</A></P>
+      <H2 class=dtH1><A name=mypicscsvs_topic15></A>Related Books</H2>
+      <P><A 
+      href="http://shopping.msn.com/search/detail.aspx?pcId=4644&amp;prodId=1528356&amp;ptnrid=141&amp;ptnrdata=0">Database 
+      Design for Mere Mortals: A Hands-On Guide to Relational Database 
+      Design</A>,<B> </B>Second Edition by Michael J. Hernandez, Addison Wesley 
+      Professional, 2003. ISBN: 0201752840</P>
+      <P><A 
+      href="http://shopping.msn.com/search/detail.aspx?pcId=12231&amp;prodId=1528348&amp;ptnrid=141&amp;ptnrdata=0">Essential 
+      ASP.NET with Examples in C#</A> by Fritz Onion Addison Wesley 
+      Professional, 2003. ISBN: 0201760401</P>
+      <P><A 
+      href="http://shopping.msn.com/search/detail.aspx?pcId=4319&amp;prodId=1528350&amp;ptnrid=141&amp;ptnrdata=0">Essential 
+      ASP.NET with Examples in Visual Basic .NET</A> by Fritz Onion, Addison 
+      Wesley Professional, 2003. ISBN: 0201760398</P>
+      <P><A 
+      href="http://shopping.msn.com/search/detail.aspx?pcId=4650&amp;prodId=1627168&amp;ptnrid=141&amp;ptnrdata=0">Microsoft 
+      ASP.NET Coding Strategies with the Microsoft ASP.NET Team</A> by Matthew 
+      Gibbs and Rob Howard, Microsoft Press, 2003. ISBN: 073561900X</P><!--closes the topic content div--><!--FOOTER_END--><!-- End Content --></DIV></TD></TR></TBODY></TABLE>
+<TABLE style="WIDTH: 100%" cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD style="WIDTH: 600px" noWrap></TD></TR>
+  <TR>
+    <TD><IFRAME id=frmRatings 
+      src="C:\Documents and Settings\Jonathan Moore\Desktop\MSDE 2000 Walkthrough Build a Data-Driven Website Using Visual C# _NET and Visual Studio _NET 2003_files\rightframe_files\mypicsCSVS_files\ratings(1).htm" 
+      frameBorder=0 width="100%" scrolling=no 
+height=250></IFRAME></TD></TR></TBODY></TABLE><BR 
+style="OVERFLOW: hidden; LINE-HEIGHT: 1px" clear=all>
+<TABLE id=msviFooter cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD id=msviFooter2 
+    style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#669AFF', gradientType='1')">
+      <DIV id=msviLocalFooter><NOBR><A 
+      href="http://go.microsoft.com/?linkid=317027">Manage Your Profile</A> 
+      |</NOBR><WBR><NOBR><A 
+      href="http://msdn.microsoft.com/isapi/gomscom.asp?target=/legal/" 
+      target=_parent>Legal</A> |</NOBR><WBR><NOBR><A 
+      href="http://go.microsoft.com/?linkid=2028439" target=_parent>Contact 
+      Us</A> |</NOBR><WBR><NOBR><A href="http://msdn.microsoft.com/flash/" 
+      target=_parent>MSDN Flash Newsletter</A></NOBR></DIV>
+      <DIV id=msviGlobalFooter><SPAN dir=ltr>© 2005 Microsoft Corporation. All 
+      rights reserved.&nbsp;</SPAN><NOBR><A 
+      href="http://www.microsoft.com/info/cpyright.mspx">Terms of Use</A> 
+      |</NOBR><WBR><NOBR><A 
+      href="http://msdn.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx">Trademarks</A> 
+      |</NOBR><WBR><NOBR><A 
+      href="http://www.microsoft.com/info/privacy.mspx">Privacy 
+      Statement</A></NOBR></DIV></TD>
+    <TD width=105 bgColor=#669aff><IMG title="" height=29 alt=Microsoft 
+      src="mypicsCSVS_files/text.jpg" width=105 border=0></TD></TR></TBODY></TABLE>
+<SCRIPT language=javascript>var msviFooter2;if (document.getElementById){msviFooter2 = document.getElementById("msviFooter2");msviFooter2.style.filter = "";}</SCRIPT>
+
+<TABLE height=58 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR vAlign=top>
+    <TD>
+      <DIV style="WIDTH: 200px"></DIV></TD>
+    <TD 
+    style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#669AFF', gradientType='1')" 
+    width="100%"></TD></TR></TBODY></TABLE>
+<SCRIPT language=javascript>footerjs(document);</SCRIPT>
+</BODY></HTML>
