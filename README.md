@@ -1,4 +1,4 @@
-﻿<img src="./images/UltimateStrands_1920x1200.jpg">
+﻿<img src="./images/1_7tQ4kI9hVJxGDzo1Ejy42Q.jpg">
 <!--<img src="./images/1_7tQ4kI9hVJxGDzo1Ejy42Q.jpg">-->
 
   
