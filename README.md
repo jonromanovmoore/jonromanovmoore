@@ -1,5 +1,5 @@
 ﻿<img src="./images/UltimateStrands_1920x1200.jpg">
-<!--<img src="./images/691390605_2164731840988023_3433254016940775997_n.jpg">-->
+<!--<img src="./images/1_7tQ4kI9hVJxGDzo1Ejy42Q.jpg">-->
 
   
 <h2>Jonathan Romanov Moore FRSA </h2>
