@@ -18,6 +18,8 @@
 
 * [Moore No. 1 Family pedigree](https://www.libraryireland.com/Pedigrees1/Moore1Ir.php)
 
+* [Inside The House Of Romanov: The $300 Billion Dynasty](https://www.therichest.com/rich-powerful/inside-the-house-of-romanov-the-300-billion-dynasty/)
+
 * [Jonathan Romanov Moore's Personality](https://www.youtube.com/watch?app=desktop&v=pQyLjLqFNWY)
 
 * [Jonathan's Macromedia Stock Merger](./Market/Macromedia/a2161099zf1_424b3.pdf)
