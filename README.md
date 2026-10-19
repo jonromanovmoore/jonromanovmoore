@@ -1,12 +1,10 @@
 ﻿<img src="./images/818819565_2283299452464594_294578902185084954_n.jpg" width ="100%">
 <!--<img src="./images/1_7tQ4kI9hVJxGDzo1Ejy42Q.jpg">-->
-
-
   
 <h2>Jonathan Romanov Moore FRSA </h2>
 <p>jonathanmoore@computer.org | jonathanmoore@sphinxlogic.onmicrosoft.com | https://sphinxlogic.visualstudio.com | Reston, Va, US <p></p>
 
-<!--* [Microsoft Employee Login](https://docs.microsoft.com/en-us/dynamics/s-e/howto)
+* [Microsoft Employee Login](https://docs.microsoft.com/en-us/dynamics/s-e/howto)
 
 * [Build Lab for Microsoft Employees and Partners](https://betawiki.net/wiki/Build_lab)
 
@@ -18,7 +16,7 @@
 
 * [Jonathan's Macromedia Stock Merger](./Market/Macromedia/a2161099zf1_424b3.pdf)
 
-* [Liqudity Value](https://www.lawinsider.com/dictionary/liquidity-value)
+<!--* [Liqudity Value](https://www.lawinsider.com/dictionary/liquidity-value)
 
 * [Oracle](https://github.com/oracle)
 
@@ -36,9 +34,9 @@
 
 * [Why Do Fortune 500 Companies Still Use Legacy Systems?](https://www.redpilllabs.com/blog/why-do-fortune-500-companies-still-use-legacy-systems)-->
 
-* [Mindosoft Windows 11 Full Disclousure](./credits.pdf)
+* [Microsoft Windows 11 Full Disclousure](./credits.pdf)
 
-* [My Clio Award Confirmation Letter](./Clios/Clio Awards - Award Confirmation Letter - Jonathan Moore.pdf)
+* [My Clio Award Confirmation Letter](./Clios/ClioAwardsAwardConfirmationLetterJonathanMoore.pdf)
 
 <!--<p><a href="https://pro.imdb.com/name/nm16454040?ref_=wa_nv_pro">Jonathan Moore's IMDB Pro</a></p>
 
@@ -70,16 +68,16 @@
 
 <p><a href="https://windowsdevops.github.io/">Windows Devops</a></p>
 
-<p><a href="https://sdtimes.com/cia/sd-times-blog-cia-can-teach-development/">What the CIA can teach you about development</a></p>
+<p><a href="https://sdtimes.com/cia/sd-times-blog-cia-can-teach-development/">What the CIA can teach you about development</a></p>-->
 
-<ul>
+<!--<ul>
   <li>GNU Dev mailing list</li>
   <li>Apple Kernel Dev Mailing list</li>
   <li>Sourceware Embedded C ++ Mailing list</li>  
-</ul>
+</ul>-->
 
 
-<h2>PROFESSIONAL SUMMARY</h2>
+<!--<h2>PROFESSIONAL SUMMARY</h2>
 
 <p>I'm using Family Tree DNA. I tested as a INTJ-T like Dr. Steven Hawking as a INTJ. I'm a Royal Society of the Arts Fellow. My grandmother Helen Mcnutt taught me about oil crisis in 1980's. My mother Charlene Chatman bought me my first PC and Tandy computer which originally sold leather. I went to Hollins Communication and was diagnosed with a lateral excision lisp and helped the actress Emily Blunt with her computer in 1989. I worked on Steven Spielberg's movie Artificial Intelligence Macromedia Flash Website, help ship Macromedia Studio 8 with a Macromedia patent portfolio. My first investment was at Moors and Cabot and Anne Hathaway the actress is my first soulmate. I licensed QuickTime source code in 2001 from Apple Computer. I own $2 million in housing vouchers from a Charlton Sheets program. I'm a retired Microsoft Gold Partner and worked on Microsoft MAUI in college in 2009 where.
 
@@ -89,9 +87,9 @@ I have $73 million in cash for my wedding as a asset type. I'm a direct decedent
 Looking forward to a Adobe sponsored Sun Microsystems Grant and spending time with my father the Builders First Source retired executive David Moore. I've been a Microsoft Knowledge worker for 25 years collecting source code and building Operating Systems. I had a MSDN Help technical case in 2003 to put the MSDN Library online. I would have you in Operating Systems Theory if it wasn't for Facebook in 2004. My family drafted a irrevocable trust in 2019.
 Finally Me, Jonathan David Allen Moore discovered the American Type Culture Collection website in 2001 and used Internet Explorer as a IE favorite for Immortalized Cell Lines
 
-Written and copyright by Jonathan Moore 2026
+Written and copyright by Jonathan Moore 2026-->
 
-<h3>Events</h3>
+<!--<h3>Events</h3>
 <ul>
 <li>The first BSD was released in January 1978 when my family was moving to TN/VA from Atlanta, Ga and a tornado struck Bristol, TN,VA</li>
 <li>I traveled to the Washington, DC and set in on the 99th session of Congress in 1987 and met Al Gore</li>
@@ -100,9 +98,9 @@ Written and copyright by Jonathan Moore 2026
 
 <p>When Microsoft released the first version of Windows NT in April 1993, the company’s marketing and public relations campaign heavily emphasized the NT (i.e., New Technology) in the operating system’s (OS’s) name. Microsoft promoted NT as a cutting-edge OS that included all the features users expected in an OS for workstations and small to midsized servers. Although NT was a new OS in 1993, with a new API (i.e., Win32) and new user and systems-management tools, the roots of NT’s core architecture and implementation extend back to the mid-1970s.
 
-And now… The rest of the story: I’ll take you on a short tour of NT’s lineage, which leads back to Digital and its VMS OS. Most of NT’s lead developers, including VMS’s chief architect, came from Digital, and their background heavily influenced NT’s development. After I talk about NT’s roots, I’ll discuss the more-than-coincidental similarities between NT and VMS, and how Digital reacted to NT’s release.</p>
+And now… The rest of the story: I’ll take you on a short tour of NT’s lineage, which leads back to Digital and its VMS OS. Most of NT’s lead developers, including VMS’s chief architect, came from Digital, and their background heavily influenced NT’s development. After I talk about NT’s roots, I’ll discuss the more-than-coincidental similarities between NT and VMS, and how Digital reacted to NT’s release.</p>-->
 
-<ul>
+<!--<ul>
 <li>Mathworks Matlab</li>
 <li>Propellerhead Reason</li>
 <li>Native Instruments Komplete Ultimate</li>
@@ -110,13 +108,13 @@ And now… The rest of the story: I’ll take you on a short tour of NT’s line
 <li>Ableton Live Suite</li>
 <li>Coral Suite</li>
 <li>Adobe CS2, CS6</li>
-</ul>
+</ul>-->
 
-<ul>
+<!--<ul>
 <li>Building a DAW with Planet CCARMA from Stanford University</li>
-</ul>
+</ul>-->
 
-<h2>CAREER HISTORY</h2>
+<!--<h2>CAREER HISTORY</h2>
 
 <h2>The following is CD/DVD date stamped</h2>
 
