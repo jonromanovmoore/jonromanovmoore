@@ -6,7 +6,7 @@
 <h2>Jonathan Romanov Moore FRSA </h2>
 <p>jonathanmoore@computer.org | jonathanmoore@sphinxlogic.onmicrosoft.com | https://sphinxlogic.visualstudio.com | Reston, Va, US <p></p>
 
-* [Microsoft Employee Login](https://docs.microsoft.com/en-us/dynamics/s-e/howto)
+<!--* [Microsoft Employee Login](https://docs.microsoft.com/en-us/dynamics/s-e/howto)
 
 * [Build Lab for Microsoft Employees and Partners](https://betawiki.net/wiki/Build_lab)
 
@@ -34,9 +34,11 @@
 
 * [Why a high IQ doesn't mean you're smart](https://som.yale.edu/news/2009/11/why-high-iq-doesnt-mean-youre-smart)
 
-* [Why Do Fortune 500 Companies Still Use Legacy Systems?](https://www.redpilllabs.com/blog/why-do-fortune-500-companies-still-use-legacy-systems)
+* [Why Do Fortune 500 Companies Still Use Legacy Systems?](https://www.redpilllabs.com/blog/why-do-fortune-500-companies-still-use-legacy-systems)-->
 
-* [My Clio Award Confirmation Letter](./Clios/1441.pdf)
+* [Mindosoft Windows 11 Full Disclousure](./credits.pdf)
+
+* [My Clio Award Confirmation Letter](./Clios/Clio Awards - Award Confirmation Letter - Jonathan Moore.pdf)
 
 <!--<p><a href="https://pro.imdb.com/name/nm16454040?ref_=wa_nv_pro">Jonathan Moore's IMDB Pro</a></p>
 
@@ -74,10 +76,10 @@
   <li>GNU Dev mailing list</li>
   <li>Apple Kernel Dev Mailing list</li>
   <li>Sourceware Embedded C ++ Mailing list</li>  
-</ul>-->
+</ul>
 
 
-<!--<h2>PROFESSIONAL SUMMARY</h2>
+<h2>PROFESSIONAL SUMMARY</h2>
 
 <p>I'm using Family Tree DNA. I tested as a INTJ-T like Dr. Steven Hawking as a INTJ. I'm a Royal Society of the Arts Fellow. My grandmother Helen Mcnutt taught me about oil crisis in 1980's. My mother Charlene Chatman bought me my first PC and Tandy computer which originally sold leather. I went to Hollins Communication and was diagnosed with a lateral excision lisp and helped the actress Emily Blunt with her computer in 1989. I worked on Steven Spielberg's movie Artificial Intelligence Macromedia Flash Website, help ship Macromedia Studio 8 with a Macromedia patent portfolio. My first investment was at Moors and Cabot and Anne Hathaway the actress is my first soulmate. I licensed QuickTime source code in 2001 from Apple Computer. I own $2 million in housing vouchers from a Charlton Sheets program. I'm a retired Microsoft Gold Partner and worked on Microsoft MAUI in college in 2009 where.
 
@@ -128,7 +130,7 @@ Chair inherited a 1800's Shakespeare Collection from London, UK raised on Macmil
 
 <p>I tested as a INTJ-T at the University of California Fulerton found in only about 1.9% of the global population and have the same personality and Dr. Steven Hawking. Bought a Harvard University Press book on how to fund a bank. In 2025 with Anne Hathaway the actress.<p><a href="https://vero.co/">I'm Verified on Vero</a></p> the Anti-Facebook. Finishing a 2003 Microsoft help case of turning HXS files into online documentation project scope may still be too large. Finishing my BYO Computer Science and Information Technology Code Center Premium from the years 1968 to Present. With my B in Information Security, A in Psychology, A in Sociology. I believe ethical hacking of Igor Sakhnov of Microsoft is just and not wasting your life programming the debug help just signing Microsoft's Master Source Code Agreement. The university graduation rule and public education law is 8 complete semesters. On the waiting list at New Beginnings in Santa Barbra, California. With $5 million in housing vouchers. Researching why INTJ's don't like ordinary people. </p>-->
 
-<!--<h3>Microsoft Imagine Cup </h3>
+<h3>Microsoft Imagine Cup </h3>
 
 2025
 
@@ -251,7 +253,7 @@ Cornell University's Bio HPC from Microsoft Research.
 
 The price or cost is about $45K from Direct and Amazon.</p>
 
-<!--<p>It is just your BYO Code Center Premium and a lot of Knowledge Work stay in school. Or you can go to a <a href="https://learn.microsoft.com/en-us/security/engineering/onlinesources">Microsoft Transparency Center</a> which I'm trying to make with the Windows Internals Supplement Series.</p>
+<p>It is just your BYO Code Center Premium and a lot of Knowledge Work stay in school. Or you can go to a <a href="https://learn.microsoft.com/en-us/security/engineering/onlinesources">Microsoft Transparency Center</a> which I'm trying to make with the Windows Internals Supplement Series.</p>
 
 <p>Liquidity Value means that amount which your Provider has determined is available to settle your Check transactions based on (i) the amount of cash in your Base Account, if any, (ii) the amount of money in the Deposit Accounts that are linked to your Base Account, (iii) the value of the Fund shares in your Base Account, and (iv) margin loans, but only to the extent of the available margin collateral value of securities in your Base Account as determined by your Provider. Your Provider may determine that the available margin collateral value for purposes of paying Check transactions is an amount less than that which could be used to purchase securities or otherwise be withdrawn from your Base Account. The available margin collateral value will fluctuate from day to day, since it depends upon securities prices and the debit balance in your Base Account, and your outstanding Check transactions received for processing. </p>-->
 
@@ -263,11 +265,11 @@ The price or cost is about $45K from Direct and Amazon.</p>
 
 <p>Also housing discrimination against a Royal Society of the Arts lifetime fellow and career negligence on the part of the democratic party. I paid my tuition, I did not qualify for the Pell Grant my EFC was to high and my family pays its real estate taxes we expect the academic journals to be avaible to the homeowner. As much as we pay for internet service. Over $150 a month. I'm giving cash $3K to my father for a local lawyer's fee's soon he is about to go into a nursing home in five years or less. I'm inheriting one home and I rent. When I was furniture porter I paid for my families dinning room suit and living room. Now I rent and I've paid for everything in my apt. Including the den and bedroom suit and office equipment.</p>-->
 
-<!--<p>Letters of recommendation from Microsoft Co-Founder Bill Gates, CEO Steve Ballmer and President Brack Obama.</p>
+<p>Letters of recommendation from Microsoft Co-Founder Bill Gates, CEO Steve Ballmer and President Brack Obama.</p>
 
 Copyright 2025 Monster.com and Career Builder.
 
-<!--<h2>Links</h2>
+<h2>Links</h2>
 
 <p><a href="https://psycnet.apa.org/record/2020-93235-006">Functional MRI findings in schizophrenia.</a></p>
 
@@ -308,7 +310,7 @@ Copyright 2025 Monster.com and Career Builder.
 
 <p><a href="https://www.sciencedirect.com/science/article/pii/S0370269315001768">Stabilizing the Higgs potential with a Z′</a></p>-->
 
-<!--<h2>Operating Systems and Games</h2>
+<h2>Operating Systems and Games</h2>
 <ul>
   <li><a href="https://archive.org/details/win-95-osr-2">Microsoft Windows 95</a></p></li>
   <li><a href="https://www.riscosopen.org/content/">RISC OS Open Limited the Nintendo 64 & Cube Operating System</a></p></li>
@@ -331,7 +333,7 @@ Copyright 2025 Monster.com and Career Builder.
 
 <p><a href="https://www.youtube.com/watch?app=desktop&v=pQyLjLqFNWY">Jonathan David Allen (Windsor) Moore's Personality</a></p>-->
 
-### Articles
+<!--### Articles
 
 * [Articles](https://microsoft-os.github.io/docs/building/articles.html)
 * [Awesome Repositories](https://github.com/pawelborkar/awesome-repos)
@@ -477,7 +479,7 @@ Copyright 2025 Monster.com and Career Builder.
 * [Microsoft researchers win ImageNet computer vision challenge](https://blogs.microsoft.com/ai/microsoft-researchers-win-imagenet-computer-vision-challenge/)
 * [Deep Neural Networks for Indoor Localization Using WiFi Fingerprints](https://link.springer.com/chapter/10.1007/978-3-030-22885-9_21)
 * [Experimenting with Spirituality: Analyzing The God Gene in a Nonmajors Laboratory Course](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2262126/)
-* [The Supreme Court pared down a controversial anti-hacking law](https://www.theverge.com/2021/6/5/22491859/supreme-court-van-buren-cfaa-hacking-law-scope-narrowed)
+* [The Supreme Court pared down a controversial anti-hacking law](https://www.theverge.com/2021/6/5/22491859/supreme-court-van-buren-cfaa-hacking-law-scope-narrowed)-->
 
 ```
 git submodule update --init --recursive
@@ -500,9 +502,9 @@ git submodule update --init --recursive
   
 <p>In 2018 I wrote President Obama and told him my family didn't vote for president Nixon, didnt support the Occupy Movement and how my University EFC was too high and I didn't qualify for the Pell Grant. In college I lived off campus and in research approved by the chancellor. My grandfather was in the Navy during WWII and was first gunner on a naval ship and sargent in WWII. My father was credit manager for <a href="https://www.perficient.com/success-stories/builders-first source">Builders First Source for 40 years the nations largest building supplier</a> He worked with Citrix Computers. They build homes and Data Centers. In 2021 Microsoft Partner of the year. Before he retired. I'm Lifetime Trainsec Windows Internals Certified. I have a lateral excusion lisp which was corrected in 1989.</p>
 
-<p>In 2003 I revieved my first millionaire statement from Edward Jones. I was 30 under 30 in my area. My first Cd-R application was Roxio From TiVo Corporation in 1986. I learned CoralDRAW At TCAT in 1999. Microsoft System Integrator with valid contract from 2002-present. INTJ-T tested at the University of California, Cannot put my personality profile online because of CIA takedown notices. University of Virginia Computer Science Alumni. With 3.5 GPA Scholar Award. I was UVa's ACM Vice President in 2008-2010. I'm also Windows 7/2008 Internals Certified. Former Macromedia User Group trainer from 1999. WK3 was released on my birthday. I took AP University Physics at Rice University. Grew up on x86 Computer Architecture. I live in Bristol, Va the Birthplace of country music and my family owns two homes. Lived in Jamestown, Va as a child. Passed the CIA PAS System in 1984 at Sullins Academy. All official paperwork in email and and print on past and present corporate accounts. My father approved of all of my paperwork. </p>-->
+<p>In 2003 I revieved my first millionaire statement from Edward Jones. I was 30 under 30 in my area. My first Cd-R application was Roxio From TiVo Corporation in 1986. I learned CoralDRAW At TCAT in 1999. Microsoft System Integrator with valid contract from 2002-present. INTJ-T tested at the University of California, Cannot put my personality profile online because of CIA takedown notices. University of Virginia Computer Science Alumni. With 3.5 GPA Scholar Award. I was UVa's ACM Vice President in 2008-2010. I'm also Windows 7/2008 Internals Certified. Former Macromedia User Group trainer from 1999. WK3 was released on my birthday. I took AP University Physics at Rice University. Grew up on x86 Computer Architecture. I live in Bristol, Va the Birthplace of country music and my family owns two homes. Lived in Jamestown, Va as a child. Passed the CIA PAS System in 1984 at Sullins Academy. All official paperwork in email and and print on past and present corporate accounts. My father approved of all of my paperwork. </p>
 
-<!--<p>Your first step is to set up Git For Windows the Microsoft Way from the Disclosures</p>
+<p>Your first step is to set up Git For Windows the Microsoft Way from the Disclosures</p>
 
 <p>Reading becoming a ethical hacker by O'Riley Media Set up a Metasploitable Vitrual Machine. Don't support the MIT Media lab and their metadata dept on the internet.</p>
 
@@ -513,7 +515,7 @@ git submodule update --init --recursive
 
 <p>I applied to Stanford University just to graduate in 2026 into graduate program but I might have to take a undergraduate degree in computer science because of the 8 semester public education graduation rule. All credits are being transfered with a $120 application fee. The east coast is just to mean the west coast is nicer and has innocent movies I'm not buying Anne Hathaway's east coast NY Somewhere Pictures movies past 2012 she's become mean and abusive her manager has been emailed her soulmate east coast DOJ abuse case. I'm asking my father a Builders First Source former retired executive to develop land on the west cost as usual. The homeless problem will take care of itself once COCOMO II, <a href="https://www.forrester.com/blogs/determining-the-value-of-a-perpetual-license/">value of prepetual licencing</a> and cash conversion cycle is taught at my best guess. It is annual invoices plus 25% for improvment.</p>
 
-<p>I've filed a lawsuit with the Microsoft Legal about the inventors of social media it kills innovation and <a href="https://www.sciencedirect.com/science/article/pii/S0306460324002740">causes autism</a> when competion law should be enforced.</p>-->
+<p>I've filed a lawsuit with the Microsoft Legal about the inventors of social media it kills innovation and <a href="https://www.sciencedirect.com/science/article/pii/S0306460324002740">causes autism</a> when competion law should be enforced.</p>
 
 <img src="./images/Screenshot 2026-05-09 215807.jpg">
 
@@ -521,17 +523,16 @@ git submodule update --init --recursive
 
 <img src="./images/476611792_1796001047861106_6537465140597249039_n.jpg">
 
-<!--<img src="./images/building windows.gif">-->
+<img src="./images/building windows.gif">
 
-<!--<video>
+<video>
   <source src="3211065649066898.mp4" type="video/mp4">
-</video>-->
+</video>
 
 <img src="./images/CIA.jpg">
 
-<!--<h2>Every Microsoft Windows Release, SDK, DDK, and Symbols; 1.63 TB Working on a build server with every build. A FTP Server that 1.62 TB, 183 GB in Research, 3.73 TB in Virtual Machines<h2>
-
-<!--<ul>
+<h2>Every Microsoft Windows Release, SDK, DDK, and Symbols; 1.63 TB Working on a build server with every build. A FTP Server that 1.62 TB, 183 GB in Research, 3.73 TB in Virtual Machines<h2>
+ul>
 <li><a target="_self" href="https://opensource.microsoft.com/cla/">Microsoft CLA</a></li>
 <li><a target="_self" href="https://opensource.adobe.com/cla.html">Adobe CLA</a></li>
 <li><a target="_self" href="https://cla-assistant.io/">Sphinx Logic CLA</a></li>
