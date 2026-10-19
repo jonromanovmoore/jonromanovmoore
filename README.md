@@ -23,8 +23,10 @@
 * [Jonathan's Macromedia Stock Merger](./Market/Macromedia/a2161099zf1_424b3.pdf)
 
 <p>Send $5 a component to the</p>
+
 <p>Source Code Compliance Team</p>
-<p>One Microsoft Way Redmond, Wa 98052</p>
+<p>One Microsoft Way</p> 
+<p>Redmond, Wa 98052</p>
 
 <h2>Anne Hathaway as retold By her cousin Jonathan David Allen Moore Now Legally Jonathan Romanov Moore by DNA Testing</h2>
 
