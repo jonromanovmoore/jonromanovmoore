@@ -64,6 +64,8 @@
 
 <p>Universities are not allowed to make celebrities the monarchy is the monarchy currently following entertainment law. Therefore I'm only continuing my RSA fellowship to receive diplomatic immunity. I'm suing RSA for common person practice since 2000 at Microsoft Legal.</p>
 
+<p>Microsoft 700GB Windows 2000 DNA Suite With Source and Rational Software to be released with Anne Hathawth gets a divorce from Sphinx Logic and the USA regrets the breakup of Microsoft.</p>
+
 <h2>Anne Hathaway as retold By her cousin Jonathan David Allen Moore Now Legally Jonathan Romanov Moore by DNA Testing</h2>
 
 <p>I tested as Anne Hathaway the Actress DNA match in 2018 from National Genographic 2.0. My mother was on the board of the YWCA who named my blanket gigi after a Audrey Hepburn film in 1983. I worked for Macromedia and my first investment was at Moors and Cabot in 1999 for Disney and Macromedia, I was valedictorian of my preparatory college class in 2000 as she played a valedictorian in the TV Series 'Get Real' and the movie the Princess Diaries where she became a princess and I recently discovered I was related to eh empirical House of Romanov from Russia.</p>
