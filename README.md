@@ -45,6 +45,8 @@
 * [Every Windows Update for Windows 8, 8.1, Server 2012 R2 x86 / x64](https://nuangel.net/2026/06/every-windows-update-for-windows-8-8-1-server-2012-r2-x86-x64/)
 
 * [Mac OS Rhapsody DR1, DR2 Intel (x86) & PPC](https://macintoshgarden.org/apps/rhapsody-dr1-dr2-intel-x86-ppc)
+
+*[Area 51 Operating System Proposals](https://area51.stackexchange.com/)
   
 <p>Send $5 a component to the</p>
 
