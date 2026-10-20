@@ -40,6 +40,8 @@
 
 * [Windows 2000 update archive [Updated July 2026]](https://archive.org/details/win50-upd) :heart: NY
 
+* [Jonathan R Moore's Orginial Windows Build Instructions with ECMA](https://microsoft-os.github.io/)
+
 * [Every Windows XP “Windows Update” in one download (+2019 patches)](https://nuangel.net/2015/04/every-windows-xp-windows-update-in-one-download/)
 
 * [Every Windows Update for Windows 8, 8.1, Server 2012 R2 x86 / x64](https://nuangel.net/2026/06/every-windows-update-for-windows-8-8-1-server-2012-r2-x86-x64/)
