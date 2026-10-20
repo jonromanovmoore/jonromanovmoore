@@ -33,6 +33,8 @@
 * [UK–California climate and energy agreement ](https://www.gov.uk/government/publications/uk-california-climate-and-energy-agreement)
 
 * [Towards a Topology for Legacy System Migration](https://dl.acm.org/doi/abs/10.1145/3387940.3391476)
+
+* [Windows 2000 update archive [Updated July 2026]](https://archive.org/details/win50-upd) :heart: NY
   
 <p>Send $5 a component to the</p>
 
