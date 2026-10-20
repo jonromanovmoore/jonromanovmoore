@@ -39,6 +39,8 @@
 * [Every Windows XP “Windows Update” in one download (+2019 patches)](https://nuangel.net/2015/04/every-windows-xp-windows-update-in-one-download/)
 
 * [Every Windows Update for Windows 8, 8.1, Server 2012 R2 x86 / x64](https://nuangel.net/2026/06/every-windows-update-for-windows-8-8-1-server-2012-r2-x86-x64/)
+
+* [Mac OS Rhapsody DR1, DR2 Intel (x86) & PPC](https://macintoshgarden.org/apps/rhapsody-dr1-dr2-intel-x86-ppc)
   
 <p>Send $5 a component to the</p>
 
