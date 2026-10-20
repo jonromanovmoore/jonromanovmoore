@@ -40,7 +40,9 @@
 
 * [Windows 2000 update archive [Updated July 2026]](https://archive.org/details/win50-upd) :heart: NY
 
-* [Jonathan R Moore's Orginial Windows Build Instructions with ECMA](https://microsoft-os.github.io/)
+* [David Cutler — 2016 CHM Fellow](https://www.youtube.com/watch?v=J2GV_bCfnCw)
+
+* [Jonathan R Moore's Microsoft Gold Partner](https://microsoft-os.github.io/)
 
 * [Every Windows XP “Windows Update” in one download (+2019 patches)](https://nuangel.net/2015/04/every-windows-xp-windows-update-in-one-download/)
 
