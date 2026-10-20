@@ -64,7 +64,7 @@
 
 <p>Universities are not allowed to make celebrities the monarchy is the monarchy currently following entertainment law. Therefore I'm only continuing my RSA fellowship to receive diplomatic immunity. I'm suing RSA for common person practice since 2000 at Microsoft Legal.</p>
 
-<p>Microsoft 700GB Windows 2000 DNA Suite With Source and Rational Software to be released with Anne Hathawth gets a divorce from Sphinx Logic and the USA regrets the breakup of Microsoft.</p>
+<p>Microsoft 700GB Windows 2000 DNA Suite With Source, Softimage 3.0 and Rational Software to be released when Anne Hathaway the actress gets a divorce from Adam Shulman by Sphinx Logic and the USA regrets the breakup of Microsoft. In Vogue Magazine.</p>
 
 <h2>Anne Hathaway as retold By her cousin Jonathan David Allen Moore Now Legally Jonathan Romanov Moore by DNA Testing</h2>
 
