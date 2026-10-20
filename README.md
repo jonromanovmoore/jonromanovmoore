@@ -40,6 +40,8 @@
 
 <p>I graduated High School With a 2.7 GPA Preparatory school in the USA with a 4.0 GPA and am a UVa Alumni with a 3.2 GPA and Virginia scholar award. and Microsoft Alumni, working on Apple or Adobe Alumni. I am paying for my GitHub, Apple Music and Website. I'm direct decadents of the House Romanov $300 billion dollar dynasty and the famed Charles Darwin. I'll vote again when the USA can be partisan and make sense and doctors learn about postmodernism. There can be a free society if its just fair and faithful. I might need to be put on Prozac. I have a Microsoft Tender offer worth $20 million and extended for 75 years. I have letter's from President's Obama and Trump and Microsoft's Bill Gates and Steve Ballmer.</p>
 
+<p>Universities are not allowed to make celebrities the monarchy is the monarchy currently following entertainment law. Therefore I'm not renewing my RSA fellowship.</p>
+
 <h2>Anne Hathaway as retold By her cousin Jonathan David Allen Moore Now Legally Jonathan Romanov Moore by DNA Testing</h2>
 
 <p>I tested as Anne Hathaway the Actress DNA match in 2018 from National Genographic 2.0. My mother was on the board of the YWCA who named my blanket gigi after a Audrey Hepburn film in 1983. I worked for Macromedia and my first investment was at Moors and Cabot in 1999 for Disney and Macromedia, I was valedictorian of my preparatory college class in 2000 as she played a valedictorian in the TV Series 'Get Real' and the movie the Princess Diaries where she became a princess and I recently discovered I was related to eh empirical House of Romanov from Russia.</p>
