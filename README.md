@@ -36,6 +36,8 @@
 
 * [Towards a Topology for Legacy System Migration](https://dl.acm.org/doi/abs/10.1145/3387940.3391476)
 
+* [Univesity of Kent Computer Mirror Service](https://www.mirrorservice.org/)
+
 * [Windows 2000 update archive [Updated July 2026]](https://archive.org/details/win50-upd) :heart: NY
 
 * [Every Windows XP “Windows Update” in one download (+2019 patches)](https://nuangel.net/2015/04/every-windows-xp-windows-update-in-one-download/)
