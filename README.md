@@ -26,6 +26,8 @@
 
 * [Debugging Program Verification Proof Scripts ](https://arxiv.org/html/1804.04402v1)
 
+* [Freud’s Contributions on Stuttering: Their Relation to Some Current Insights](https://psychiatryonline.org/doi/abs/10.1176/appi.psychotherapy.1960.14.1.210)
+
 * [Microsoft Windows/Office Offical Device Partner](https://ntriver.org/)
 
 * [What happens to our bodies after we die](https://www.bbc.com/future/article/20150508-what-happens-after-we-die)
