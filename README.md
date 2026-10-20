@@ -66,6 +66,8 @@
 
 <p>Microsoft 700GB Windows 2000 DNA Suite With Source, Softimage 3.0 and Rational Software to be released when Anne Hathaway the actress gets a divorce from Adam Shulman by Sphinx Logic and the USA regrets the breakup of Microsoft. In Vogue Magazine.</p>
 
+<p>Jonathan Is still trying to be and Adode alumni with about 12 aquisions.</p>
+
 <h2>Anne Hathaway as retold By her cousin Jonathan David Allen Moore Now Legally Jonathan Romanov Moore by DNA Testing</h2>
 
 <p>I tested as Anne Hathaway the Actress DNA match in 2018 from National Genographic 2.0. My mother was on the board of the YWCA who named my blanket gigi after a Audrey Hepburn film in 1983. I worked for Macromedia and my first investment was at Moors and Cabot in 1999 for Disney and Macromedia, I was valedictorian of my preparatory college class in 2000 as she played a valedictorian in the TV Series 'Get Real' and the movie the Princess Diaries where she became a princess and I recently discovered I was related to eh empirical House of Romanov from Russia.</p>
