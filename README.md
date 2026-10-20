@@ -24,6 +24,7 @@
 
 * [Jonathan's Macromedia Stock Merger](./Market/Macromedia/a2161099zf1_424b3.pdf)
 
+* [Debugging Program Verification Proof Scripts ](https://arxiv.org/html/1804.04402v1)
 <p>Send $5 a component to the</p>
 
 <p>Source Code Compliance Team</p>
