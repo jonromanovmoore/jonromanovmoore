@@ -6,7 +6,7 @@
 <h2>Jonathan Romanov Moore FRSA </h2>
 <p>jonathanmoore@computer.org | jonathanmoore@sphinxlogic.onmicrosoft.com | https://sphinxlogic.visualstudio.com | Reston, Va, US <p></p>
 
-* [Microsoft Windows 11 Full Disclousure](./credits.pdf)
+* [Microsoft Windows Disclosures](https://1drv.ms/f/c/301549053bc25920/IgCqVXFRS5g4Spzx9POq7hf4ARaephxpMSYXglJfefGCEpk?e=7WSLW6)
 
 * [Jonathan R Moore's Clio Award Confirmation Letter](./Clios/ClioAwardsAwardConfirmationLetterJonathanMoore.pdf)
 
