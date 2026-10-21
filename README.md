@@ -53,6 +53,8 @@
 * [Area 51 Operating System Proposals](https://area51.stackexchange.com/)
 
 * [TransferSize](https://www.transfersize.com/en)
+
+* [Monopolies In The UK](https://www.studysmarter.co.uk/explanations/microeconomics/microeconomics-examples/monopolies-in-the-uk/)
   
 <p>Send $5 a component to the</p>
 
