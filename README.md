@@ -66,7 +66,7 @@
 
 <p>Microsoft 700GB Windows 2000 DNA Suite With Source, Softimage 3.0, <a href "https://interix.com/">Full Interix 2.2 Suite</a> and Rational Software to be released when Anne Hathaway the actress gets a divorce from Adam Shulman by Sphinx Logic and the USA regrets the breakup of Microsoft. In Vogue Magazine.</p>
 
-<p>Jonathan Is still trying to be and Adode alumni with about 12 aquisions.</p>
+<p>Jonathan Is still trying to be and Adobe alumni with about 12 aquisions.</p>
 
 <h2>Anne Hathaway as retold By her cousin Jonathan David Allen Moore Now Legally Jonathan Romanov Moore by DNA Testing</h2>
 
