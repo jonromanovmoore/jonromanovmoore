@@ -10,6 +10,8 @@
 
 * [Microsoft Acedemic Standards Feature Build Branch For Community Involvement](https://1drv.ms/f/c/301549053bc25920/IgAPyO6DE-pMRond7kTBx55hAX2OvmwfyBXmugfeRG97viU?e=J0uaym)
 
+* [This is the Microsoft Windows 10 One Core Branch to be worked on on the Long Term Branch on Microsoft's GitHub](https://github.com/m417z/Windows-10-Technical-Preview-Source-Tree/tree/master)
+
 * [Jonathan R Moore's Clio Award Confirmation Letter](./Clios/ClioAwardsAwardConfirmationLetterJonathanMoore.pdf)
 
 * [Microsoft Employee Login](https://docs.microsoft.com/en-us/dynamics/s-e/howto)
