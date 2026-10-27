@@ -6,6 +6,8 @@
 <h2>Jonathan Romanov Moore FRSA </h2>
 <p>jonathanmoore@computer.org | jonathanmoore@sphinxlogic.onmicrosoft.com | https://sphinxlogic.visualstudio.com | Reston, Va, US <p></p>
 
+<p>A Microsoft for Startup unil 2030</p>
+
 * [Microsoft Windows Disclosures](https://1drv.ms/f/c/301549053bc25920/IgCqVXFRS5g4Spzx9POq7hf4ARaephxpMSYXglJfefGCEpk?e=7WSLW6)
 
 * [Microsoft Acedemic Standards Feature Build Branch For Community Involvement](https://1drv.ms/f/c/301549053bc25920/IgAPyO6DE-pMRond7kTBx55hAX2OvmwfyBXmugfeRG97viU?e=J0uaym)
