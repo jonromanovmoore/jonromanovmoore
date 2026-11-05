@@ -1,7 +1,7 @@
-﻿<img src="./images/818819565_2283299452464594_294578902185084954_n.jpg" width ="100%">
+﻿<img src="./images/windows_vista_aero_19-wallpaper-1440x960.jpg" width ="100%">
 <!--<img src="./images/1_7tQ4kI9hVJxGDzo1Ejy42Q.jpg">-->
 
-<img src="./images/CIA.jpg">
+<!--<img src="./images/CIA.jpg">-->
   
 <h2>Jonathan Romanov Moore FRSA </h2>
 <p>jonathanmoore@computer.org | jonathanmoore@sphinxlogic.onmicrosoft.com | https://sphinxlogic.visualstudio.com | Reston, Va, US <p></p>
@@ -44,7 +44,7 @@
 
 * [UK–California climate and energy agreement ](https://www.gov.uk/government/publications/uk-california-climate-and-energy-agreement)
 
-* [Towards a Topology for Legacy System Migration](https://dl.acm.org/doi/abs/10.1145/3387940.3391476)
+<!--* [Towards a Topology for Legacy System Migration](https://dl.acm.org/doi/abs/10.1145/3387940.3391476)
 
 * [Univesity of Kent Computer Mirror Service](https://www.mirrorservice.org/)
 
@@ -64,7 +64,7 @@
 
 * [TransferSize](https://www.transfersize.com/en)
 
-* [Monopolies In The UK](https://www.studysmarter.co.uk/explanations/microeconomics/microeconomics-examples/monopolies-in-the-uk/)
+* [Monopolies In The UK](https://www.studysmarter.co.uk/explanations/microeconomics/microeconomics-examples/monopolies-in-the-uk/)-->
   
 <p>Send $5 a component to the</p>
 
