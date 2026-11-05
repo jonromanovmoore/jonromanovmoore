@@ -8,6 +8,8 @@
 
 <p>A Microsoft for Startups unil 2030</p>
 
+* [The Sphinx Logic Website A Microsoft Tenured Startup](http://www.sphinxlogic.net)
+
 * [Industry Internal Build Instructions](https://sphinxlogic.github.io/)
 
 * [Microsoft Windows Disclosures](https://1drv.ms/f/c/301549053bc25920/IgCqVXFRS5g4Spzx9POq7hf4ARaephxpMSYXglJfefGCEpk?e=7WSLW6)
