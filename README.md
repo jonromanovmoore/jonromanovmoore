@@ -8,6 +8,8 @@
 
 <p>A Microsoft for Startups unil 2030</p>
 
+* [Industry Internal Build Instructions](https://sphinxlogic.github.io/)
+
 * [Microsoft Windows Disclosures](https://1drv.ms/f/c/301549053bc25920/IgCqVXFRS5g4Spzx9POq7hf4ARaephxpMSYXglJfefGCEpk?e=7WSLW6)
 
 * [Microsoft Acedemic Standards Feature Build Branch For Community Involvement](https://1drv.ms/f/c/301549053bc25920/IgAPyO6DE-pMRond7kTBx55hAX2OvmwfyBXmugfeRG97viU?e=J0uaym)
