@@ -4,9 +4,9 @@
 <!--<img src="./images/CIA.jpg">-->
   
 <h2>Jonathan Romanov Moore FRSA </h2>
-<p>jonathanmoore@computer.org | jonathanmoore@sphinxlogic.onmicrosoft.com | https://sphinxlogic.visualstudio.com | Reston, Va, US <p></p>
+<p>jonathanmoore@computer.org | jonathanmoore@sphinxlogic.onmicrosoft.com | https://sphinxlogic.visualstudio.com | Bristol, Va, USA <p></p>
 
-<p>A Microsoft for Startups unil 2030</p>
+<p>My Role Designation at Microsoft is Partner Employee</p>
 
 * [The Sphinx Logic Website A Microsoft Tenured Startup](http://www.sphinxlogic.net)
 
