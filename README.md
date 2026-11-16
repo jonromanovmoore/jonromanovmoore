@@ -58,7 +58,7 @@
 
 * [TransferSize](https://www.transfersize.com/en)
 
-* [Monopolies In The UK](https://www.studysmarter.co.uk/explanations/microeconomics/microeconomics-examples/monopolies-in-the-uk/)-->
+* [Monopolies In The UK](https://www.studysmarter.co.uk/explanations/microeconomics/microeconomics-examples/monopolies-in-the-uk/)
   
 <p>Send $5 a component to the</p>
 
@@ -131,7 +131,7 @@
 
 <p><a href="https://www.newscientist.com/article/mg21829140-200-psychiatry-needs-its-higgs-boson-moment/">Psychiatry needs its higgs boson moment</a></p>
 
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0370269315001768">Stabilizing the Higgs potential with a Z′</a></p>-->
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0370269315001768">Stabilizing the Higgs potential with a Z′</a></p>
 
 <h2>Operating Systems and Games</h2>
 <ul>
