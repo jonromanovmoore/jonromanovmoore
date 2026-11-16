@@ -38,7 +38,7 @@
 
 * [UK–California climate and energy agreement ](https://www.gov.uk/government/publications/uk-california-climate-and-energy-agreement)
 
-<!--* [Towards a Topology for Legacy System Migration](https://dl.acm.org/doi/abs/10.1145/3387940.3391476)
+* [Towards a Topology for Legacy System Migration](https://dl.acm.org/doi/abs/10.1145/3387940.3391476)
 
 * [Univesity of Kent Computer Mirror Service](https://www.mirrorservice.org/)
 
@@ -92,7 +92,7 @@
 
 <p><a href="https://archive.org/details/win7_ultimate_x86_64">Microsoft Windows 7 Ultimate Signuature Series</a>
 
-<p><a href="https://archive.org/details/win2ksource">ZMicrosoft Windows 2000 Source Code</a></p>
+<p><a href="https://archive.org/details/win2ksource">Microsoft Windows 2000 Source Code</a></p>
 
 <p><a href="https://psycnet.apa.org/record/2020-93235-006">Functional MRI findings in schizophrenia.</a></p>
 
@@ -154,9 +154,9 @@
 
 <p><a href="https://www.libraryireland.com/Pedigrees1/Moore1Ir.php">Moore No. 1 Family pedigree</a></p>
 
-<p><a href="https://www.youtube.com/watch?app=desktop&v=pQyLjLqFNWY">Jonathan David Allen (Windsor) Moore's Personality</a></p>-->
+<p><a href="https://www.youtube.com/watch?app=desktop&v=pQyLjLqFNWY">Jonathan David Allen (Windsor) Moore's Personality</a></p>
 
-<!--### Articles
+### Articles
 
 * [Articles](https://microsoft-os.github.io/docs/building/articles.html)
 * [Awesome Repositories](https://github.com/pawelborkar/awesome-repos)
@@ -304,7 +304,7 @@
 * [Experimenting with Spirituality: Analyzing The God Gene in a Nonmajors Laboratory Course](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2262126/)
 * [The Supreme Court pared down a controversial anti-hacking law](https://www.theverge.com/2021/6/5/22491859/supreme-court-van-buren-cfaa-hacking-law-scope-narrowed)
 
-<!--<p>My family never voted for President Nixon, my family is from a high tax bracket. We own our home I lived on my own for 17 years. my great grandfather worked on the transcontinental railroad, my father is retired from the nations largest building materials company I'm a Moore, Hathaway, McCulley, Chapman, Bright and Little. My market portfolio has and will have of Microsoft, Sony, Nintendo, Square Enix, Apple, Amazon, Xerox, Intel, Tops, Unisys, and now a $30K nation wide mutual fund. For now. I'm not investing in social until there can be a social trading platform that is positive sum. Sigmund Freud supported stuttering children and their identity and so do I. I might support the Freud Foundation next year. I am supporting the University of California State Fullerton and a tested INTJ-T and UVa Wise in the Founders Society. I was ACM Vice President of the UVa Wise Chapter.</p>
+<p>My family never voted for President Nixon, my family is from a high tax bracket. We own our home I lived on my own for 17 years. my great grandfather worked on the transcontinental railroad, my father is retired from the nations largest building materials company I'm a Moore, Hathaway, McCulley, Chapman, Bright and Little. My market portfolio has and will have of Microsoft, Sony, Nintendo, Square Enix, Apple, Amazon, Xerox, Intel, Tops, Unisys, and now a $30K nation wide mutual fund. For now. I'm not investing in social until there can be a social trading platform that is positive sum. Sigmund Freud supported stuttering children and their identity and so do I. I might support the Freud Foundation next year. I am supporting the University of California State Fullerton and a tested INTJ-T and UVa Wise in the Founders Society. I was ACM Vice President of the UVa Wise Chapter.</p>
 
 <p>I graduated High School With a 2.7 GPA Preparatory school in the USA with a 4.0 GPA and am a UVa Alumni with a 3.2 GPA and Virginia scholar award. and Microsoft Alumni, working on Apple or Adobe Alumni. I am paying for my GitHub, Apple Music and Website. I'm direct decadents of the House Romanov $300 billion dollar dynasty and the famed Charles Darwin. I'll vote again when the USA can be partisan and make sense and doctors learn about postmodernism. There can be a free society if its just fair and faithful. I might need to be put on Prozac I have a Microsoft Tender offer worth $20 million and extended for 75 years. Looking to invest 15% of illiquid assets of my tender offer or about $3 million. I have letter's from President's Obama and Trump and Microsoft's Bill Gates and Steve Ballmer.</p>
 
@@ -338,7 +338,7 @@ Another one was the movie 'Havoc' was her handicam as I sold a Sony handicamp to
 
 <p>The present value calculation considers the cost of capital and the sum of discounted future cash flows in today’s dollars to produce an indicator of the license’s total value over time. Even when interest rates are low, you still have the opportunity cost of not using the funds for a different project, so you need to set a discount rate. Your finance department can help you determine the discount rate for your organization. Let’s use 10 percent for this example. Applying Microsoft Excel’s present value formula, the perpetually licensed product with discounted cash flows for the maintenance payments would have a present value of $7,735.</p>
 
-<p>In my next post, I’ll look at how to calculate the value of a term license.</p>-->
+<p>In my next post, I’ll look at how to calculate the value of a term license.</p>
 
 
 
