@@ -1,5 +1,5 @@
 ﻿<img src="./images/f6a672ec842ee5c5b237b4fdfa7c32583367cee7-1024x1024.png" width ="100%">
-<!--<img src="./images/1_7tQ4kI9hVJxGDzo1Ejy42Q.jpg">-->
+<img src="./images/vpn.png">
 
 <!--<img src="./images/CIA.jpg">-->
   
@@ -65,6 +65,244 @@
 <p>Source Code Compliance Team</p>
 <p>One Microsoft Way</p> 
 <p>Redmond, Wa 98052</p>
+
+<h2>Links</h2>
+
+<p><a href="https://archive.org/details/windows_9">Microsoft Windows 9</a>
+
+<p><a href="https://archive.org/details/sua-bundlecomplete60">Interop Systems</a>
+
+<p><a href="https://archive.org/details/TheLegendOfZeldaEncyclopedia">The Legend Of Zelda Encyclopedia</a>
+
+<p><a href="https://archive.org/details/windows-vista-security-updates-after-april-2017-eol">Windows Vista Security Updates After April 2017</a>
+
+<p><a href="https://archive.org/details/SMWDisC">Super Mario World source code</a>
+
+<p><a href="https://archive.org/details/open-step-entcd">OpenStep Enterprise 4.1, for Windows NT, HP-UX, and Solaris</a>
+
+<p><a href="https://archive.org/details/aero-5048">Windows Longhorn Aero/DCE files</a>
+
+<p><a href="https://archive.org/details/windows-xp-kernel-update">Microsoft Windows XP Kernel Updates</a>
+
+<p><a href="https://archive.org/details/xpku-oca-5048dwm">Microsoft Windows XP Kernel Updates</a>
+
+<p><a href="https://archive.org/details/Win8.1ProBuild9364x86">Microsoft Windows Build 9364 Confiendtial</a>
+
+<p><a href="https://archive.org/details/7-Beta-XP-Srv2k3-en-US">Microsoft Windows XP to 7</a>
+
+<p><a href="https://archive.org/details/win7_ultimate_x86_64">Microsoft Windows 7 Ultimate Signuature Series</a>
+
+<p><a href="https://archive.org/details/win2ksource">ZMicrosoft Windows 2000 Source Code</a></p>
+
+<p><a href="https://psycnet.apa.org/record/2020-93235-006">Functional MRI findings in schizophrenia.</a></p>
+
+<p><a href="https://www.forrester.com/blogs/determining-the-value-of-a-perpetual-license/">Determining the Value of a Perpetual License</a></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Moore_v._Regents_of_the_University_of_California">Moore v. Regents of the University of California</a></p>
+
+<p><a href="https://archive.org/details/walnutcreekcdrom">Walnut Creek Collection</a><p>
+
+<p><a href="https://ftp.zx.net.nz/pub/mirror/ftp.hp.com/">HP Freeware</a></p>
+
+<p><a href="https://ftp.zx.net.nz/pub/mirror/sgi-freeware/">SGI IRIX Freeware</a></p>
+
+<p><a href="https://www.microsoft.com/en-us/securityengineering/gsp?msockid=312bc345a4a06dbc26e6d530a50e6c4c">Government Security Program</a></p>
+
+<p><a href="https://thirdpartysource.microsoft.com/">Third Party Disclosures</a></p>
+
+<a href="https://dl.acm.org/doi/10.1145/2445196.2445344">Learning computer science in the "comfort zone of proximal development"</a>
+
+<a href="https://www.forbes.com/sites/dbloom/2021/09/27/hollywood-edges-closer-to-strike-with-cinematographers-vote/">Hollywood Edges Closer To Strike With Cinematographers Vote</a>
+
+<a href="https://channeldrive.in/cloud-computing/perficient-enables-azure-cloud-solutions-for-builders-firstsource/">Perficient Enables Azure Cloud Solutions for Builders FirstSource</a>
+
+<a href="https://www.techpowerup.com/183152/digital-storm-ends-the-pre-built-vs-diy-debate-with-vanquish-line-of-gaming-pcs">Digital Storm Ends the Pre-Built vs. DIY Debate with VANQUISH Line of Gaming PCs</a>
+
+<p><a href="https://docs.freebsd.org/en/books/handbook/cutting-edge/#building-on-non-freebsd-hosts">Building on Non FreeBSD</a></p>
+
+<p><a href="https://blogs.microsoft.com/datalaw/initiative/legal-cases/microsofts-search-warrant-case/">Legal cases: Microsoft’s Search Warrant Case</a></p>
+
+<p>The Windows Repository is here <a href="http://microsoft.visualstudio.com">http://microsoft.visualstudio.com</a> You need a Personal Access Token</p>
+<p><a href="https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows">Personal Access Token</a></p>
+
+<p><a href="https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-create-new-tenant">Set up a new Microsoft Entra tenant</a></p>
+<p><a href="https://github.com/windowsdevops">Windows DevOps</a></p>
+<p><a href="https://github.com/icsharpcode/ilspy">ILSpy; Some Transparency</a></p>
+
+<p><a href="https://www.newscientist.com/article/mg21829140-200-psychiatry-needs-its-higgs-boson-moment/">Psychiatry needs its higgs boson moment</a></p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0370269315001768">Stabilizing the Higgs potential with a Z′</a></p>-->
+
+<h2>Operating Systems and Games</h2>
+<ul>
+  <li><a href="https://archive.org/details/win-95-osr-2">Microsoft Windows 95</a></p></li>
+  <li><a href="https://www.riscosopen.org/content/">RISC OS Open Limited the Nintendo 64 & Cube Operating System</a></p></li>
+  <li><a href="https://ultra64.ca/resources/software/">Nintendo 64 SDK's</a></p></li>
+  <li><a href="https://github.com/windowsdevops/Microsoft-Windows-NT-4.0-Source-Kit">Windows NT 4.0 Source KIt</a></p></li>
+  <li><a href="https://github.com/windowsdevops/Microsoft-Windows-Server-2003-Source-Kit">Windows Server 2003 Source Kit</a></p></li>
+  <li><a href="https://archive.org/download/GamecubeCollectionByGhostware">Nintendo Game Cube Games</a></p></li>
+  <li><a href="https://www.gc-forever.com/wiki/index.php?title=Main_Page">Game Cube Forever Wiki</a></p></li>
+  <li><a href="https://games.softpedia.com/get/Tools/Gamecube-ISO-Tool.shtml">Game Cube ISO Tool</a></p></li>
+  <li><a href="https://github.com/windowsdevops/Microsoft-Windows-Vista-Buffer-Lab03_n">Microsoft-Windows-Vista-Buffer-Lab03_n</a></li>
+</ul>
+
+<ul>
+<li><a target="_self" href="VMS_Language_and_Tools_Handbook_1985.pdf">VMS Language and Tools Handbook 1985</a></li>
+<li><a target="_self" href="https://wiki.vmssoftware.com/Main_Page">VMS Software Wiki</a></li>
+<li><a target="_self" href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X16300472">Time is money: Rational life cycle inertia and the delegation of investment management</a>
+</ul>
+
+<p><a href="https://www.libraryireland.com/Pedigrees1/Moore1Ir.php">Moore No. 1 Family pedigree</a></p>
+
+<p><a href="https://www.youtube.com/watch?app=desktop&v=pQyLjLqFNWY">Jonathan David Allen (Windsor) Moore's Personality</a></p>-->
+
+<!--### Articles
+
+* [Articles](https://microsoft-os.github.io/docs/building/articles.html)
+* [Awesome Repositories](https://github.com/pawelborkar/awesome-repos)
+
+### Microsoft in Government
+
+* [Project Maven](https://en.wikipedia.org/wiki/Project_Maven)
+
+### Software
+* [Computer History Source Code](https://computerhistory.org/playlists/source-code/)
+* [Spin Operating System](http://www-spin.cs.washington.edu/)
+* [UNIX Heritage Society](https://www.tuhs.org/)
+* [UNIX Migration Strategy to Windows](https://www.cygwin.com/)
+* [VAX VMS Software](https://www.bitsavers.org/pdf/dec/)
+* [Wallnut Creek Collection](https://archive.org/details/walnutcreekcdrom)
+* [Microsoft OpenJDK](https://www.microsoft.com/openjdk)
+* [Maven Repository](https://repo.maven.apache.org/maven2/)
+* [OpenVMS Archive](https://www.digiater.nl/)
+* [SCO](http://www.sco.com/skunkware/)
+* [Keybase](https://keybase.io/)
+* [PTC MKSToolkit for DOS](https://winworldpc.com/product/mks-toolkit/41)
+* [Windows RTM and Code Name Betas](https://archive.org/details/full-windows-archive)
+* [Apple OSS Distributions](https://github.com/apple-oss-distributions)
+* [Apple Internals](https://mroi.github.io/apple-internals/)
+* [MacOS Forge](https://www.macosforge.org/)
+* [Macports compile maintainers to win32, link in Portfile](https://github.com/macports/)
+* [fsck.technology](https://fsck.technology/)
+* [GNUStep](http://www.gnustep.org/)
+* [Microsoft Acrchive](https://github.com/microsoftarchive)
+* [Oracle Virtual Box](https://www.virtualbox.org/)
+* [BeOS/Haiku](https://www.haiku-os.org/)
+* [Adobe CS2](https://archive.org/details/Adobe-CS2)
+* [Microsoft Expression Studio for XAML Export](https://archive.org/details/microsoft-expression-studio)
+* [IBM SIMH PDF](https://github.com/jonathanromanvmoore/simh)
+* [CMU's AI Repository](https://www.cs.cmu.edu/Groups/AI/0.html)
+
+### Xeinx
+* [Microsoft Xeinx](https://archive.org/details/TNM_Xenix_operating_system_-_SCO_20180304_0122/mode/1up)
+
+### MSDOS
+* [Microsoft Lisp for DOS](http://www.edm2.com/index.php/Microsoft_LISP) 
+* [Microsoft Pascal](https://winworldpc.com/product/microsoft-pascal/40)
+* [Microsoft Fortran for DOS](https://winworldpc.com/product/microsoft-fortran/5x)
+* [MSDOS 3.0](https://archive.org/details/msexe)
+
+### Microsoft Windows Builds
+* [Windows 1.0](https://archive.org/details/windows-1-0)
+* [Windows 2.03](https://archive.org/details/microsoft-windows-2.03-3.5)
+* [Windows 3.1](https://archive.org/details/windows-3.1-beta-1-build-34f)
+* [Windows NT 3.5](https://archive.org/details/3.51.896-multifre-client-workstation-retail-en-us.-7z)
+* [Windows NT 4.0](https://archive.org/details/nt-4-4.00.1166.1)
+* [Windows 95](https://archive.org/details/microsoftwindowsdetroitbuild1009-1216collection16files)
+* [Windows 98](https://archive.org/details/microsoftwindowsmemphisbuild1351-1998collection73files)
+* [Windows Whistler](https://archive.org/details/windows-whistler-collection)
+* [Windows Longhorn Build 4084](https://archive.org/details/windows-longhorn-build-4084)
+* [Windows Longhorn/Vista](https://archive.org/details/thelonghornarchive)
+* [Windows Longhorn Server](https://archive.org/details/os-microsoft-windows-longhorn-server)
+* [Windows 7](https://archive.org/details/Microsoft-Windows-7-Build-Collection)
+* [Windows 8](https://archive.org/details/os-microsoft-windows-8)
+* [Windows 8.1](https://archive.org/details/os-microsoft-windows-8.1)
+* [Windows 10](https://archive.org/details/10.0.10014.0.winmain-prs.-150205-1859-amd-64fre-client-professional-retail-en-us) 
+* [Boot Windows Pre-Installation Environment](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/boot-to-winpe?view=windows-10)
+* [Features On Demand](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/features-on-demand-v2--capabilities?view=windows-11)
+* [Windows Volume Activation](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn502540(v=ws.11))
+* [Unsupported WDK versions](https://learn.microsoft.com/en-us/windows-hardware/drivers/legacy-wdk-downloads)
+* [Windows SDK Archive](https://learn.microsoft.com/en-us/windows/apps/windows-sdk/downloads-archive)
+* [Windows ADK Downloads](https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install#other-adk-downloads)
+* [Microsoft Shared Source Iniaitive](https://microsoft-os.github.io/docs/building/priemium/Shared%20Source%20Initiative%20_%20Debugging.htm)
+* [Microsoft Code Plex Archive](https://archive.org/details/sylirana_ms_codeplex_zips)
+
+### Sysinternals Suite
+* [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
+* [Windows Internals](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
+* [Novels](https://trojanhorsethebook.com/wordpress/books/)
+
+### Microsoft Reference Source
+* [.NET Reference Source](https://referencesource.microsoft.com)
+
+### Microsoft Enterprise Third Party Disclosures 
+* [Microsoft Third Party Disclosures](https://thirdpartysource.microsoft.com/)
+* [Visual Studio 2017 Third Party Disclosures](https://github.com/jonathanchapmanmoore/VisualStudioDisclosures)
+* [Visual Studio Image Library](https://www.microsoft.com/en-us/download/details.aspx?id=35825)
+* [IcoFX](https://icofx.ro/)
+
+### Shared Source Common Language Infustructure
+* [SSCLI](https://github.com/sphinxlogic/sscli) 
+* [Common Type System](https://docs.microsoft.com/en-us/dotnet/standard/base-types/common-type-system)
+
+### Common Compiler Infustructure
+* [Common Compiler Infustructure](https://github.com/jonathanchapmanmoore/cci)
+
+### Microsoft Open Source Teams
+* [PowerShell](https://github.com/PowerShell/PowerShell)
+
+### Microsoft Windows Kernel Source from MSDNAA
+* [Windows XP Kernel Source, Project OZ, and CRK](https://github.com/sphinxlogic/WindowsResearchKernel)
+
+### Microsoft SDKs
+* [DirectX](https://archive.org/details/directxsdks)
+* [Windows API Code Pack 1.1](https://www.nuget.org/packages/Microsoft-WindowsAPICodePack-Shell/)
+* [Locale Builder 2.0](https://www.microsoft.com/en-us/download/details.aspx?id=41158)
+
+### Microsoft Research
+* [Singularity RDK 2.0](https://github.com/sphinxlogic/Singularity-RDK-2.0)
+* [CHESS](https://github.com/jonathanchapmanmoore/Chess)
+* [M#](http://licensing.msharp.co.uk/Login.aspx?ReturnUrl=%2fAdmin.aspx)
+* [Microsoft Detours](https://github.com/microsoft/Detours)
+* [Whitewater Foundry Ltd](https://github.com/WhitewaterFoundry)
+* [BIND 9](https://www.isc.org/bind/)
+* [OpenPegusus](https://collaboration.opengroup.org/pegasus/)
+
+### macOS Build Collection
+* [macOS Collection](https://archive.org/details/macos-collection)
+* [iokit University of Utah](https://github.com/OSPreservProject/oskit)
+
+### Taligent
+* [Taligent](https://en.wikipedia.org/wiki/Taligent)
+
+### Macromedia 
+
+* [Mediamacros Director Xtras](http://mediamacros.com/)
+
+### University of Cambridge
+* [Nemesis](https://www.cl.cam.ac.uk/research/srg/netos/projects/archive/nemesis/)
+
+### Operating System Perseve Project
+* [OSPerserve](https://github.com/OSPreservProject)
+
+### Personal 
+* [Jonathan Chapman Moore FRSA Website](https://www.jonathanchapmanmoore.org/)
+* [Microsoft Employee Login](https://docs.microsoft.com/en-us/dynamics/s-e/howto)
+* [The Federal Tax Identification Number for Microsoft](https://support.microsoft.com/en-us/topic/the-federal-tax-identification-number-for-microsoft-0c0e93fc-b692-8d0a-748c-86714f1d7cea)
+* [Blog](https://jdm7dvcsmath.blogspot.com/)
+* [Code Project Moderator](https://www.codeproject.com/script/Membership/View.aspx?mid=527156)
+* [Deviant Art](https://www.deviantart.com/jdm7dv)
+* [Microsoft Announces Preliminary Results of Tender Offer](https://news.microsoft.com/2006/08/18/microsoft-announces-preliminary-results-of-tender-offer/)
+* [Volunteered for the Forsight Insitute in 2001](https://foresight.org/our-history/)
+
+### Links
+* [How to pull a Bill Gates and don't let your company drown in cash](https://www.forbes.com/sites/johngreathouse/2015/03/23/pull-a-bill-gates-dont-let-your-company-drown-in-cash/)
+* [Assessing the stability of egocentric networks over time using the digital participant-aided sociogram tool Network Canvas](papers/assessing_the_stability_of_egocentric_networks_over_time_using_the_digital_participantaided_sociogram_tool_network_canvas.pdf)
+* [Stanford Network Analysis Project](http://snap.stanford.edu/)
+* [Microsoft researchers win ImageNet computer vision challenge](https://blogs.microsoft.com/ai/microsoft-researchers-win-imagenet-computer-vision-challenge/)
+* [Deep Neural Networks for Indoor Localization Using WiFi Fingerprints](https://link.springer.com/chapter/10.1007/978-3-030-22885-9_21)
+* [Experimenting with Spirituality: Analyzing The God Gene in a Nonmajors Laboratory Course](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2262126/)
+* [The Supreme Court pared down a controversial anti-hacking law](https://www.theverge.com/2021/6/5/22491859/supreme-court-van-buren-cfaa-hacking-law-scope-narrowed)
 
 <!--<p>My family never voted for President Nixon, my family is from a high tax bracket. We own our home I lived on my own for 17 years. my great grandfather worked on the transcontinental railroad, my father is retired from the nations largest building materials company I'm a Moore, Hathaway, McCulley, Chapman, Bright and Little. My market portfolio has and will have of Microsoft, Sony, Nintendo, Square Enix, Apple, Amazon, Xerox, Intel, Tops, Unisys, and now a $30K nation wide mutual fund. For now. I'm not investing in social until there can be a social trading platform that is positive sum. Sigmund Freud supported stuttering children and their identity and so do I. I might support the Freud Foundation next year. I am supporting the University of California State Fullerton and a tested INTJ-T and UVa Wise in the Founders Society. I was ACM Vice President of the UVa Wise Chapter.</p>
 

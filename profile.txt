@@ -208,7 +208,7 @@ Electronics Manager  · 1998 - 2007  · Bristol, Virginia
 <li><a href="https://www.setlist.fm/setlist/pearl-jam/2025/lenovo-center-raleigh-nc-3b5fcc0c.html">Lenovo Center, Raleigh, NC, USA 2025</a></li>
 </ul>
 
-<p>Met Stone Gossard and Jeff Ament and played ping pong. Had a Press Pass 1998. Watched soundcheck asked to return to my seat at the end by a security guard with a firm tone and asked for my ticket. Taped the whole thing.</p>
+<!--<p>Met Stone Gossard and Jeff Ament and played ping pong. Had a Press Pass 1998. Watched soundcheck asked to return to my seat at the end by a security guard with a firm tone and asked for my ticket. Taped the whole thing.</p>
 
 <h2>Home Network</h2>
 
@@ -234,19 +234,34 @@ The price or cost is about $45K from Direct and Amazon.</p>
 
 <p>Liquidity Value means that amount which your Provider has determined is available to settle your Check transactions based on (i) the amount of cash in your Base Account, if any, (ii) the amount of money in the Deposit Accounts that are linked to your Base Account, (iii) the value of the Fund shares in your Base Account, and (iv) margin loans, but only to the extent of the available margin collateral value of securities in your Base Account as determined by your Provider. Your Provider may determine that the available margin collateral value for purposes of paying Check transactions is an amount less than that which could be used to purchase securities or otherwise be withdrawn from your Base Account. The available margin collateral value will fluctuate from day to day, since it depends upon securities prices and the debit balance in your Base Account, and your outstanding Check transactions received for processing. </p>-->
 
-<!--ABOUT ME
-<p>I have a driver’s license</p>
-<p>I have a security clearance</p>
-
-<p>Spoke with Microsoft Legal about indenity theft in my community and in Hollywood and the Virginia Joint Commission for discrimination and misdiagnosis, and missed opportunity at Stanford and Oxford University because of community service board employees in Virginia at Microsoft Legal. I've also spoke with Microsoft Legal about my normal contrast MRI and lawsuit against Morgan Maclure racing and SWVAMHI Dr. Barash. Never told Dr. Barash my grades and the game theory trick was played on me to agree to disagree. I have a lawsuit against Edward Jones for giving me a 1099-DIV and not a 1099-NEC in 2005.</p>
-
-<p>Also housing discrimination against a Royal Society of the Arts lifetime fellow and career negligence on the part of the democratic party. I paid my tuition, I did not qualify for the Pell Grant my EFC was to high and my family pays its real estate taxes we expect the academic journals to be avaible to the homeowner. As much as we pay for internet service. Over $150 a month. I'm giving cash $3K to my father for a local lawyer's fee's soon he is about to go into a nursing home in five years or less. I'm inheriting one home and I rent. When I was furniture porter I paid for my families dinning room suit and living room. Now I rent and I've paid for everything in my apt. Including the den and bedroom suit and office equipment.</p>-->
-
-<p>Letters of recommendation from Microsoft Co-Founder Bill Gates, CEO Steve Ballmer and President Brack Obama.</p>
-
-Copyright 2025 Monster.com and Career Builder.
 
 <h2>Links</h2>
+
+<p><a href="https://archive.org/details/windows_9">Microsoft Windows 9</a>
+
+<p><a href="https://archive.org/details/sua-bundlecomplete60">Interop Systems</a>
+
+<p><a href="https://archive.org/details/TheLegendOfZeldaEncyclopedia">The Legend Of Zelda Encyclopedia</a>
+
+<p><a href="https://archive.org/details/windows-vista-security-updates-after-april-2017-eol">Windows Vista Security Updates After April 2017</a>
+
+<p><a href="https://archive.org/details/SMWDisC">Super Mario World source code</a>
+
+<p><a href="https://archive.org/details/open-step-entcd">OpenStep Enterprise 4.1, for Windows NT, HP-UX, and Solaris</a>
+
+<p><a href="https://archive.org/details/aero-5048">Windows Longhorn Aero/DCE files</a>
+
+<p><a href="https://archive.org/details/windows-xp-kernel-update">Microsoft Windows XP Kernel Updates</a>
+
+<p><a href="https://archive.org/details/xpku-oca-5048dwm">Microsoft Windows XP Kernel Updates</a>
+
+<p><a href="https://archive.org/details/Win8.1ProBuild9364x86">Microsoft Windows Build 9364 Confiendtial</a>
+
+<p><a href="https://archive.org/details/7-Beta-XP-Srv2k3-en-US">Microsoft Windows XP to 7</a>
+
+<p><a href="https://archive.org/details/win7_ultimate_x86_64">Microsoft Windows 7 Ultimate Signuature Series</a>
+
+<p><a href="https://archive.org/details/win2ksource">ZMicrosoft Windows 2000 Source Code</a></p>
 
 <p><a href="https://psycnet.apa.org/record/2020-93235-006">Functional MRI findings in schizophrenia.</a></p>
 
