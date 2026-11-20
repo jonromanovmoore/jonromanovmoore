@@ -314,9 +314,9 @@
 
 <p>Microsoft 700GB Windows 2000 DNA Suite With Source, Sun One Enterprise, Microsoft Softimage 3.0, <a href="https://interix.com/">Full Interix 2.2 Suite</a> and Rational Rose Software to be released when Anne Hathaway the actress gets a divorce from Adam Shulman by Sphinx Logic In Vogue Magazine and the USA regrets the breakup of Microsoft and TCAT had a write up in the NY Times restored to Wikipedia. Also working with the ACM on Complex Adaptive Systems.</p>
 
-<p>I'm Is still trying to be and Adobe alumni with about 12 aquisions.</p>
+<p>I'm Is still trying to be and Adobe alumni with about 12 aquisions.My late uncle was Cutris Hathaway who lived in West Virginia, the same state featured in Anne Hathaway's Movie 'Dark Waters'</p>
 
-<h2>Anne Hathaway as retold By her cousin Jonathan David Allen Moore Now Legally Jonathan Romanov Moore by DNA Testing</h2>
+<!--<h2>Anne Hathaway as retold By her cousin Jonathan David Allen Moore Now Legally Jonathan Romanov Moore by DNA Testing</h2>
 
 <p>I tested as Anne Hathaway the Actress DNA match in 2018 from National Genographic 2.0. My mother was on the board of the YWCA who named my blanket gigi after a Audrey Hepburn film in 1983. I worked for Macromedia and my first investment was at Moors and Cabot in 1999 for Disney and Macromedia, I was valedictorian of my preparatory college class in 2000 as she played a valedictorian in the TV Series 'Get Real' and the movie the Princess Diaries where she became a princess and I recently discovered I was related to eh empirical House of Romanov from Russia.</p>
 
@@ -324,7 +324,7 @@
 
 Another one was the movie 'Havoc' was her handicam as I sold a Sony handicamp to a friend in 1996. Another one was my Uncles Glenn's Flower Shop when I was my car to get fixed with Kara Kiser and her Valentines Day movie I stutter or used to and the Pete Townshend GS Scooter reference. She is very good at method acting with family. Another one was in Passengers the Movie with me always flirting with hospital staff. In the TV Series Modern Love Season 1 Episode 3 she mocked me always going to the grocery store and a letter from Brack Obama. Another one was in the movie the Idea of You. Where I chaperoned Tasha Sokolow and Frances Masterson at Lollapalooza 1996 and met the band Soundgarden.</p>
 
-<p>Another one was the igunana scene and the mental ward scenes in the movie the Hustle my ex girlfiend had a igunana in college in 2000 and I went to SWVAMHI for rehab for stuttering which may just be a schism for a 1984 Orwell society <a href="https://www.independent.co.uk/news/world/sony-senses-a-market-in-esp-1577154.html">Sony ESP</a>, COCOMO II, 2006 Microsoft Tender Offer which was extended for 75 years, and a million dollar IRS return of intangables. Another one is in the Movie Armagedon Time Uncle Ray or Gene and Aunt Ruthie McCulley for which that doesn't have a marker on there grave in Glennwood Cemetary.</p>
+<p>Another one was the igunana scene and the mental ward scenes in the movie the Hustle my ex girlfiend had a igunana in college in 2000 and I went to SWVAMHI for rehab for stuttering which may just be a schism for a 1984 Orwell society <a href="https://www.independent.co.uk/news/world/sony-senses-a-market-in-esp-1577154.html">Sony ESP</a>, COCOMO II, 2006 Microsoft Tender Offer which was extended for 75 years, and a million dollar IRS return of intangables. Another one is in the Movie Armagedon Time Uncle Ray or Gene and Aunt Ruthie McCulley for which that doesn't have a marker on there grave in Glennwood Cemetary.</p>-->
 
 <h2>Determining the Value of a Perptual Licence</h2>
 
