@@ -12,6 +12,8 @@
 
 * [Industry Internal Build Instructions](https://sphinxlogic.github.io/)
 
+* [https://learn.microsoft.com/el-gr/security/zero-trust/sfi/saw-devices]
+
 * [Jonathan R Moore's Clio Award Confirmation Letter](./Clios/ClioAwardsAwardConfirmationLetterJonathanMoore.pdf)
 
 * [Microsoft Employee Login](https://docs.microsoft.com/en-us/dynamics/s-e/howto)
