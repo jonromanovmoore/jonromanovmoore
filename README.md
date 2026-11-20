@@ -12,7 +12,7 @@
 
 * [Industry Internal Build Instructions](https://sphinxlogic.github.io/)
 
-* [https://learn.microsoft.com/el-gr/security/zero-trust/sfi/saw-devices](SAW Device)
+* [SAW Device](https://learn.microsoft.com/el-gr/security/zero-trust/sfi/saw-devices)
 
 * [Jonathan R Moore's Clio Award Confirmation Letter](./Clios/ClioAwardsAwardConfirmationLetterJonathanMoore.pdf)
 
