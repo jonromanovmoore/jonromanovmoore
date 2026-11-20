@@ -1,4 +1,4 @@
-﻿<img src="./images/4983868_daa8_2.jpg" width ="100%">
+﻿<img src="./images/haskell.png" width ="100%">
 <img src="./images/vpn.png" width ="100%">
 
 <!--<img src="./images/CIA.jpg">-->
