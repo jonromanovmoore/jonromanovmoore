@@ -14,7 +14,7 @@
 
 * [SAW Device](https://learn.microsoft.com/el-gr/security/zero-trust/sfi/saw-devices)
 
-* [Jonathan R Moore's Clio Award Confirmation Letter](./Jonathan's R Moore's Power Card/Clio Awards/Clio Awards - Award Confirmation Letter - Jonathan Moore.pdf)
+* [Jonathan R Moore's Clio Award Confirmation Letter](./JonathansRMooresPowerCard/ClioAwards/ClioAwardsAwardConfirmationLetterJonathanMoore.pdf)
 
 * [Microsoft Employee Login](https://docs.microsoft.com/en-us/dynamics/s-e/howto)
 
